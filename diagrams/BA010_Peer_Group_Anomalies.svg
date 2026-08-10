@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 1104" font-family="Helvetica, Arial, sans-serif" text-rendering="geometricPrecision">
+  <defs>
+    <style>
+      .nvy{fill:#12233b}.grn{fill:#2f7d4f}.red{fill:#c0202a}.gold{fill:#f4a920}.pur{fill:#6a3fa0}
+      .wht{fill:#ffffff}.ink{fill:#1e2a3d}.blu{fill:#1c4fa0}.sub{fill:#5b6b82}
+      .hd{fill:#ffffff;font-weight:bold;letter-spacing:.4px}
+      .sh{font-weight:bold;fill:#1c4fa0}.b{font-weight:bold}
+      .card{fill:#ffffff;stroke:#c9d2df;stroke-width:1.5}
+      .elab{fill:#6b7688;font-weight:bold;letter-spacing:.3px}
+      text{dominant-baseline:middle}
+    </style>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="6" refY="4" orient="auto"><path d="M0 0l7 4L0 8z" fill="#1c4fa0"/></marker>
+    <marker id="arR" markerWidth="9" markerHeight="9" refX="6" refY="4" orient="auto"><path d="M0 0l7 4L0 8z" fill="#c0202a"/></marker>
+    <marker id="arO" markerWidth="9" markerHeight="9" refX="6" refY="4" orient="auto"><path d="M0 0l7 4L0 8z" fill="#d98324"/></marker>
+    <marker id="arG" markerWidth="9" markerHeight="9" refX="6" refY="4" orient="auto"><path d="M0 0l7 4L0 8z" fill="#5b6b82"/></marker>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5" fill="none" stroke="#1c4fa0" stroke-width="2"/><ellipse cx="12" cy="12" rx="4" ry="9.5" fill="none" stroke="#1c4fa0" stroke-width="1.6"/><line x1="2.5" y1="12" x2="21.5" y2="12" stroke="#1c4fa0" stroke-width="1.6"/></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="1.5" fill="#1c4fa0"/><rect x="8" y="7" width="8" height="1.6" fill="#fff"/><rect x="8" y="11" width="8" height="1.6" fill="#fff"/><rect x="8" y="15" width="5" height="1.6" fill="#fff"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><circle cx="5" cy="12" r="2.6" fill="#1c4fa0"/><circle cx="19" cy="6" r="2.6" fill="#1c4fa0"/><circle cx="19" cy="18" r="2.6" fill="#1c4fa0"/><line x1="7" y1="11" x2="17" y2="7" stroke="#1c4fa0" stroke-width="1.8"/><line x1="7" y1="13" x2="17" y2="17" stroke="#1c4fa0" stroke-width="1.8"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.2" fill="none" stroke="#1c4fa0" stroke-width="2.2"/><line x1="15" y1="15" x2="21" y2="21" stroke="#1c4fa0" stroke-width="2.6"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2 21 5v7c0 5.5-3.8 9-9 10-5.2-1-9-4.5-9-10V5z" fill="#1c4fa0"/><path d="M8 12l3 3 5-6" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 2 23 21H1z" fill="#c0202a"/><rect x="10.8" y="8" width="2.4" height="7" fill="#fff"/><circle cx="12" cy="18" r="1.5" fill="#fff"/></symbol>
+    <symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3" fill="#1c4fa0"/><path d="M4 5v14c0 1.6 3.6 3 8 3s8-1.4 8-3V5" fill="none" stroke="#1c4fa0" stroke-width="2"/><path d="M4 12c0 1.6 3.6 3 8 3s8-1.4 8-3" fill="none" stroke="#1c4fa0" stroke-width="2"/></symbol>
+    <symbol id="i-fp" viewBox="0 0 24 24"><g fill="none" stroke="#6a3fa0" stroke-width="1.6" stroke-linecap="round"><path d="M12 3a9 9 0 0 1 9 9v3"/><path d="M6 6a9 9 0 0 0-3 6v4"/><path d="M12 7a5 5 0 0 1 5 5v5"/><path d="M8 9a5 5 0 0 0-1 3v6"/><path d="M12 11v8"/></g></symbol>
+    <symbol id="i-card" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="1.5" fill="currentColor"/><rect x="2" y="9.5" width="20" height="2.5" fill="#fff" opacity=".85"/><rect x="4" y="14" width="6" height="2" fill="#fff" opacity=".7"/></symbol>
+    <symbol id="i-person" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" fill="currentColor"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 6v6l4 3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-hex" viewBox="0 0 48 48"><g fill="none" stroke="#46b262" stroke-width="1.6"><path d="M24 6 40 15v18L24 42 8 33V15z"/></g><g fill="#46b262"><circle cx="24" cy="6" r="2.4"/><circle cx="40" cy="15" r="2.4"/><circle cx="40" cy="33" r="2.4"/><circle cx="24" cy="42" r="2.4"/><circle cx="8" cy="33" r="2.4"/><circle cx="8" cy="15" r="2.4"/><circle cx="24" cy="24" r="3"/></g><g stroke="#46b262" stroke-width="1.2"><line x1="24" y1="24" x2="24" y2="6"/><line x1="24" y1="24" x2="40" y2="33"/><line x1="24" y1="24" x2="8" y2="33"/></g></symbol>
+  </defs>
+
+  <rect width="1900" height="1104" fill="#eef1f6"/>
+
+  <!-- HEADER -->
+  <rect x="0" y="0" width="1900" height="132" fill="#0e1b2e"/>
+  <use href="#i-hex" x="34" y="34" width="64" height="64"/>
+  <text x="122" y="42" class="hd" font-size="34">BA010 – PEER GROUP ANOMALIES</text>
+  <text x="124" y="74" font-size="18" font-weight="bold" fill="#46b262">Peer-Relative Statistical (Z-Score) Behavioural Exposure Analytics Pattern</text>
+  <text x="124" y="100" class="wht" font-size="13.5" opacity=".9">Detects accounts whose behaviour deviates from their own peer segment, not from a fixed absolute threshold.</text>
+  <g font-size="12.5">
+    <use href="#i-globe" x="1300" y="18" width="14" height="14"/><text x="1320" y="26" class="wht b">DOMAIN:</text><text x="1452" y="26" fill="#cfe6d6">Correspondent Banking Analytics</text>
+    <use href="#i-globe" x="1300" y="42" width="14" height="14"/><text x="1320" y="50" class="wht b">PATTERN TYPE:</text><text x="1452" y="50" fill="#cfe6d6">Peer Group Anomalies</text>
+    <use href="#i-globe" x="1300" y="66" width="14" height="14"/><text x="1320" y="74" class="wht b">EXPOSURE TYPE:</text><text x="1452" y="74" fill="#cfe6d6">Behavioural Deviation Risk</text>
+    <use href="#i-globe" x="1300" y="90" width="14" height="14"/><text x="1320" y="98" class="wht b">SCORE TYPE:</text><text x="1452" y="98" fill="#cfe6d6">Exposure Score</text>
+  </g>
+  <rect x="1742" y="22" width="126" height="88" rx="8" fill="#0e1b2e" stroke="#46b262" stroke-width="2.5"/>
+  <text x="1805" y="52" class="hd" font-size="24" text-anchor="middle" fill="#46b262">BA</text>
+  <text x="1805" y="84" class="hd" font-size="30" text-anchor="middle" fill="#46b262">010</text>
+
+  <!-- LEFT — DATA SOURCES -->
+  <rect x="20" y="150" width="236" height="24" class="nvy"/>
+  <text x="138" y="163" class="hd" font-size="13" text-anchor="middle">DATA SOURCES</text>
+  <g font-size="10.6">
+    <g transform="translate(0,182)"><use href="#i-card" x="26" y="0" width="19" height="19" color="#1c4fa0"/><text x="52" y="7" class="sh" font-size="11.2">TRANSACTION VOLUME RECORDS</text>
+      <text x="30" y="24" class="ink">• Own account transaction volume</text><text x="30" y="39" class="ink">• Peer segment mean/std volume</text><text x="30" y="54" class="ink">• Settlement timestamps</text><text x="30" y="69" class="ink">• Currency &amp; period conventions</text></g>
+    <g transform="translate(0,264)"><use href="#i-globe" x="26" y="0" width="19" height="19"/><text x="52" y="7" class="sh" font-size="11.2">PEER SEGMENT REFERENCE</text>
+      <text x="30" y="24" class="ink">• Peer segment assignment</text><text x="30" y="39" class="ink">• Peer mean / std per metric</text><text x="30" y="54" class="ink">• Peer-group reference accounts</text><text x="30" y="69" class="ink">• Segment recalibration cadence</text></g>
+    <g transform="translate(0,346)"><use href="#i-clock" x="26" y="0" width="19" height="19" color="#1c4fa0"/><text x="52" y="7" class="sh" font-size="11.2">TURNOVER VELOCITY DATA</text>
+      <text x="30" y="24" class="ink">• Transactions per period</text><text x="30" y="39" class="ink">• Peer segment mean/std velocity</text><text x="30" y="54" class="ink">• Intraday/weekly cadence</text><text x="30" y="69" class="ink">• Velocity trend history</text></g>
+    <g transform="translate(0,428)"><use href="#i-doc" x="26" y="0" width="19" height="19"/><text x="52" y="7" class="sh" font-size="11.2">PRODUCT / CHANNEL USAGE DATA</text>
+      <text x="30" y="24" class="ink">• Distinct product/channel count</text><text x="30" y="39" class="ink">• Peer segment mean/std product usage</text><text x="30" y="54" class="ink">• Declared business purpose</text><text x="30" y="69" class="ink">• Channel-mix history</text></g>
+    <g transform="translate(0,510)"><use href="#i-link" x="26" y="0" width="19" height="19"/><text x="52" y="7" class="sh" font-size="11.2">COUNTERPARTY BREADTH DATA</text>
+      <text x="30" y="24" class="ink">• Distinct counterparty count</text><text x="30" y="39" class="ink">• Peer segment mean/std counterparty count</text><text x="30" y="54" class="ink">• Anomalous counterparty identity</text><text x="30" y="69" class="ink">• Concentration indicators</text></g>
+    <g transform="translate(0,592)"><use href="#i-doc" x="26" y="0" width="19" height="19"/><text x="52" y="7" class="sh" font-size="11.2">ACCOUNT &amp; SEGMENT DATA</text>
+      <text x="30" y="24" class="ink">• Account holder profile &amp; segment</text><text x="30" y="39" class="ink">• Home branch / bank</text><text x="30" y="54" class="ink">• Account tenure</text><text x="30" y="69" class="ink">• Prior SAR/alert history</text></g>
+    <g transform="translate(0,674)"><use href="#i-shield" x="26" y="0" width="19" height="19"/><text x="52" y="7" class="sh" font-size="11.2">CUSTOMER / KYC DATA</text>
+      <text x="30" y="24" class="ink">• Declared business purpose</text><text x="30" y="39" class="ink">• Customer risk rating</text><text x="30" y="54" class="ink">• Onboarding profile</text><text x="30" y="69" class="ink">• Relationship history</text></g>
+    <g transform="translate(0,756)"><use href="#i-search" x="26" y="0" width="19" height="19"/><text x="52" y="7" class="sh" font-size="11.2">OPEN SOURCE INTELLIGENCE</text>
+      <text x="30" y="24" class="ink">• Corporate-registry data</text><text x="30" y="39" class="ink">• PEP / sanctions screening</text><text x="30" y="54" class="ink">• Adverse media</text><text x="30" y="69" class="ink">• Commercial databases</text></g>
+  </g>
+
+  <!-- CENTRE GRAPH -->
+  <rect x="266" y="150" width="1330" height="700" rx="4" fill="#ffffff" stroke="#dbe2ec" stroke-width="1.5"/>
+  <g font-size="11.5" class="ink">
+    <circle cx="292" cy="170" r="6" fill="none" stroke="#6a3fa0" stroke-width="2"/><text x="304" y="171">Peer Segment Reference</text>
+    <circle cx="546" cy="170" r="6" fill="none" stroke="#1c4fa0" stroke-width="2"/><text x="558" y="171">Subject Account</text>
+    <line x1="700" y1="170" x2="732" y2="170" stroke="#1c4fa0" stroke-width="2.4" marker-end="url(#ar)"/><text x="740" y="171">Deviation Measured</text>
+    <line x1="880" y1="170" x2="912" y2="170" stroke="#5b6b82" stroke-width="2" stroke-dasharray="5 3"/><text x="920" y="171">Peer Comparison</text>
+    <use href="#i-alert" x="1120" y="163" width="14" height="14"/><text x="1140" y="171">Risk / Alert</text>
+  </g>
+  <line x1="286" y1="186" x2="1576" y2="186" stroke="#e6ebf2"/>
+
+  <!-- edges -->
+  <g fill="none">
+    <path d="M452 352 L790 262" stroke="#1c4fa0" stroke-width="2.2" marker-end="url(#ar)"/>
+    <path d="M1030 232 L1130 352" stroke="#5b6b82" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arG)"/>
+    <path d="M900 268 L900 470" stroke="#1c4fa0" stroke-width="2.2" marker-end="url(#ar)"/>
+    <path d="M1180 434 L1016 496" stroke="#5b6b82" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arG)"/>
+    <path d="M452 434 L742 512" stroke="#1c4fa0" stroke-width="2.2" marker-end="url(#ar)"/>
+    <path d="M1016 528 L1126 566" stroke="#c0202a" stroke-width="2.4" marker-end="url(#arR)"/>
+    <path d="M450 772 L800 566" stroke="#d98324" stroke-width="2" marker-end="url(#arO)"/>
+    <path d="M778 772 L868 570" stroke="#5b6b82" stroke-width="2" marker-end="url(#arG)"/>
+    <path d="M1106 772 L940 566" stroke="#5b6b82" stroke-width="2" marker-end="url(#arG)"/>
+    <path d="M1434 772 L1250 648" stroke="#5b6b82" stroke-width="2" marker-end="url(#arG)"/>
+  </g>
+  <g font-size="10" class="elab" text-anchor="middle">
+    <text x="612" y="296">VOLUME Z-SCORE</text>
+    <text x="1108" y="288" fill="#6b7688">SCALED BY PEER SEGMENT</text>
+    <text x="948" y="372">DEVIATES FROM</text>
+    <text x="1130" y="474" fill="#6b7688">COUNTERPARTY CONCENTRATION</text>
+    <text x="566" y="470">PEER-RELATIVE DEVIATION</text>
+    <text x="1082" y="528" fill="#c0202a">TRIGGERS</text>
+    <text x="612" y="682" fill="#d98324">MEASURES</text>
+    <text x="806" y="690">CONTEXT</text>
+    <text x="1034" y="690">CONTEXT</text>
+    <text x="1372" y="716">CONTEXT</text>
+  </g>
+
+  <!-- nodes -->
+  <g>
+    <rect x="326" y="352" width="244" height="82" rx="7" fill="#fdeef0" stroke="#c0202a" stroke-width="2"/>
+    <use href="#i-card" x="338" y="366" width="26" height="26" color="#c0202a"/>
+    <text x="460" y="372" class="red b" font-size="12.5" text-anchor="middle">VOLUME Z-SCORE</text>
+    <text x="460" y="392" class="ink" font-size="11.5" text-anchor="middle">z = 4.20 vs peer segment</text>
+    <text x="460" y="410" class="sub" font-size="10.8" text-anchor="middle">$355,000 vs peer mean $250,000, std $25,000</text>
+  </g>
+  <g>
+    <rect x="784" y="192" width="232" height="72" rx="7" fill="#f3eefb" stroke="#6a3fa0" stroke-width="2"/>
+    <use href="#i-fp" x="796" y="208" width="26" height="26"/>
+    <text x="912" y="214" class="pur b" font-size="12.5" text-anchor="middle">VELOCITY Z-SCORE</text>
+    <text x="912" y="234" class="ink" font-size="11.5" text-anchor="middle">z = 3.75 vs peer segment</text>
+    <text x="912" y="250" class="sub" font-size="10.8" text-anchor="middle">27 vs peer mean 12, std 4</text>
+  </g>
+  <g>
+    <rect x="1128" y="352" width="244" height="82" rx="7" class="card"/>
+    <use href="#i-doc" x="1140" y="366" width="26" height="26"/>
+    <text x="1262" y="372" class="blu b" font-size="12.5" text-anchor="middle">PRODUCT USAGE DEVIATION</text>
+    <text x="1262" y="392" class="ink" font-size="11.5" text-anchor="middle">z = 3.50 vs peer segment</text>
+    <text x="1262" y="410" class="sub" font-size="10.8" text-anchor="middle">13 products vs peer mean 6, std 2</text>
+  </g>
+  <g>
+    <rect x="742" y="470" width="272" height="96" rx="8" fill="#e9f0fb" stroke="#1c4fa0" stroke-width="2.6"/>
+    <use href="#i-card" x="756" y="490" width="30" height="30" color="#1c4fa0"/>
+    <text x="892" y="496" class="blu b" font-size="13" text-anchor="middle">SUBJECT ACCOUNT</text>
+    <text x="892" y="517" class="ink b" font-size="12.5" text-anchor="middle">Miriam Oduya · PGA019</text>
+    <text x="892" y="536" class="sub" font-size="10.8" text-anchor="middle">Pacific Rim Commercial Bank - Marina Branch</text>
+    <text x="892" y="552" class="sub" font-size="10.8" text-anchor="middle">deviates from its peer segment on every dimension</text>
+  </g>
+  <g>
+    <rect x="1128" y="540" width="244" height="108" rx="7" fill="#fdeef0" stroke="#c0202a" stroke-width="2.2"/>
+    <use href="#i-person" x="1142" y="560" width="30" height="30" color="#c0202a"/>
+    <text x="1262" y="566" class="red b" font-size="13" text-anchor="middle">ANOMALOUS COUNTERPARTY</text>
+    <text x="1262" y="588" class="ink" font-size="11.5" text-anchor="middle">Alpha Trading Ltd</text>
+    <text x="1262" y="606" class="ink" font-size="11.5" text-anchor="middle">concentration driving the deviation</text>
+    <text x="1262" y="628" class="red b" font-size="13" text-anchor="middle">90 / 100 · CRITICAL</text>
+  </g>
+
+  <!-- bottom analysis (4 components) -->
+  <g>
+    <rect x="300" y="772" width="300" height="62" rx="7" class="card"/>
+    <use href="#i-card" x="312" y="784" width="22" height="22" color="#12233b"/>
+    <text x="344" y="790" class="ink b" font-size="11.5">VOLUME Z-SCORE</text>
+    <text x="344" y="810" class="sub" font-size="10.5">z = 4.20 against the peer segment mean</text>
+    <text x="344" y="825" class="red b" font-size="10.5">Critical · weight 30%</text>
+
+    <rect x="628" y="772" width="300" height="62" rx="7" class="card"/>
+    <use href="#i-fp" x="640" y="784" width="22" height="22"/>
+    <text x="672" y="790" class="ink b" font-size="11.5">VELOCITY Z-SCORE</text>
+    <text x="672" y="810" class="sub" font-size="10.5">z = 3.75 against the peer segment mean</text>
+    <text x="672" y="825" class="red b" font-size="10.5">Critical · weight 25%</text>
+
+    <rect x="956" y="772" width="300" height="62" rx="7" class="card"/>
+    <use href="#i-doc" x="968" y="784" width="22" height="22"/>
+    <text x="1000" y="790" class="ink b" font-size="11.5">PRODUCT USAGE DEVIATION</text>
+    <text x="1000" y="810" class="sub" font-size="10.5">z = 3.50 against the peer segment mean</text>
+    <text x="1000" y="825" class="red b" font-size="10.5">Critical · weight 25%</text>
+
+    <rect x="1284" y="772" width="300" height="62" rx="7" class="card"/>
+    <use href="#i-link" x="1296" y="784" width="22" height="22"/>
+    <text x="1328" y="790" class="ink b" font-size="11.5">COUNTERPARTY DIVERSITY Z-SCORE</text>
+    <text x="1328" y="810" class="sub" font-size="10.5">z = 4.00 against the peer segment mean</text>
+    <text x="1328" y="825" class="red b" font-size="10.5">Critical · weight 20%</text>
+  </g>
+
+  <!-- RIGHT — RISK & INTELLIGENCE -->
+  <rect x="1612" y="150" width="268" height="24" class="nvy"/>
+  <text x="1746" y="163" class="hd" font-size="12.5" text-anchor="middle">RISK &amp; INTELLIGENCE</text>
+  <g font-size="10.3">
+    <use href="#i-alert" x="1620" y="184" width="16" height="16"/><text x="1644" y="192" class="red b" font-size="12">RISK RATIONALE</text>
+    <g class="ink"><text x="1620" y="212">• Volume/velocity multiples of the peer mean</text><text x="1620" y="228">• Product/channel mix atypical for the segment</text><text x="1620" y="244">• Counterparty breadth inconsistent with peers</text><text x="1620" y="260">• Deviation concentrates on one counterparty</text><text x="1620" y="276">• Anomalous counterparty already flagged elsewhere</text><text x="1620" y="292">• No absolute-threshold trigger, peer-relative only</text></g>
+    <use href="#i-search" x="1620" y="308" width="16" height="16"/><text x="1644" y="316" class="blu b" font-size="12">INVESTIGATION VALUE</text>
+    <g class="ink"><text x="1620" y="336">• Reconciles behaviour against true peers</text><text x="1620" y="352">• Detects deviation absolute thresholds miss</text><text x="1620" y="368">• Prioritises concentrated-counterparty risk</text><text x="1620" y="384">• Supports SAR filing decisions</text><text x="1620" y="400">• Enables workflow automation</text></g>
+    <use href="#i-db" x="1620" y="416" width="16" height="16"/><text x="1644" y="424" class="grn b" font-size="12">INTELLIGENCE PRODUCED</text>
+    <g class="ink"><text x="1620" y="444">• Peer-group anomaly alerts</text><text x="1620" y="460">• Volume/velocity deviation maps</text><text x="1620" y="476">• Product-usage deviation assessments</text><text x="1620" y="492">• Anomalous-counterparty profiles</text><text x="1620" y="508">• Investigator packages</text></g>
+  </g>
+  <line x1="1612" y1="528" x2="1880" y2="528" stroke="#d7deea"/>
+  <path d="M1626 610 A44 44 0 0 1 1714 610" fill="none" stroke="#e2e8f0" stroke-width="11" stroke-linecap="round"/>
+  <path d="M1626 610 A44 44 0 0 1 1710 594" fill="none" stroke="#2f7d4f" stroke-width="11" stroke-linecap="round"/>
+  <text x="1670" y="602" class="grn b" font-size="22" text-anchor="middle">85%</text>
+  <text x="1734" y="556" class="grn b" font-size="12">RISK CONFIDENCE*</text>
+  <g font-size="9.8" class="ink"><text x="1734" y="576">• Peer-segment reconciliation</text><text x="1734" y="591">• Volume/velocity/product analysis</text><text x="1734" y="606">• Counterparty concentration trace</text><text x="1734" y="621">• Anomalous-counterparty screening</text></g>
+  <line x1="1612" y1="636" x2="1880" y2="636" stroke="#d7deea"/>
+  <path d="M1622 704 A40 40 0 0 1 1702 704" fill="none" stroke="#c0202a" stroke-width="10" stroke-linecap="round"/>
+  <text x="1662" y="696" class="ink b" font-size="18" text-anchor="middle">90</text>
+  <text x="1662" y="713" class="sub" font-size="9.5" text-anchor="middle">/100</text>
+  <text x="1720" y="660" class="red b" font-size="12">RISK SCORE · CRITICAL</text>
+  <g font-size="9.8" class="ink"><text x="1720" y="680">• Volume z-score</text><text x="1720" y="695">• Velocity z-score</text><text x="1720" y="710">• Product usage deviation</text><text x="1720" y="725">• Counterparty diversity z-score</text></g>
+  <line x1="1612" y1="744" x2="1880" y2="744" stroke="#d7deea"/>
+  <use href="#i-fp" x="1620" y="756" width="22" height="22"/>
+  <text x="1650" y="769" class="pur b" font-size="12">PATTERN CLASSIFICATION</text>
+  <g font-size="10.8"><text x="1620" y="792" class="sub">Type:</text><text x="1712" y="792" class="ink">Peer Group Anomalies</text>
+    <text x="1620" y="810" class="sub">Category:</text><text x="1712" y="810" class="ink">Financial Crime Analytics</text>
+    <text x="1620" y="828" class="sub">Exposure:</text><text x="1712" y="828" class="ink">Correspondent Banking Exposure</text></g>
+
+  <!-- BOTTOM STRIP -->
+  <g transform="translate(20,872)">
+    <rect x="0" y="0" width="300" height="24" class="nvy"/><text x="150" y="13" class="hd" font-size="12.5" text-anchor="middle">OUTPUTS</text>
+    <g font-size="10.8" class="ink"><text x="8" y="44">Peer-group anomaly alerts</text><text x="8" y="64">Volume/velocity deviation maps</text><text x="8" y="84">Product-usage deviation assessments</text><text x="8" y="104">Anomalous-counterparty profiles</text><text x="8" y="124">Escalation recommendations</text><text x="8" y="144">Investigation cases &amp; packages</text></g>
+  </g>
+  <g transform="translate(338,872)">
+    <rect x="0" y="0" width="330" height="24" class="grn"/><text x="165" y="13" class="hd" font-size="12.5" text-anchor="middle">KEY BENEFITS</text>
+    <g font-size="10.8" class="ink"><g fill="#2f7d4f" font-weight="bold"><text x="8" y="44">✓</text><text x="8" y="64">✓</text><text x="8" y="84">✓</text><text x="8" y="104">✓</text><text x="8" y="124">✓</text><text x="8" y="144">✓</text></g>
+      <text x="26" y="44">Reconciles behaviour against true peers</text><text x="26" y="64">Detects deviation absolute thresholds miss</text><text x="26" y="84">Prioritises concentrated-counterparty risk</text><text x="26" y="104">Supports SAR filing decisions</text><text x="26" y="124">Enables AI-assisted reviews</text><text x="26" y="144">Strengthens controls &amp; governance</text></g>
+  </g>
+  <g transform="translate(686,872)">
+    <rect x="0" y="0" width="470" height="24" class="nvy"/><text x="235" y="13" class="hd" font-size="12.5" text-anchor="middle">DOWNSTREAM INTELLIGENCE CONSUMERS</text>
+    <g font-size="10.8">
+      <text x="10" y="44" class="sh">BA001</text><text x="92" y="44" class="ink">Structuring</text>
+      <text x="10" y="64" class="sh">BA007</text><text x="92" y="64" class="ink">Cash Intensive Activity</text>
+      <text x="10" y="84" class="sh">BA009</text><text x="92" y="84" class="ink">Transaction Laundering</text>
+      <text x="250" y="44" class="sh">AIC001</text><text x="332" y="44" class="ink">AI Investigator Copilot</text>
+      <text x="250" y="64" class="sh">IW001</text><text x="332" y="64" class="ink">Investigation Workflows</text>
+      <text x="250" y="84" class="sh">CASEMGMT</text><text x="352" y="84" class="ink">Case Management</text>
+    </g>
+  </g>
+  <g transform="translate(1174,872)">
+    <rect x="0" y="0" width="418" height="24" class="nvy"/><text x="209" y="13" class="hd" font-size="12.5" text-anchor="middle">PATTERN SUMMARY</text>
+    <g font-size="10.4" class="ink">
+      <text x="8" y="42">BA010 detects accounts whose behaviour deviates from</text>
+      <text x="8" y="58">their own peer segment. It quantifies transaction volume,</text>
+      <text x="8" y="74">turnover velocity, product/channel usage and counterparty</text>
+      <text x="8" y="90">breadth as z-scores against the peer segment's mean and</text>
+      <text x="8" y="106">standard deviation, corroborating a peer-relative finding</text>
+      <text x="8" y="122">rather than an absolute-threshold one. Deviation that</text>
+      <text x="8" y="138">concentrates on one counterparty is surfaced and</text>
+      <text x="8" y="154">escalated for enhanced due diligence and SAR filing.</text>
+    </g>
+  </g>
+  <text x="1612" y="1042" class="sub" font-size="9.5" font-style="italic">* Confidence figure illustrative.</text>
+
+  <!-- FOOTER -->
+  <rect x="0" y="1058" width="1900" height="40" fill="#0e1b2e"/>
+  <use href="#i-hex" x="430" y="1062" width="30" height="30"/>
+  <text x="950" y="1079" class="hd" font-size="14" text-anchor="middle">BUILDING THE FOUNDATION FOR NETWORK INTELLIGENCE AND GRAPH-BASED FINANCIAL CRIME INVESTIGATIONS</text>
+</svg>

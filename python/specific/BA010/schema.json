@@ -1,0 +1,126 @@
+{
+  "schema_name": "ba010_peer_group_anomalies_schema",
+  "version": "1.0",
+  "pattern_id": "BA010",
+  "description": "Machine-readable schema for the BA010 Peer Group Anomalies analytics workflow.",
+  "datasets": {
+    "accounts": {
+      "file": "accounts.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "customer_name": "string",
+        "account_ref": "string",
+        "segment": "string",
+        "home_branch": "string",
+        "own_volume": "number",
+        "peer_mean_volume": "number",
+        "peer_std_volume": "number",
+        "own_velocity": "number",
+        "peer_mean_velocity": "number",
+        "peer_std_velocity": "number",
+        "own_product_count": "integer",
+        "peer_mean_product_count": "number",
+        "peer_std_product_count": "number",
+        "own_counterparty_count": "integer",
+        "peer_mean_counterparty_count": "number",
+        "peer_std_counterparty_count": "number",
+        "peer_account_name": "string",
+        "anomalous_counterparty_name": "string"
+      },
+      "required": [
+        "customer_name",
+        "account_ref",
+        "segment",
+        "home_branch",
+        "own_volume",
+        "peer_mean_volume",
+        "peer_std_volume",
+        "own_velocity",
+        "peer_mean_velocity",
+        "peer_std_velocity",
+        "own_product_count",
+        "peer_mean_product_count",
+        "peer_std_product_count",
+        "own_counterparty_count",
+        "peer_mean_counterparty_count",
+        "peer_std_counterparty_count"
+      ]
+    },
+    "peers": {
+      "file": "peers.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "peer_account_name": "string",
+        "account_ref": "string",
+        "bank": "string",
+        "jurisdiction": "string",
+        "relationship": "string",
+        "prior_alerts": "integer"
+      },
+      "required": [
+        "peer_account_name",
+        "account_ref",
+        "bank",
+        "jurisdiction",
+        "relationship",
+        "prior_alerts"
+      ]
+    }
+  },
+  "components": {
+    "volume_zscore": {
+      "weight": 0.30
+    },
+    "velocity_zscore": {
+      "weight": 0.25
+    },
+    "product_usage_deviation": {
+      "weight": 0.25
+    },
+    "counterparty_diversity_zscore": {
+      "weight": 0.20
+    }
+  },
+  "band_scores": {
+    "Low": 15,
+    "Medium": 45,
+    "High": 70,
+    "Critical": 90
+  },
+  "thresholds": {
+    "alert_threshold": 80
+  },
+  "risk_bands": {
+    "low": {
+      "min": 0,
+      "max": 29
+    },
+    "medium": {
+      "min": 30,
+      "max": 59
+    },
+    "high": {
+      "min": 60,
+      "max": 79
+    },
+    "critical": {
+      "min": 80,
+      "max": 100
+    }
+  },
+  "derived_fields": {
+    "volume_zscore": "abs((own_volume - peer_mean_volume) / peer_std_volume)",
+    "velocity_zscore": "abs((own_velocity - peer_mean_velocity) / peer_std_velocity)",
+    "product_usage_deviation": "abs((own_product_count - peer_mean_product_count) / peer_std_product_count)",
+    "counterparty_diversity_zscore": "abs((own_counterparty_count - peer_mean_counterparty_count) / peer_std_counterparty_count)",
+    "exposure_score": "weighted sum of the four component band-midpoint scores"
+  },
+  "outputs": {
+    "ba010_exposure_scores": {
+      "file": "ba010_exposure_scores.csv"
+    },
+    "ba010_peer_group_anomalies_alerts": {
+      "file": "ba010_peer_group_anomalies_alerts.csv"
+    }
+  }
+}

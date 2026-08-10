@@ -66,7 +66,16 @@ Master inventory of the Correspondent Banking Analytics scenarios.
   connected COMPANY matched by exact name, MER019 processes for John Smith, and because
   persons never name-merge under canonical resolution, the bridge is carried on the
   shared local id (P001) instead of the name.
-- BA010 — planned (Phase C), per the build waves below.
+- **BA010 Peer Group Anomalies — BUILT** (Phase C, 2026-08-10). Mirrors BA001–BA009's
+  file set exactly: fc-06 analytic + 22-row real-named sample data + docs + diagram,
+  fc-10 generic delegation adapter + star graph + registry entry + manifest,
+  manufactures STAGE518/stage364 clean, and fuses onto **Alpha Trading Ltd** in the
+  estate network via canonical entity resolution (PGA019, 90/Critical). BA010 is the
+  tenth and final fc-06 typology, and the family's third bridge onto Alpha Trading
+  Ltd (after BA003 and BA006). Unlike BA001–BA009's ratio- or count-based components,
+  every BA010 component is a peer-relative z-score (deviation from the account's own
+  peer segment mean/std), proving the template extends cleanly to a purely
+  statistical scoring shape.
 
 ---
 
@@ -129,8 +138,11 @@ canonical resolution joins them into a fused case:
   the fourth typology to reference that recurring correspondent bank after
   BA004/BA005/BA006).
 - BA009 Transaction Laundering → processes for **John Smith** (the network PEP).
+- BA010 Peer Group Anomalies → its peer-segment deviation concentrates on
+  **Alpha Trading Ltd** as the anomalous counterparty (the third fc-06 bridge onto
+  that entity, after BA003 and BA006).
 
-The other two typologies fuse as honest correspondent-banking subgraphs and can bridge via
+The remaining typology fuses as an honest correspondent-banking subgraph and can bridge via
 new banks shared across BA typologies (e.g. Continental Correspondent Bank appears in BA004,
 BA005, BA006 and BA008).
 
