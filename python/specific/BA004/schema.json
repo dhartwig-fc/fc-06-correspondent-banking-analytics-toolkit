@@ -1,0 +1,111 @@
+{
+  "schema_name": "ba004_circular_funds_flow_schema",
+  "version": "1.0",
+  "pattern_id": "BA004",
+  "description": "Machine-readable schema for the BA004 Circular Funds Flow analytics workflow.",
+  "datasets": {
+    "accounts": {
+      "file": "accounts.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "customer_name": "string",
+        "account_ref": "string",
+        "segment": "string",
+        "home_branch": "string",
+        "originated_amount": "number",
+        "returned_amount": "number",
+        "hop_count": "integer",
+        "avg_hop_retention_pct": "number",
+        "loop_duration_hours": "number",
+        "first_loop_member_name": "string",
+        "second_loop_member_name": "string",
+        "closure_member_name": "string"
+      },
+      "required": [
+        "customer_name",
+        "account_ref",
+        "home_branch",
+        "originated_amount",
+        "returned_amount",
+        "hop_count",
+        "avg_hop_retention_pct",
+        "loop_duration_hours",
+        "closure_member_name"
+      ]
+    },
+    "loop_members": {
+      "file": "loop_members.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "closure_member_name": "string",
+        "account_ref": "string",
+        "bank": "string",
+        "jurisdiction": "string",
+        "relationship": "string",
+        "prior_alerts": "integer"
+      },
+      "required": [
+        "closure_member_name",
+        "account_ref",
+        "bank",
+        "jurisdiction",
+        "relationship",
+        "prior_alerts"
+      ]
+    }
+  },
+  "components": {
+    "loop_closure": {
+      "weight": 0.35
+    },
+    "hop_count": {
+      "weight": 0.25
+    },
+    "value_preservation": {
+      "weight": 0.20
+    },
+    "timing_compression": {
+      "weight": 0.20
+    }
+  },
+  "band_scores": {
+    "Low": 15,
+    "Medium": 45,
+    "High": 70,
+    "Critical": 90
+  },
+  "thresholds": {
+    "alert_threshold": 80
+  },
+  "risk_bands": {
+    "low": {
+      "min": 0,
+      "max": 29
+    },
+    "medium": {
+      "min": 30,
+      "max": 59
+    },
+    "high": {
+      "min": 60,
+      "max": 79
+    },
+    "critical": {
+      "min": 80,
+      "max": 100
+    }
+  },
+  "derived_fields": {
+    "loop_closure_ratio": "returned_amount / originated_amount",
+    "value_preservation_ratio": "avg_hop_retention_pct",
+    "exposure_score": "weighted sum of the four component band-midpoint scores"
+  },
+  "outputs": {
+    "ba004_exposure_scores": {
+      "file": "ba004_exposure_scores.csv"
+    },
+    "ba004_circular_funds_flow_alerts": {
+      "file": "ba004_circular_funds_flow_alerts.csv"
+    }
+  }
+}
