@@ -1,0 +1,80 @@
+# Correspondent Banking Analytics Typology Register
+
+## Purpose
+
+Master inventory of the Correspondent Banking Analytics scenarios.
+
+---
+
+| ID | Name | Category | Pattern | Subject |
+|------|------|------|------|------|
+| BA001 | Structuring | Cash Structuring | Sub-threshold cash broken up to evade CTR reporting | Customer account |
+| BA002 | Funnel Accounts | Funnel Activity | Many geographically-dispersed deposits collected then moved out | Funnel account |
+| BA003 | Mule Accounts | Mule Activity | Personal accounts receiving/forwarding illicit funds | Mule account |
+| BA004 | Circular Funds Flow | Round-Tripping | Round-tripping loop returning to origin | Originating account |
+| BA005 | Rapid Movement | Velocity / Layering | Funds in and immediately out (velocity / layering signal) | Account |
+| BA006 | Dormant Reactivation | Behavioural Anomaly | Long-dormant account suddenly active with large flows | Reactivated account |
+| BA007 | Cash Intensive Activity | Cash Intensity | Cash disproportionate to declared business profile | Business account |
+| BA008 | Layering | Layering | Complex transfer chains obscuring source | Seed account |
+| BA009 | Transaction Laundering | Transaction Laundering | A legitimate merchant account processing hidden third parties | Merchant account |
+| BA010 | Peer Group Anomalies | Behavioural Anomaly | Account behaviour deviating from its peer segment | Account |
+
+---
+
+## Build Waves
+
+### Wave 1 — Cash & Account-Origination Behaviour
+
+- BA001 Structuring
+- BA002 Funnel Accounts
+- BA003 Mule Accounts
+
+### Wave 2 — Fund-Movement Patterns
+
+- BA004 Circular Funds Flow
+- BA005 Rapid Movement
+- BA006 Dormant Reactivation
+
+### Wave 3 — Business & Complex Structures
+
+- BA007 Cash Intensive Activity
+- BA008 Layering
+- BA009 Transaction Laundering
+- BA010 Peer Group Anomalies
+
+---
+
+## Fusion Bridges
+
+At least these BA typologies deliberately name an entity already in the estate network so
+canonical resolution joins them into a fused case:
+
+- BA007 Cash Intensive Activity → subject account of **Gamma Imports Ltd**.
+- BA003 Mule Accounts → forwards to **Alpha Trading Ltd**.
+- BA002 Funnel Accounts → beneficiary **Zeta Commodities Ltd**.
+- BA009 Transaction Laundering → processes for **John Smith** (the network PEP).
+
+The other six typologies fuse as honest correspondent-banking subgraphs and can bridge via
+new banks shared across BA typologies (e.g. Continental Correspondent Bank appears in BA004,
+BA005 and BA008).
+
+---
+
+## Enterprise Standard Requirements
+
+Every Correspondent Banking Analytics analytic should include (mirroring the fc-04 TBML001 /
+fc-05 SAN003 pattern):
+
+- Typology definition (`typologies/`)
+- Enterprise diagram (`diagrams/`)
+- Exposure scoring framework (`scoring-models/specific/`)
+- Python engine package (`python/specific/<ID>/`): risk model, scenario callable,
+  `schema.json`, generated sample data (>= 20 real-named rows per component), `expected_outputs/`,
+  and executable tests
+- Investigator playbook (`operations/specific/`, where applicable)
+- Intelligence products (`intelligence-products/specific/<ID>/`)
+- Data requirements & schema design
+- Model governance linkage
+
+Each engine is built and tested **standalone** in this repository before it is put through the
+FC-10 governed runtime, where a thin adapter delegates to it.

@@ -1,0 +1,12 @@
+# Added on the first commit that runs Python in this repository, mirroring fc-05's
+# .gitignore — the cheapest moment to have a gitignore is before the first stray
+# artefact.
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Individual BA0NN analytics may follow the fc-04/fc-05 CWD-relative sample-data path
+# pattern; ignored here so a misfire cannot be committed by accident.
+/sample-data/
