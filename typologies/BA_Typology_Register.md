@@ -29,7 +29,14 @@ Master inventory of the Correspondent Banking Analytics scenarios.
   STAGE518/stage364 clean, and fuses onto **Gamma Imports Ltd** in the estate network
   via canonical entity resolution (CYC019, 90/Critical). Its second loop member,
   Continental Correspondent Bank, is the first recurring shared bank in the family.
-- BA005–BA010 — planned (Phase C), per the build waves below.
+- **BA005 Rapid Movement — BUILT** (Phase C, 2026-08-10). Mirrors BA001–BA004's file set
+  exactly: fc-06 analytic + 22-row real-named sample data + docs + diagram, fc-10 generic
+  delegation adapter + star graph + registry entry + manifest, manufactures
+  STAGE518/stage364 clean, and fuses onto **Zeta Commodities Ltd** in the estate network
+  via canonical entity resolution (RM019, 90/Critical). Its second onward destination,
+  Continental Correspondent Bank, recurs as the shared correspondent bank across
+  BA004/BA005.
+- BA006–BA010 — planned (Phase C), per the build waves below.
 
 ---
 
@@ -81,9 +88,12 @@ canonical resolution joins them into a fused case:
 - BA002 Funnel Accounts → beneficiary **Zeta Commodities Ltd**.
 - BA004 Circular Funds Flow → cycles through **Gamma Imports Ltd** as its first loop
   member (also names **Continental Correspondent Bank** as a recurring second loop member).
+- BA005 Rapid Movement → clears through **Zeta Commodities Ltd** as its first onward
+  destination (also names **Continental Correspondent Bank** as its recurring second
+  onward destination, shared with BA004).
 - BA009 Transaction Laundering → processes for **John Smith** (the network PEP).
 
-The other five typologies fuse as honest correspondent-banking subgraphs and can bridge via
+The other four typologies fuse as honest correspondent-banking subgraphs and can bridge via
 new banks shared across BA typologies (e.g. Continental Correspondent Bank appears in BA004,
 BA005 and BA008).
 

@@ -1,0 +1,113 @@
+{
+  "schema_name": "ba005_rapid_movement_schema",
+  "version": "1.0",
+  "pattern_id": "BA005",
+  "description": "Machine-readable schema for the BA005 Rapid Movement analytics workflow.",
+  "datasets": {
+    "accounts": {
+      "file": "accounts.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "customer_name": "string",
+        "account_ref": "string",
+        "segment": "string",
+        "home_branch": "string",
+        "source_name": "string",
+        "inbound_amount": "number",
+        "outbound_amount": "number",
+        "dwell_time_hours": "number",
+        "avg_balance": "number",
+        "total_turnover_amount": "number",
+        "distinct_destination_count": "integer",
+        "first_destination_name": "string",
+        "second_destination_name": "string"
+      },
+      "required": [
+        "customer_name",
+        "account_ref",
+        "home_branch",
+        "inbound_amount",
+        "outbound_amount",
+        "dwell_time_hours",
+        "avg_balance",
+        "total_turnover_amount",
+        "distinct_destination_count",
+        "first_destination_name"
+      ]
+    },
+    "destinations": {
+      "file": "destinations.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "first_destination_name": "string",
+        "account_ref": "string",
+        "bank": "string",
+        "jurisdiction": "string",
+        "relationship": "string",
+        "prior_alerts": "integer"
+      },
+      "required": [
+        "first_destination_name",
+        "account_ref",
+        "bank",
+        "jurisdiction",
+        "relationship",
+        "prior_alerts"
+      ]
+    }
+  },
+  "components": {
+    "dwell_time": {
+      "weight": 0.35
+    },
+    "velocity": {
+      "weight": 0.25
+    },
+    "onward_dispersion": {
+      "weight": 0.20
+    },
+    "value_match": {
+      "weight": 0.20
+    }
+  },
+  "band_scores": {
+    "Low": 15,
+    "Medium": 45,
+    "High": 70,
+    "Critical": 90
+  },
+  "thresholds": {
+    "alert_threshold": 80
+  },
+  "risk_bands": {
+    "low": {
+      "min": 0,
+      "max": 29
+    },
+    "medium": {
+      "min": 30,
+      "max": 59
+    },
+    "high": {
+      "min": 60,
+      "max": 79
+    },
+    "critical": {
+      "min": 80,
+      "max": 100
+    }
+  },
+  "derived_fields": {
+    "velocity_ratio": "total_turnover_amount / avg_balance",
+    "value_match_ratio": "outbound_amount / inbound_amount",
+    "exposure_score": "weighted sum of the four component band-midpoint scores"
+  },
+  "outputs": {
+    "ba005_exposure_scores": {
+      "file": "ba005_exposure_scores.csv"
+    },
+    "ba005_rapid_movement_alerts": {
+      "file": "ba005_rapid_movement_alerts.csv"
+    }
+  }
+}

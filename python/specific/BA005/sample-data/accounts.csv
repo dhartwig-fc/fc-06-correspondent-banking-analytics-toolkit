@@ -1,0 +1,23 @@
+customer_name,account_ref,segment,home_branch,source_name,inbound_amount,outbound_amount,dwell_time_hours,avg_balance,total_turnover_amount,distinct_destination_count,first_destination_name,second_destination_name
+Ingrid Solberg,RM001,Retail,Meridian Trust Bank - North Branch,Blue Harbour Logistics Ltd,20000,8000,960,15000,30000,1,Hollow Pine Traders,Adriatic Union Bank
+Mateus Silva,RM002,Small Business,Continental Correspondent Bank - Exchange Branch,Cedar & Vale Trading Ltd,21000,9000,900,14000,32000,2,Amberlight Commerce Ltd,Pacific Rim Commercial Bank
+Chidi Obiora,RM003,Private Banking,Adriatic Union Bank - Old Port Branch,Northwind Freight Co,22000,9500,850,13500,34000,1,Driftwood Export Co,Helvetia Private Bank
+Freya Andersen,RM004,Retail,Pacific Rim Commercial Bank - Summit Branch,Solano Exchange House,23000,10500,800,13000,36000,2,Silverline Holdings,Meridian Trust Bank
+Hana Kobayashi,RM005,Small Business,Helvetia Private Bank - Bayview Branch,Kestrel Cash & Carry Ltd,24000,11000,750,16000,38000,1,Cinder Bay Trading,Continental Correspondent Bank
+Rafael Torres,RM006,Private Banking,Meridian Trust Bank - North Branch,Blue Harbour Logistics Ltd,25000,12000,700,17000,40000,2,Wrenhaven Commerce Ltd,Adriatic Union Bank
+Amina Diallo,RM007,Retail,Continental Correspondent Bank - Exchange Branch,Cedar & Vale Trading Ltd,70000,45000,40,15000,60000,3,Foxglen Export Group,Pacific Rim Commercial Bank
+Lars Eriksson,RM008,Small Business,Adriatic Union Bank - Old Port Branch,Northwind Freight Co,72000,48000,36,14000,64000,4,Marlstone Traders,Helvetia Private Bank
+Nadia Petrova,RM009,Private Banking,Pacific Rim Commercial Bank - Summit Branch,Solano Exchange House,74000,50000,30,13000,68000,3,Ashcombe Holdings,Meridian Trust Bank
+Kwame Mensah,RM010,Retail,Helvetia Private Bank - Bayview Branch,Kestrel Cash & Carry Ltd,76000,53000,24,12000,70000,4,Brackenridge Trading Co,Continental Correspondent Bank
+Sanne de Vries,RM011,Small Business,Meridian Trust Bank - North Branch,Blue Harbour Logistics Ltd,78000,55000,20,11500,74000,3,Thistlewood Commerce,Adriatic Union Bank
+Diego Fernandez,RM012,Private Banking,Continental Correspondent Bank - Exchange Branch,Cedar & Vale Trading Ltd,80000,58000,14,11000,78000,4,Copperfield Exports Ltd,Pacific Rim Commercial Bank
+Yara Haddad,RM013,Retail,Adriatic Union Bank - Old Port Branch,Northwind Freight Co,80000,68000,10,12000,150000,5,Ravenswood Traders,Helvetia Private Bank
+Erik Solheim,RM014,Small Business,Pacific Rim Commercial Bank - Summit Branch,Solano Exchange House,82000,70000,8,11000,160000,6,Hawthorn Bay Holdings,Meridian Trust Bank
+Priya Chandran,RM015,Private Banking,Helvetia Private Bank - Bayview Branch,Kestrel Cash & Carry Ltd,84000,72000,6,10500,170000,5,Millbrook Export Co,Continental Correspondent Bank
+Tariq Aziz,RM016,Retail,Meridian Trust Bank - North Branch,Blue Harbour Logistics Ltd,86000,75000,5,10000,180000,7,Stonebridge Commerce Ltd,Adriatic Union Bank
+Elin Johansson,RM017,Small Business,Continental Correspondent Bank - Exchange Branch,Cedar & Vale Trading Ltd,88000,77000,4,9800,185000,6,Larchfield Traders,Pacific Rim Commercial Bank
+Marco Rinaldi,RM018,Private Banking,Adriatic Union Bank - Old Port Branch,Northwind Freight Co,90000,78000,3,9500,188000,7,Windermere Holdings,Helvetia Private Bank
+Dmitri Petrov,RM019,Retail,Pacific Rim Commercial Bank - Summit Branch,Kestrel Cash & Carry Ltd,100000,98000,1,10000,300000,9,Zeta Commodities Ltd,Continental Correspondent Bank
+Aisha Rahman,RM020,Small Business,Helvetia Private Bank - Bayview Branch,Blue Harbour Logistics Ltd,97000,88000,1.5,9800,280000,8,Northwind Freight Co,Continental Correspondent Bank
+Tomas Novak,RM021,Private Banking,Meridian Trust Bank - North Branch,Cedar & Vale Trading Ltd,92000,90000,1,9500,150000,10,Solano Exchange House,Adriatic Union Bank
+Maria Kovač,RM022,Retail,Continental Correspondent Bank - Exchange Branch,Solano Exchange House,90000,88000,5,9000,310000,12,Cedar & Vale Trading Ltd,Continental Correspondent Bank
