@@ -1,0 +1,110 @@
+{
+  "schema_name": "ba002_funnel_accounts_schema",
+  "version": "1.0",
+  "pattern_id": "BA002",
+  "description": "Machine-readable schema for the BA002 Funnel Accounts analytics workflow.",
+  "datasets": {
+    "accounts": {
+      "file": "accounts.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "customer_name": "string",
+        "account_ref": "string",
+        "segment": "string",
+        "home_branch": "string",
+        "distinct_source_regions": "integer",
+        "distinct_depositors": "integer",
+        "total_inflow_amount": "number",
+        "max_dwell_hours": "number",
+        "top_beneficiary_amount": "number",
+        "total_outflow_amount": "number",
+        "top_depositor_name": "string",
+        "beneficiary_name": "string"
+      },
+      "required": [
+        "customer_name",
+        "account_ref",
+        "home_branch",
+        "distinct_source_regions",
+        "distinct_depositors",
+        "max_dwell_hours",
+        "top_beneficiary_amount",
+        "total_outflow_amount",
+        "beneficiary_name"
+      ]
+    },
+    "beneficiaries": {
+      "file": "beneficiaries.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "beneficiary_name": "string",
+        "account_ref": "string",
+        "bank": "string",
+        "jurisdiction": "string",
+        "relationship": "string",
+        "prior_alerts": "integer"
+      },
+      "required": [
+        "beneficiary_name",
+        "account_ref",
+        "bank",
+        "jurisdiction",
+        "relationship",
+        "prior_alerts"
+      ]
+    }
+  },
+  "components": {
+    "geographic_dispersion": {
+      "weight": 0.30
+    },
+    "inflow_fan_in": {
+      "weight": 0.25
+    },
+    "rapid_passthrough": {
+      "weight": 0.25
+    },
+    "beneficiary_concentration": {
+      "weight": 0.20
+    }
+  },
+  "band_scores": {
+    "Low": 15,
+    "Medium": 45,
+    "High": 70,
+    "Critical": 90
+  },
+  "thresholds": {
+    "alert_threshold": 80
+  },
+  "risk_bands": {
+    "low": {
+      "min": 0,
+      "max": 29
+    },
+    "medium": {
+      "min": 30,
+      "max": 59
+    },
+    "high": {
+      "min": 60,
+      "max": 79
+    },
+    "critical": {
+      "min": 80,
+      "max": 100
+    }
+  },
+  "derived_fields": {
+    "beneficiary_concentration_ratio": "top_beneficiary_amount / total_outflow_amount",
+    "exposure_score": "weighted sum of the four component band-midpoint scores"
+  },
+  "outputs": {
+    "ba002_exposure_scores": {
+      "file": "ba002_exposure_scores.csv"
+    },
+    "ba002_funnel_accounts_alerts": {
+      "file": "ba002_funnel_accounts_alerts.csv"
+    }
+  }
+}

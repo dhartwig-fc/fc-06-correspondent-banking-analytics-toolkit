@@ -1,0 +1,23 @@
+beneficiary_name,account_ref,bank,jurisdiction,relationship,prior_alerts
+Nova Horizon Traders Ltd,FUN001,Meridian Trust Bank,Ireland,Trade counterparty,0
+Silverpine Commerce Ltd,FUN002,Continental Correspondent Bank,Canada,Logistics partner,0
+Meridian Bay Holdings,FUN003,Adriatic Union Bank,Germany,Contractor payment,0
+Crestwood Import Co,FUN004,Pacific Rim Commercial Bank,Hong Kong,Import supplier,1
+Zeta Commodities Ltd,FUN005,Helvetia Private Bank,Marshall Islands,Commodities supplier,0
+Harborstone Ventures Ltd,FUN006,Meridian Trust Bank,United Kingdom,Consulting retainer,0
+Amberfield Trading Co,FUN007,Continental Correspondent Bank,Cyprus,Trade counterparty,1
+Bluecrest Export Group,FUN008,Adriatic Union Bank,Panama,Export supplier,1
+Ironvale Commerce Ltd,FUN009,Pacific Rim Commercial Bank,Singapore,Trade counterparty,0
+Whitmore Global Traders,FUN010,Helvetia Private Bank,United Arab Emirates,Logistics partner,1
+Coral Bay Exports Ltd,FUN011,Meridian Trust Bank,Turkey,Export supplier,1
+Granite Peak Holdings,FUN012,Continental Correspondent Bank,Hong Kong,Contractor payment,1
+Fenwick & Cole Trading,FUN013,Pacific Rim Commercial Bank,Cyprus,Trade counterparty,1
+Redstone Commodities Ltd,FUN014,Helvetia Private Bank,Panama,Commodities supplier,2
+Solstice Trading Group,FUN015,Meridian Trust Bank,British Virgin Islands,Trade counterparty,1
+Palmetto Export Co,FUN016,Continental Correspondent Bank,United Arab Emirates,Export supplier,2
+Windrose Commerce Ltd,FUN017,Adriatic Union Bank,Hong Kong,Trade counterparty,2
+Kestrel Bay Holdings,FUN018,Pacific Rim Commercial Bank,Panama,Commodities supplier,2
+Zeta Commodities Ltd,FUN019,Continental Correspondent Bank,Marshall Islands,Commodities supplier,2
+Everline Traders Ltd,FUN020,Adriatic Union Bank,Panama,Trade counterparty,3
+Northgate Commodities Ltd,FUN021,Pacific Rim Commercial Bank,Turkey,Commodities supplier,3
+Stonebridge Export Group,FUN022,Helvetia Private Bank,Panama,Export supplier,2
