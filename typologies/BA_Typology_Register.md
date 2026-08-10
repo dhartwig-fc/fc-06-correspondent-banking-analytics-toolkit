@@ -18,7 +18,12 @@ Master inventory of the Correspondent Banking Analytics scenarios.
   delegation adapter + star graph + registry entry + manifest, manufactures
   STAGE518/stage364 clean, and fuses onto **Zeta Commodities Ltd** in the estate network
   via canonical entity resolution (FUN019, 90/Critical).
-- BA003–BA010 — planned (Phase C), per the build waves below.
+- **BA003 Mule Accounts — BUILT** (Phase C, 2026-08-10). Mirrors BA001/BA002's file set
+  exactly: fc-06 analytic + 22-row real-named sample data + docs + diagram, fc-10 generic
+  delegation adapter + star graph + registry entry + manifest, manufactures
+  STAGE518/stage364 clean, and fuses onto **Alpha Trading Ltd** in the estate network
+  via canonical entity resolution (MUL019, 90/Critical).
+- BA004–BA010 — planned (Phase C), per the build waves below.
 
 ---
 

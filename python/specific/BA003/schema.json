@@ -1,0 +1,113 @@
+{
+  "schema_name": "ba003_mule_accounts_schema",
+  "version": "1.0",
+  "pattern_id": "BA003",
+  "description": "Machine-readable schema for the BA003 Mule Accounts analytics workflow.",
+  "datasets": {
+    "accounts": {
+      "file": "accounts.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "customer_name": "string",
+        "account_ref": "string",
+        "segment": "string",
+        "home_branch": "string",
+        "total_inflow_amount": "number",
+        "total_outflow_amount": "number",
+        "account_age_days": "integer",
+        "declared_monthly_income": "number",
+        "monthly_throughput_amount": "number",
+        "shared_link_count": "integer",
+        "top_originator_name": "string",
+        "controller_name": "string",
+        "beneficiary_name": "string"
+      },
+      "required": [
+        "customer_name",
+        "account_ref",
+        "home_branch",
+        "total_inflow_amount",
+        "total_outflow_amount",
+        "account_age_days",
+        "declared_monthly_income",
+        "monthly_throughput_amount",
+        "shared_link_count",
+        "beneficiary_name"
+      ]
+    },
+    "beneficiaries": {
+      "file": "beneficiaries.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "beneficiary_name": "string",
+        "account_ref": "string",
+        "bank": "string",
+        "jurisdiction": "string",
+        "relationship": "string",
+        "prior_alerts": "integer"
+      },
+      "required": [
+        "beneficiary_name",
+        "account_ref",
+        "bank",
+        "jurisdiction",
+        "relationship",
+        "prior_alerts"
+      ]
+    }
+  },
+  "components": {
+    "pass_through_ratio": {
+      "weight": 0.30
+    },
+    "account_youth": {
+      "weight": 0.25
+    },
+    "behavioural_mismatch": {
+      "weight": 0.25
+    },
+    "network_linkage": {
+      "weight": 0.20
+    }
+  },
+  "band_scores": {
+    "Low": 15,
+    "Medium": 45,
+    "High": 70,
+    "Critical": 90
+  },
+  "thresholds": {
+    "alert_threshold": 80
+  },
+  "risk_bands": {
+    "low": {
+      "min": 0,
+      "max": 29
+    },
+    "medium": {
+      "min": 30,
+      "max": 59
+    },
+    "high": {
+      "min": 60,
+      "max": 79
+    },
+    "critical": {
+      "min": 80,
+      "max": 100
+    }
+  },
+  "derived_fields": {
+    "pass_through_ratio": "total_outflow_amount / total_inflow_amount",
+    "behavioural_mismatch_ratio": "monthly_throughput_amount / declared_monthly_income",
+    "exposure_score": "weighted sum of the four component band-midpoint scores"
+  },
+  "outputs": {
+    "ba003_exposure_scores": {
+      "file": "ba003_exposure_scores.csv"
+    },
+    "ba003_mule_accounts_alerts": {
+      "file": "ba003_mule_accounts_alerts.csv"
+    }
+  }
+}

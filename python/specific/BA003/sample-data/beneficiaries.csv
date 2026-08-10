@@ -1,0 +1,23 @@
+beneficiary_name,account_ref,bank,jurisdiction,relationship,prior_alerts
+Blue Harbour Logistics Ltd,MUL001,Meridian Trust Bank,Ireland,Unverified payee,0
+Cedar & Vale Trading Ltd,MUL002,Continental Correspondent Bank,Canada,Unverified payee,0
+Northwind Freight Co,MUL003,Adriatic Union Bank,Germany,Unverified payee,0
+Solano Exchange House,MUL004,Pacific Rim Commercial Bank,Hong Kong,Money service business,1
+Kestrel Cash & Carry Ltd,MUL005,Helvetia Private Bank,Switzerland,Unverified payee,0
+Alpha Trading Ltd,MUL006,Meridian Trust Bank,United Kingdom,Unverified payee,0
+Amberfield Trading Co,MUL007,Continental Correspondent Bank,Cyprus,Unverified payee,1
+Bluecrest Export Group,MUL008,Adriatic Union Bank,Panama,Unverified payee,1
+Ironvale Commerce Ltd,MUL009,Pacific Rim Commercial Bank,Singapore,Unverified payee,1
+Whitmore Global Traders,MUL010,Helvetia Private Bank,United Arab Emirates,Unverified payee,1
+Coral Bay Exports Ltd,MUL011,Meridian Trust Bank,Turkey,Unverified payee,2
+Granite Peak Holdings,MUL012,Continental Correspondent Bank,Hong Kong,Unverified payee,1
+Fenwick & Cole Trading,MUL013,Pacific Rim Commercial Bank,Cyprus,Unverified payee,2
+Redstone Commodities Ltd,MUL014,Helvetia Private Bank,Panama,Unverified payee,2
+Solstice Trading Group,MUL015,Adriatic Union Bank,British Virgin Islands,Unverified payee,2
+Palmetto Export Co,MUL016,Meridian Trust Bank,United Arab Emirates,Unverified payee,2
+Windrose Commerce Ltd,MUL017,Continental Correspondent Bank,Hong Kong,Unverified payee,3
+Kestrel Bay Holdings,MUL018,Pacific Rim Commercial Bank,Panama,Unverified payee,2
+Alpha Trading Ltd,MUL019,Meridian Trust Bank,United Kingdom,Unverified payee,3
+Everline Traders Ltd,MUL020,Continental Correspondent Bank,Panama,Unverified payee,3
+Northgate Commodities Ltd,MUL021,Helvetia Private Bank,Turkey,Unverified payee,3
+Stonebridge Export Group,MUL022,Meridian Trust Bank,Panama,Unverified payee,3
