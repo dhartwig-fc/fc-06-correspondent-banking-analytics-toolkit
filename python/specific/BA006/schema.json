@@ -1,0 +1,111 @@
+{
+  "schema_name": "ba006_dormant_reactivation_schema",
+  "version": "1.0",
+  "pattern_id": "BA006",
+  "description": "Machine-readable schema for the BA006 Dormant Reactivation analytics workflow.",
+  "datasets": {
+    "accounts": {
+      "file": "accounts.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "customer_name": "string",
+        "account_ref": "string",
+        "segment": "string",
+        "home_branch": "string",
+        "prior_counterparty_name": "string",
+        "pre_dormancy_avg_monthly_activity": "number",
+        "reactivation_amount": "number",
+        "dormancy_days": "number",
+        "new_counterparty_count": "integer",
+        "outflow_amount": "number",
+        "first_reactivation_counterparty_name": "string",
+        "second_reactivation_counterparty_name": "string"
+      },
+      "required": [
+        "customer_name",
+        "account_ref",
+        "home_branch",
+        "pre_dormancy_avg_monthly_activity",
+        "reactivation_amount",
+        "dormancy_days",
+        "new_counterparty_count",
+        "outflow_amount",
+        "first_reactivation_counterparty_name"
+      ]
+    },
+    "counterparties": {
+      "file": "counterparties.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "first_reactivation_counterparty_name": "string",
+        "account_ref": "string",
+        "bank": "string",
+        "jurisdiction": "string",
+        "relationship": "string",
+        "prior_alerts": "integer"
+      },
+      "required": [
+        "first_reactivation_counterparty_name",
+        "account_ref",
+        "bank",
+        "jurisdiction",
+        "relationship",
+        "prior_alerts"
+      ]
+    }
+  },
+  "components": {
+    "reactivation_spike": {
+      "weight": 0.30
+    },
+    "dormancy_length": {
+      "weight": 0.25
+    },
+    "profile_deviation": {
+      "weight": 0.25
+    },
+    "immediate_outflow": {
+      "weight": 0.20
+    }
+  },
+  "band_scores": {
+    "Low": 15,
+    "Medium": 45,
+    "High": 70,
+    "Critical": 90
+  },
+  "thresholds": {
+    "alert_threshold": 80
+  },
+  "risk_bands": {
+    "low": {
+      "min": 0,
+      "max": 29
+    },
+    "medium": {
+      "min": 30,
+      "max": 59
+    },
+    "high": {
+      "min": 60,
+      "max": 79
+    },
+    "critical": {
+      "min": 80,
+      "max": 100
+    }
+  },
+  "derived_fields": {
+    "reactivation_spike_ratio": "reactivation_amount / pre_dormancy_avg_monthly_activity",
+    "immediate_outflow_ratio": "outflow_amount / reactivation_amount",
+    "exposure_score": "weighted sum of the four component band-midpoint scores"
+  },
+  "outputs": {
+    "ba006_exposure_scores": {
+      "file": "ba006_exposure_scores.csv"
+    },
+    "ba006_dormant_reactivation_alerts": {
+      "file": "ba006_dormant_reactivation_alerts.csv"
+    }
+  }
+}

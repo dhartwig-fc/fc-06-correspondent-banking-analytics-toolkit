@@ -36,7 +36,14 @@ Master inventory of the Correspondent Banking Analytics scenarios.
   via canonical entity resolution (RM019, 90/Critical). Its second onward destination,
   Continental Correspondent Bank, recurs as the shared correspondent bank across
   BA004/BA005.
-- BA006–BA010 — planned (Phase C), per the build waves below.
+- **BA006 Dormant Reactivation — BUILT** (Phase C, 2026-08-10). Mirrors BA001–BA005's file
+  set exactly: fc-06 analytic + 22-row real-named sample data + docs + diagram, fc-10
+  generic delegation adapter + star graph + registry entry + manifest, manufactures
+  STAGE518/stage364 clean, and fuses onto **Alpha Trading Ltd** in the estate network via
+  canonical entity resolution (DR019, 90/Critical). Its second reactivation counterparty,
+  Continental Correspondent Bank, recurs as the shared correspondent bank across
+  BA004/BA005/BA006.
+- BA007–BA010 — planned (Phase C), per the build waves below.
 
 ---
 
@@ -91,11 +98,14 @@ canonical resolution joins them into a fused case:
 - BA005 Rapid Movement → clears through **Zeta Commodities Ltd** as its first onward
   destination (also names **Continental Correspondent Bank** as its recurring second
   onward destination, shared with BA004).
+- BA006 Dormant Reactivation → reactivates into **Alpha Trading Ltd** as its first
+  reactivation counterparty (also names **Continental Correspondent Bank** as its
+  recurring second reactivation counterparty, shared with BA004/BA005).
 - BA009 Transaction Laundering → processes for **John Smith** (the network PEP).
 
-The other four typologies fuse as honest correspondent-banking subgraphs and can bridge via
+The other three typologies fuse as honest correspondent-banking subgraphs and can bridge via
 new banks shared across BA typologies (e.g. Continental Correspondent Bank appears in BA004,
-BA005 and BA008).
+BA005, BA006 and BA008).
 
 ---
 
