@@ -1,0 +1,111 @@
+{
+  "schema_name": "ba001_structuring_schema",
+  "version": "1.0",
+  "pattern_id": "BA001",
+  "description": "Machine-readable schema for the BA001 Structuring analytics workflow.",
+  "datasets": {
+    "accounts": {
+      "file": "accounts.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "customer_name": "string",
+        "account_ref": "string",
+        "segment": "string",
+        "home_branch": "string",
+        "total_cash_deposits": "number",
+        "subthreshold_deposits": "number",
+        "deposits_max_7d": "integer",
+        "distinct_locations": "integer",
+        "structured_in_amount": "number",
+        "wired_out_amount": "number",
+        "beneficiary_name": "string"
+      },
+      "required": [
+        "customer_name",
+        "account_ref",
+        "home_branch",
+        "total_cash_deposits",
+        "subthreshold_deposits",
+        "deposits_max_7d",
+        "distinct_locations",
+        "structured_in_amount",
+        "wired_out_amount",
+        "beneficiary_name"
+      ]
+    },
+    "beneficiaries": {
+      "file": "beneficiaries.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "beneficiary_name": "string",
+        "account_ref": "string",
+        "bank": "string",
+        "jurisdiction": "string",
+        "relationship": "string",
+        "prior_alerts": "integer"
+      },
+      "required": [
+        "beneficiary_name",
+        "account_ref",
+        "bank",
+        "jurisdiction",
+        "relationship",
+        "prior_alerts"
+      ]
+    }
+  },
+  "components": {
+    "sub_threshold_clustering": {
+      "weight": 0.35
+    },
+    "temporal_clustering": {
+      "weight": 0.25
+    },
+    "multi_location": {
+      "weight": 0.20
+    },
+    "aggregation_to_transfer": {
+      "weight": 0.20
+    }
+  },
+  "band_scores": {
+    "Low": 15,
+    "Medium": 45,
+    "High": 70,
+    "Critical": 90
+  },
+  "thresholds": {
+    "alert_threshold": 80
+  },
+  "risk_bands": {
+    "low": {
+      "min": 0,
+      "max": 29
+    },
+    "medium": {
+      "min": 30,
+      "max": 59
+    },
+    "high": {
+      "min": 60,
+      "max": 79
+    },
+    "critical": {
+      "min": 80,
+      "max": 100
+    }
+  },
+  "derived_fields": {
+    "sub_threshold_clustering_ratio": "subthreshold_deposits / total_cash_deposits",
+    "aggregation_to_transfer_ratio": "wired_out_amount / structured_in_amount",
+    "exposure_score": "weighted sum of the four component band-midpoint scores"
+  },
+  "outputs": {
+    "ba001_exposure_scores": {
+      "file": "ba001_exposure_scores.csv"
+    },
+    "ba001_structuring_alerts": {
+      "file": "ba001_structuring_alerts.csv"
+    }
+  }
+}

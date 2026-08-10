@@ -1,0 +1,23 @@
+customer_name,account_ref,segment,home_branch,total_cash_deposits,subthreshold_deposits,deposits_max_7d,distinct_locations,structured_in_amount,wired_out_amount,beneficiary_name
+Sofia Rossi,ACC001,Retail,Meridian Trust Bank - Central Branch,45000,2600,2,1,16000,2200,Blue Harbour Logistics Ltd
+Liam O'Connor,ACC002,Retail,Continental Correspondent Bank - Harbor Branch,47000,3100,1,2,15000,1800,Cedar & Vale Trading Ltd
+Grace Okafor,ACC003,Retail,Adriatic Union Bank - Old Town Branch,41000,8600,2,1,14000,1500,Northwind Freight Co
+Henrik Berg,ACC004,Small Business,Pacific Rim Commercial Bank - Marina Branch,44000,2900,4,1,13500,2000,Solano Exchange House
+Noor Hassan,ACC005,Retail,Helvetia Private Bank - Lakeside Branch,46000,3300,2,1,16500,5200,Kestrel Cash & Carry Ltd
+Diego Fernandez,ACC006,Retail,Meridian Trust Bank - Uptown Branch,48000,3400,2,2,15500,4800,Gamma Imports Ltd
+Astrid Lindqvist,ACC007,Small Business,Continental Correspondent Bank - Riverside Branch,40000,8800,4,2,17000,6000,Harborlight Export Co
+Rafael Costa,ACC008,Retail,Adriatic Union Bank - Old Town Branch,38000,17500,2,1,13000,1600,Meridian Bulk Traders Ltd
+Miguel Santos,ACC009,Retail,Pacific Rim Commercial Bank - Marina Branch,39000,8200,7,1,12500,1900,Falcon Ridge Commodities Ltd
+Anya Petrova,ACC010,Private Banking,Helvetia Private Bank - Lakeside Branch,37000,8100,4,3,12800,2100,Ashford & Pine Ltd
+Elena Vasquez,ACC011,Small Business,Meridian Trust Bank - Central Branch,36000,16200,4,1,14000,4900,Silverline Freight Partners
+Marcus Chen,ACC012,Retail,Continental Correspondent Bank - Harbor Branch,39500,9200,7,2,13200,2300,Ravenwood Trading Co
+Fatima Al-Rashid,ACC013,Small Business,Pacific Rim Commercial Bank - Marina Branch,38000,17200,7,3,17000,12000,Delta Quay Exports Ltd
+Klaus Richter,ACC014,Private Banking,Helvetia Private Bank - Lakeside Branch,37500,16800,8,2,16800,12500,Amber Coast Traders Ltd
+Priya Nair,ACC015,Retail,Meridian Trust Bank - Central Branch,36500,16500,5,3,16200,12100,Union Bridge Commerce Ltd
+Carlos Mendoza,ACC016,Small Business,Continental Correspondent Bank - Riverside Branch,39000,17400,7,4,15900,6900,Cobalt Harbor Ltd
+Ingrid Larsen,ACC017,Retail,Adriatic Union Bank - Old Town Branch,37000,16400,11,3,14500,2600,Windward Export Group
+Yusuf Demir,ACC018,Private Banking,Pacific Rim Commercial Bank - Marina Branch,35000,24600,7,2,13800,2900,Marlow & Finch Trading Ltd
+Dmitri Petrov,ACC019,Retail,Meridian Trust Bank - Uptown Branch,34000,24000,12,6,19000,17200,Gamma Imports Ltd
+Maria Kovač,ACC020,Small Business,Continental Correspondent Bank - Harbor Branch,33500,23400,8,6,17800,12600,Highgate Commodities Ltd
+Aisha Rahman,ACC021,Private Banking,Helvetia Private Bank - Lakeside Branch,32000,23000,8,7,20000,18500,Ravenwood Trading Co
+Tomas Novak,ACC022,Retail,Meridian Trust Bank - Central Branch,33000,23500,14,5,18500,13300,Falcon Ridge Commodities Ltd

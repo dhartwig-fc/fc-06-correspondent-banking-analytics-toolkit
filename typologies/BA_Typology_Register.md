@@ -6,6 +6,17 @@ Master inventory of the Correspondent Banking Analytics scenarios.
 
 ---
 
+## Build Status
+
+- **BA001 Structuring — BUILT** (Phase B, 2026-08-10). The reference implementation every
+  other BA0NN typology mirrors: fc-06 analytic + >=20-row real-named sample data + docs +
+  diagram, fc-10 generic delegation adapter + star graph + registry entry + manifest,
+  manufactures STAGE518/stage364 clean, and fuses onto **Gamma Imports Ltd** in the
+  estate network via canonical entity resolution (ACC019, 86/Critical).
+- BA002–BA010 — planned (Phase C), per the build waves below.
+
+---
+
 | ID | Name | Category | Pattern | Subject |
 |------|------|------|------|------|
 | BA001 | Structuring | Cash Structuring | Sub-threshold cash broken up to evade CTR reporting | Customer account |

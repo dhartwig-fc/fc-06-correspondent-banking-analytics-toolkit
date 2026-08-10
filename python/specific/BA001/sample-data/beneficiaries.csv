@@ -1,0 +1,23 @@
+beneficiary_name,account_ref,bank,jurisdiction,relationship,prior_alerts
+Blue Harbour Logistics Ltd,ACC001,Meridian Trust Bank,Ireland,Logistics partner,0
+Cedar & Vale Trading Ltd,ACC002,Continental Correspondent Bank,Canada,Trade counterparty,0
+Northwind Freight Co,ACC003,Adriatic Union Bank,Germany,Logistics partner,0
+Solano Exchange House,ACC004,Pacific Rim Commercial Bank,Hong Kong,Money service business,1
+Kestrel Cash & Carry Ltd,ACC005,Helvetia Private Bank,Switzerland,Retail supplier,0
+Gamma Imports Ltd,ACC006,Continental Correspondent Bank,Marshall Islands,Import supplier,0
+Harborlight Export Co,ACC007,Meridian Trust Bank,United Kingdom,Trade counterparty,0
+Meridian Bulk Traders Ltd,ACC008,Continental Correspondent Bank,Cyprus,Trade counterparty,1
+Falcon Ridge Commodities Ltd,ACC009,Adriatic Union Bank,Panama,Commodities supplier,1
+Ashford & Pine Ltd,ACC010,Pacific Rim Commercial Bank,Singapore,Consulting retainer,0
+Silverline Freight Partners,ACC011,Helvetia Private Bank,United Arab Emirates,Logistics partner,1
+Ravenwood Trading Co,ACC012,Meridian Trust Bank,Turkey,Trade counterparty,0
+Delta Quay Exports Ltd,ACC013,Continental Correspondent Bank,Hong Kong,Export supplier,1
+Amber Coast Traders Ltd,ACC014,Adriatic Union Bank,Cyprus,Trade counterparty,1
+Union Bridge Commerce Ltd,ACC015,Pacific Rim Commercial Bank,Panama,Contractor payment,2
+Cobalt Harbor Ltd,ACC016,Helvetia Private Bank,British Virgin Islands,Property developer,1
+Windward Export Group,ACC017,Meridian Trust Bank,United Arab Emirates,Export supplier,2
+Marlow & Finch Trading Ltd,ACC018,Continental Correspondent Bank,Hong Kong,Trade counterparty,2
+Gamma Imports Ltd,ACC019,Continental Correspondent Bank,Marshall Islands,Import supplier,2
+Highgate Commodities Ltd,ACC020,Adriatic Union Bank,Panama,Commodities supplier,3
+Ravenwood Trading Co,ACC021,Pacific Rim Commercial Bank,Turkey,Trade counterparty,3
+Falcon Ridge Commodities Ltd,ACC022,Helvetia Private Bank,Panama,Commodities supplier,2
