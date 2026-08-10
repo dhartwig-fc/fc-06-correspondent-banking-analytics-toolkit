@@ -50,7 +50,14 @@ Master inventory of the Correspondent Banking Analytics scenarios.
   canonical entity resolution (CIA019, 90/Critical). BA007 is the estate's designated
   subject-as-bridge typology: unlike BA001–BA006, where the bridge entity is a connected
   counterparty, BA007's top-scoring account IS Gamma Imports Ltd itself.
-- BA008–BA010 — planned (Phase C), per the build waves below.
+- **BA008 Layering — BUILT** (Phase C, 2026-08-10). Mirrors BA001–BA007's file set
+  exactly: fc-06 analytic + 22-row real-named sample data + docs + diagram, fc-10 generic
+  delegation adapter + star graph + registry entry + manifest, manufactures
+  STAGE518/stage364 clean, and fuses onto **Gamma Imports Ltd** in the estate network via
+  canonical entity resolution (LAY019, 90/Critical). LAY019's second intermediary hop,
+  Continental Correspondent Bank, is the recurring shared correspondent bank across
+  BA004/BA005/BA006/BA008.
+- BA009–BA010 — planned (Phase C), per the build waves below.
 
 ---
 
@@ -108,9 +115,13 @@ canonical resolution joins them into a fused case:
 - BA006 Dormant Reactivation → reactivates into **Alpha Trading Ltd** as its first
   reactivation counterparty (also names **Continental Correspondent Bank** as its
   recurring second reactivation counterparty, shared with BA004/BA005).
+- BA008 Layering → layers its transfer chain through **Gamma Imports Ltd** as its first
+  intermediary (also names **Continental Correspondent Bank** as its second intermediary,
+  the fourth typology to reference that recurring correspondent bank after
+  BA004/BA005/BA006).
 - BA009 Transaction Laundering → processes for **John Smith** (the network PEP).
 
-The other three typologies fuse as honest correspondent-banking subgraphs and can bridge via
+The other two typologies fuse as honest correspondent-banking subgraphs and can bridge via
 new banks shared across BA typologies (e.g. Continental Correspondent Bank appears in BA004,
 BA005, BA006 and BA008).
 

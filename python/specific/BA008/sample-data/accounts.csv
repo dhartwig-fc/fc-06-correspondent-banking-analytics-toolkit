@@ -1,0 +1,23 @@
+customer_name,account_ref,segment,home_branch,chain_depth,opaque_intermediary_count,total_intermediary_count,secrecy_jurisdiction_hops,fragment_count,first_intermediary_name,second_intermediary_name,destination_name
+Emil Novotny,LAY001,Retail,Meridian Trust Bank - Central Branch,1,1,10,0,1,Birchwood Nominee Services,Corvellis Trade Partners,Wrenfield Mercantile Ltd
+Camila Duarte,LAY002,Small Business,Continental Correspondent Bank - Harbor Branch,3,1,10,0,1,Larkhaven Consultants,Marrow Bay Holdings,Thistlewood Traders
+Aiden Walsh,LAY003,Retail,Adriatic Union Bank - Old Town Branch,1,3,10,0,1,Ashcombe Nominees Ltd,Delmore Trading Co,Featherstone Holdings
+Farida Haidari,LAY004,Private Banking,Pacific Rim Commercial Bank - Marina Branch,1,1,10,1,1,Cinderfield Partners,Hollowgate Ventures,Bramblewick Traders
+Lukas Schmidt,LAY005,Retail,Helvetia Private Bank - Lakeside Branch,1,1,10,0,3,Millbrook Nominee Group,Sandhurst Commerce Ltd,Ravensdale Holdings
+Naomi Chen,LAY006,Small Business,Meridian Trust Bank - Uptown Branch,2,1,8,0,2,Northgate Trading Partners,Gamma Imports Ltd,Coldwater Mercantile Co
+Ibrahim Osei,LAY007,Small Business,Continental Correspondent Bank - Riverside Branch,4,4,10,1,4,Ferngrove Holdings,Whitmore Trading Group,Larchfield Ventures
+Valentina Rossi,LAY008,Retail,Adriatic Union Bank - Old Town Branch,6,4,10,1,4,Cobblestone Traders,Ashworth Holdings,Millgate Ventures
+Hana Watanabe,LAY009,Private Banking,Pacific Rim Commercial Bank - Marina Branch,4,6,10,1,4,Redmoor Commerce Ltd,Blackfriar Traders,Sunnydale Holdings
+Dmitri Sokolov,LAY010,Retail,Helvetia Private Bank - Lakeside Branch,4,4,10,2,4,Elmswood Trading Co,Farley Holdings,Kingswell Traders
+Priya Chatterjee,LAY011,Small Business,Meridian Trust Bank - Central Branch,4,4,10,1,6,Oakhaven Ventures,Priorswood Trading,Sterling Cross Holdings
+Marcus Webb,LAY012,Private Banking,Continental Correspondent Bank - Harbor Branch,2,6,10,1,4,Marchbanks Holdings,Greystone Traders,Hallowfield Ventures
+Zara Ahmed,LAY013,Retail,Adriatic Union Bank - Old Town Branch,4,6,10,2,6,Thornbury Trading Group,Fairweather Holdings,Underwood Traders
+Bjorn Eriksson,LAY014,Small Business,Pacific Rim Commercial Bank - Marina Branch,6,6,10,2,6,Woodhall Commerce Ltd,Cresswell Traders,Blackmoor Holdings
+Isabela Cruz,LAY015,Private Banking,Helvetia Private Bank - Lakeside Branch,8,6,10,2,6,Ravensworth Trading Co,Elderbrook Holdings,Fenwick Traders
+Anwar Siddiqui,LAY016,Retail,Meridian Trust Bank - Uptown Branch,6,9,10,2,6,Hartwell Trading Group,Sedgemoor Holdings,Thackeray Traders
+Greta Lindholm,LAY017,Small Business,Continental Correspondent Bank - Riverside Branch,6,6,10,3,6,Wexford Commerce Ltd,Aldergate Holdings,Kestrel Point Traders
+Rafael Silva,LAY018,Private Banking,Adriatic Union Bank - Old Town Branch,6,9,10,2,9,Brackenridge Trading Co,Millhaven Holdings,Stonebridge Traders
+Katarina Novak,LAY019,Retail,Adriatic Union Bank - Old Town Branch,9,8,9,4,9,Gamma Imports Ltd,Continental Correspondent Bank,Solano Exchange House
+Youssef El-Amin,LAY020,Small Business,Pacific Rim Commercial Bank - Marina Branch,8,9,10,2,9,Kingsbridge Nominee Trust,Ashgrove Holdings,Fairhaven Traders
+Ingrid Solberg,LAY021,Private Banking,Helvetia Private Bank - Lakeside Branch,8,9,10,3,6,Blackthorn Nominee Services,Ravensbourne Holdings,Wysteria Traders
+Chidi Nwosu,LAY022,Retail,Meridian Trust Bank - Uptown Branch,6,9,10,3,9,Hollingsworth Trading Co,Marchmont Holdings,Thistledown Traders

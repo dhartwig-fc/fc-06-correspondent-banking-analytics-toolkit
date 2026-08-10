@@ -1,0 +1,23 @@
+destination_name,account_ref,bank,jurisdiction,relationship,prior_alerts
+Wrenfield Mercantile Ltd,LAY001,Meridian Trust Bank,Ireland,Unverified intermediary,0
+Thistlewood Traders,LAY002,Continental Correspondent Bank,Canada,Unverified intermediary,0
+Featherstone Holdings,LAY003,Adriatic Union Bank,Germany,Unverified intermediary,0
+Bramblewick Traders,LAY004,Pacific Rim Commercial Bank,Cyprus,Unverified intermediary,0
+Ravensdale Holdings,LAY005,Helvetia Private Bank,Switzerland,Unverified intermediary,0
+Coldwater Mercantile Co,LAY006,Meridian Trust Bank,United Kingdom,Unverified intermediary,0
+Larchfield Ventures,LAY007,Continental Correspondent Bank,Cyprus,Unverified intermediary,1
+Millgate Ventures,LAY008,Adriatic Union Bank,Hong Kong,Unverified intermediary,1
+Sunnydale Holdings,LAY009,Pacific Rim Commercial Bank,Panama,Unverified intermediary,1
+Kingswell Traders,LAY010,Helvetia Private Bank,British Virgin Islands,Unverified intermediary,1
+Sterling Cross Holdings,LAY011,Meridian Trust Bank,Singapore,Unverified intermediary,1
+Hallowfield Ventures,LAY012,Continental Correspondent Bank,Turkey,Unverified intermediary,1
+Underwood Traders,LAY013,Adriatic Union Bank,Panama,Unverified intermediary,2
+Blackmoor Holdings,LAY014,Pacific Rim Commercial Bank,Cayman Islands,Unverified intermediary,2
+Fenwick Traders,LAY015,Helvetia Private Bank,Marshall Islands,Unverified intermediary,2
+Thackeray Traders,LAY016,Meridian Trust Bank,British Virgin Islands,Unverified intermediary,2
+Kestrel Point Traders,LAY017,Continental Correspondent Bank,Cayman Islands,Unverified intermediary,2
+Stonebridge Traders,LAY018,Adriatic Union Bank,Panama,Unverified intermediary,3
+Solano Exchange House,LAY019,Pacific Rim Commercial Bank,Hong Kong,Money service business,3
+Fairhaven Traders,LAY020,Helvetia Private Bank,Marshall Islands,Unverified intermediary,3
+Wysteria Traders,LAY021,Meridian Trust Bank,Cayman Islands,Unverified intermediary,3
+Thistledown Traders,LAY022,Continental Correspondent Bank,British Virgin Islands,Unverified intermediary,3

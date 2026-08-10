@@ -1,0 +1,110 @@
+{
+  "schema_name": "ba008_layering_schema",
+  "version": "1.0",
+  "pattern_id": "BA008",
+  "description": "Machine-readable schema for the BA008 Layering analytics workflow.",
+  "datasets": {
+    "accounts": {
+      "file": "accounts.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "customer_name": "string",
+        "account_ref": "string",
+        "segment": "string",
+        "home_branch": "string",
+        "chain_depth": "integer",
+        "opaque_intermediary_count": "integer",
+        "total_intermediary_count": "integer",
+        "secrecy_jurisdiction_hops": "integer",
+        "fragment_count": "integer",
+        "first_intermediary_name": "string",
+        "second_intermediary_name": "string",
+        "destination_name": "string"
+      },
+      "required": [
+        "customer_name",
+        "account_ref",
+        "home_branch",
+        "chain_depth",
+        "opaque_intermediary_count",
+        "total_intermediary_count",
+        "secrecy_jurisdiction_hops",
+        "fragment_count",
+        "destination_name"
+      ]
+    },
+    "intermediaries": {
+      "file": "intermediaries.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "destination_name": "string",
+        "account_ref": "string",
+        "bank": "string",
+        "jurisdiction": "string",
+        "relationship": "string",
+        "prior_alerts": "integer"
+      },
+      "required": [
+        "destination_name",
+        "account_ref",
+        "bank",
+        "jurisdiction",
+        "relationship",
+        "prior_alerts"
+      ]
+    }
+  },
+  "components": {
+    "chain_depth": {
+      "weight": 0.30
+    },
+    "intermediary_opacity": {
+      "weight": 0.25
+    },
+    "jurisdiction_hopping": {
+      "weight": 0.25
+    },
+    "value_fragmentation": {
+      "weight": 0.20
+    }
+  },
+  "band_scores": {
+    "Low": 15,
+    "Medium": 45,
+    "High": 70,
+    "Critical": 90
+  },
+  "thresholds": {
+    "alert_threshold": 80
+  },
+  "risk_bands": {
+    "low": {
+      "min": 0,
+      "max": 29
+    },
+    "medium": {
+      "min": 30,
+      "max": 59
+    },
+    "high": {
+      "min": 60,
+      "max": 79
+    },
+    "critical": {
+      "min": 80,
+      "max": 100
+    }
+  },
+  "derived_fields": {
+    "intermediary_opacity_ratio": "opaque_intermediary_count / total_intermediary_count",
+    "exposure_score": "weighted sum of the four component band-midpoint scores"
+  },
+  "outputs": {
+    "ba008_exposure_scores": {
+      "file": "ba008_exposure_scores.csv"
+    },
+    "ba008_layering_alerts": {
+      "file": "ba008_layering_alerts.csv"
+    }
+  }
+}
