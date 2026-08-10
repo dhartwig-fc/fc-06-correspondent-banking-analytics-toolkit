@@ -1,0 +1,117 @@
+{
+  "schema_name": "ba009_transaction_laundering_schema",
+  "version": "1.0",
+  "pattern_id": "BA009",
+  "description": "Machine-readable schema for the BA009 Transaction Laundering analytics workflow.",
+  "datasets": {
+    "merchants": {
+      "file": "merchants.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "customer_name": "string",
+        "account_ref": "string",
+        "segment": "string",
+        "home_branch": "string",
+        "processed_card_volume": "number",
+        "declared_business_volume": "number",
+        "unrelated_merchant_count": "integer",
+        "mcc_mismatched_txn_count": "integer",
+        "total_txn_count": "integer",
+        "refund_chargeback_amount": "number",
+        "total_processed_amount": "number",
+        "processor_name": "string",
+        "hidden_merchant_name": "string",
+        "linked_individual_id": "string",
+        "linked_individual_name": "string"
+      },
+      "required": [
+        "customer_name",
+        "account_ref",
+        "home_branch",
+        "processed_card_volume",
+        "declared_business_volume",
+        "unrelated_merchant_count",
+        "mcc_mismatched_txn_count",
+        "total_txn_count",
+        "refund_chargeback_amount",
+        "total_processed_amount",
+        "processor_name"
+      ]
+    },
+    "processors": {
+      "file": "processors.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "processor_name": "string",
+        "account_ref": "string",
+        "bank": "string",
+        "jurisdiction": "string",
+        "relationship": "string",
+        "prior_alerts": "integer"
+      },
+      "required": [
+        "processor_name",
+        "account_ref",
+        "bank",
+        "jurisdiction",
+        "relationship",
+        "prior_alerts"
+      ]
+    }
+  },
+  "components": {
+    "volume_profile_mismatch": {
+      "weight": 0.30
+    },
+    "third_party_indicators": {
+      "weight": 0.25
+    },
+    "mcc_inconsistency": {
+      "weight": 0.25
+    },
+    "refund_chargeback_anomaly": {
+      "weight": 0.20
+    }
+  },
+  "band_scores": {
+    "Low": 15,
+    "Medium": 45,
+    "High": 70,
+    "Critical": 90
+  },
+  "thresholds": {
+    "alert_threshold": 80
+  },
+  "risk_bands": {
+    "low": {
+      "min": 0,
+      "max": 29
+    },
+    "medium": {
+      "min": 30,
+      "max": 59
+    },
+    "high": {
+      "min": 60,
+      "max": 79
+    },
+    "critical": {
+      "min": 80,
+      "max": 100
+    }
+  },
+  "derived_fields": {
+    "volume_profile_mismatch_ratio": "processed_card_volume / declared_business_volume",
+    "mcc_inconsistency_ratio": "mcc_mismatched_txn_count / total_txn_count",
+    "refund_chargeback_ratio": "refund_chargeback_amount / total_processed_amount",
+    "exposure_score": "weighted sum of the four component band-midpoint scores"
+  },
+  "outputs": {
+    "ba009_exposure_scores": {
+      "file": "ba009_exposure_scores.csv"
+    },
+    "ba009_transaction_laundering_alerts": {
+      "file": "ba009_transaction_laundering_alerts.csv"
+    }
+  }
+}

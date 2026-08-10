@@ -1,0 +1,23 @@
+processor_name,account_ref,bank,jurisdiction,relationship,prior_alerts
+Meridian PayLink Processing,MER001,Meridian Trust Bank,United Kingdom,Card acquiring processor,0
+Continental Merchant Services,MER002,Continental Correspondent Bank,Ireland,Card acquiring processor,0
+Adriatic Card Clearing Ltd,MER003,Adriatic Union Bank,Germany,Card acquiring processor,0
+Pacific Gateway Payments,MER004,Pacific Rim Commercial Bank,Hong Kong,Card acquiring processor,1
+Helvetia Settlement Partners,MER005,Helvetia Private Bank,Switzerland,Card acquiring processor,0
+Meridian PayLink Processing,MER006,Meridian Trust Bank,United Kingdom,Card acquiring processor,0
+Continental Merchant Services,MER007,Continental Correspondent Bank,Cyprus,Card acquiring processor,1
+Adriatic Card Clearing Ltd,MER008,Adriatic Union Bank,Panama,Card acquiring processor,1
+Pacific Gateway Payments,MER009,Pacific Rim Commercial Bank,Singapore,Card acquiring processor,0
+Helvetia Settlement Partners,MER010,Helvetia Private Bank,United Arab Emirates,Card acquiring processor,1
+Meridian PayLink Processing,MER011,Meridian Trust Bank,Turkey,Card acquiring processor,1
+Continental Merchant Services,MER012,Continental Correspondent Bank,Hong Kong,Card acquiring processor,1
+Adriatic Card Clearing Ltd,MER013,Adriatic Union Bank,Cyprus,Card acquiring processor,1
+Pacific Gateway Payments,MER014,Pacific Rim Commercial Bank,Panama,Card acquiring processor,2
+Helvetia Settlement Partners,MER015,Helvetia Private Bank,British Virgin Islands,Card acquiring processor,1
+Meridian PayLink Processing,MER016,Meridian Trust Bank,United Arab Emirates,Card acquiring processor,2
+Continental Merchant Services,MER017,Continental Correspondent Bank,Hong Kong,Card acquiring processor,2
+Adriatic Card Clearing Ltd,MER018,Adriatic Union Bank,Panama,Card acquiring processor,2
+Continental Merchant Services,MER019,Continental Correspondent Bank,Marshall Islands,Card acquiring processor,3
+Pacific Gateway Payments,MER020,Pacific Rim Commercial Bank,Panama,Card acquiring processor,3
+Adriatic Card Clearing Ltd,MER021,Adriatic Union Bank,Turkey,Card acquiring processor,3
+Helvetia Settlement Partners,MER022,Helvetia Private Bank,Panama,Card acquiring processor,2
