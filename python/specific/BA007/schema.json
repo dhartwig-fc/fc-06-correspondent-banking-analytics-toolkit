@@ -1,0 +1,115 @@
+{
+  "schema_name": "ba007_cash_intensive_activity_schema",
+  "version": "1.0",
+  "pattern_id": "BA007",
+  "description": "Machine-readable schema for the BA007 Cash Intensive Activity analytics workflow.",
+  "datasets": {
+    "accounts": {
+      "file": "accounts.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "customer_name": "string",
+        "account_ref": "string",
+        "segment": "string",
+        "home_branch": "string",
+        "cash_deposits_amount": "number",
+        "total_turnover_amount": "number",
+        "peer_norm_cash_ratio": "number",
+        "declared_annual_cash_volume": "number",
+        "deposit_cv_pct": "number",
+        "third_party_deposit_amount": "number",
+        "total_deposit_amount": "number",
+        "top_depositor_name": "string",
+        "linked_entity_name": "string"
+      },
+      "required": [
+        "customer_name",
+        "account_ref",
+        "home_branch",
+        "cash_deposits_amount",
+        "total_turnover_amount",
+        "peer_norm_cash_ratio",
+        "declared_annual_cash_volume",
+        "deposit_cv_pct",
+        "third_party_deposit_amount",
+        "total_deposit_amount",
+        "linked_entity_name"
+      ]
+    },
+    "depositors": {
+      "file": "depositors.csv",
+      "primary_key": "account_ref",
+      "fields": {
+        "linked_entity_name": "string",
+        "account_ref": "string",
+        "bank": "string",
+        "jurisdiction": "string",
+        "relationship": "string",
+        "prior_alerts": "integer"
+      },
+      "required": [
+        "linked_entity_name",
+        "account_ref",
+        "bank",
+        "jurisdiction",
+        "relationship",
+        "prior_alerts"
+      ]
+    }
+  },
+  "components": {
+    "cash_ratio": {
+      "weight": 0.35
+    },
+    "profile_excess": {
+      "weight": 0.25
+    },
+    "deposit_regularity": {
+      "weight": 0.20
+    },
+    "commingling": {
+      "weight": 0.20
+    }
+  },
+  "band_scores": {
+    "Low": 15,
+    "Medium": 45,
+    "High": 70,
+    "Critical": 90
+  },
+  "thresholds": {
+    "alert_threshold": 80
+  },
+  "risk_bands": {
+    "low": {
+      "min": 0,
+      "max": 29
+    },
+    "medium": {
+      "min": 30,
+      "max": 59
+    },
+    "high": {
+      "min": 60,
+      "max": 79
+    },
+    "critical": {
+      "min": 80,
+      "max": 100
+    }
+  },
+  "derived_fields": {
+    "cash_ratio_excess": "(cash_deposits_amount / total_turnover_amount) / peer_norm_cash_ratio",
+    "profile_excess_ratio": "cash_deposits_amount / declared_annual_cash_volume",
+    "commingling_ratio": "third_party_deposit_amount / total_deposit_amount",
+    "exposure_score": "weighted sum of the four component band-midpoint scores"
+  },
+  "outputs": {
+    "ba007_exposure_scores": {
+      "file": "ba007_exposure_scores.csv"
+    },
+    "ba007_cash_intensive_activity_alerts": {
+      "file": "ba007_cash_intensive_activity_alerts.csv"
+    }
+  }
+}

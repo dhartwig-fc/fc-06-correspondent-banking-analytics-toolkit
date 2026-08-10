@@ -43,7 +43,14 @@ Master inventory of the Correspondent Banking Analytics scenarios.
   canonical entity resolution (DR019, 90/Critical). Its second reactivation counterparty,
   Continental Correspondent Bank, recurs as the shared correspondent bank across
   BA004/BA005/BA006.
-- BA007–BA010 — planned (Phase C), per the build waves below.
+- **BA007 Cash Intensive Activity — BUILT** (Phase C, 2026-08-10). Mirrors BA001–BA006's
+  file set exactly: fc-06 analytic + 22-row real-named sample data + docs + diagram,
+  fc-10 generic delegation adapter + star graph + registry entry + manifest, manufactures
+  STAGE518/stage364 clean, and fuses onto **Gamma Imports Ltd** in the estate network via
+  canonical entity resolution (CIA019, 90/Critical). BA007 is the estate's designated
+  subject-as-bridge typology: unlike BA001–BA006, where the bridge entity is a connected
+  counterparty, BA007's top-scoring account IS Gamma Imports Ltd itself.
+- BA008–BA010 — planned (Phase C), per the build waves below.
 
 ---
 

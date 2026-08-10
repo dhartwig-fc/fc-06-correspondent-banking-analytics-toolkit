@@ -1,0 +1,23 @@
+customer_name,account_ref,segment,home_branch,cash_deposits_amount,total_turnover_amount,peer_norm_cash_ratio,declared_annual_cash_volume,deposit_cv_pct,third_party_deposit_amount,total_deposit_amount,top_depositor_name,linked_entity_name
+Harborlight Grocers Ltd,CIA001,Grocery Retail,Meridian Trust Bank - Central Branch,42000,520000,0.15,45000,55,800,42000,Elena Marsh,Coral Bay Provisions Ltd
+Union Square Bakery,CIA002,Bakery,Continental Correspondent Bank - Harbor Branch,38000,480000,0.15,40000,60,500,38000,Tobias Reyes,Wrenfield Supply Co
+Riverside Hardware Co,CIA003,Hardware Retail,Adriatic Union Bank - Old Town Branch,51000,600000,0.15,54000,50,1200,51000,Priya Nandakumar,Ashgrove Distributors Ltd
+Marblecrest Pharmacy,CIA004,Pharmacy,Pacific Rim Commercial Bank - Marina Branch,60000,700000,0.15,62000,58,900,60000,Marco Bellini,Thistledown Trading Co
+Cobblestone Deli,CIA005,Food Service,Helvetia Private Bank - Lakeside Branch,47000,560000,0.15,50000,52,700,47000,Fatima Zahra,Larkspur Wholesale Ltd
+Lantern Hill Bookstore,CIA006,Retail - Books,Meridian Trust Bank - Uptown Branch,55000,640000,0.15,58000,47,1000,55000,Owen Kavanagh,Millbrook Commerce Group
+Golden Anchor Diner,CIA007,Food Service,Continental Correspondent Bank - Riverside Branch,130000,480000,0.16,92000,38,8000,130000,Ingrid Solberg,Foxglove Import Co
+Silver Fox Salon & Spa,CIA008,Personal Care,Adriatic Union Bank - Old Town Branch,145000,540000,0.16,103000,35,10000,145000,Rafael Duarte,Hartwell & Sons Trading
+Copperfield Car Wash,CIA009,Vehicle Services,Pacific Rim Commercial Bank - Marina Branch,120000,430000,0.16,86000,40,7500,120000,Noor Haidari,Ivory Coast Provisioning Ltd
+Blue Ridge Laundromat,CIA010,Laundry Services,Helvetia Private Bank - Lakeside Branch,155000,580000,0.16,110000,33,11000,155000,Callum Fraser,Juniper Ridge Holdings
+Emberton Vending Co,CIA011,Vending Operations,Meridian Trust Bank - Central Branch,135000,500000,0.16,96000,36,9000,135000,Sofia Marchetti,Kingsley Mercantile Co
+Trailside Convenience Mart,CIA012,Convenience Retail,Continental Correspondent Bank - Harbor Branch,165000,620000,0.16,118000,32,12000,165000,Aditya Rao,Lockhart Distribution Ltd
+Vantage Point Amusement Arcade,CIA013,Amusement & Gaming,Adriatic Union Bank - Old Town Branch,260000,620000,0.22,140000,24,22000,260000,Beatrix Lindqvist,Moorland Supply Group
+Nightingale Nightclub Group,CIA014,Hospitality & Nightlife,Pacific Rim Commercial Bank - Marina Branch,300000,700000,0.22,165000,22,28000,300000,Julian Voss,Nightjar Trading Co
+Palermo Pizzeria Chain,CIA015,Food Service,Meridian Trust Bank - Uptown Branch,240000,560000,0.22,128000,26,20000,240000,Camila Torres,Oakhurst Provisions Ltd
+Coastal Fuel & Mart,CIA016,Fuel & Convenience,Continental Correspondent Bank - Riverside Branch,330000,760000,0.22,178000,20,32000,330000,Dawit Bekele,Pinehollow Wholesale Ltd
+Ridgeline Pawn Exchange,CIA017,Pawn & Secondhand,Helvetia Private Bank - Lakeside Branch,280000,640000,0.22,152000,23,25000,280000,Freya Sundberg,Quillfeather Commerce Ltd
+Sunset Strip Casino Cage,CIA018,Gaming & Casino,Pacific Rim Commercial Bank - Marina Branch,350000,800000,0.22,190000,19,35000,350000,Mateus Silva,Ravensworth Trading Co
+Gamma Imports Ltd,CIA019,Import / Trading,Continental Correspondent Bank - Harbor Branch,760000,820000,0.3,300000,8,250000,760000,Naledi Khumalo,Silverlake Provisioning Ltd
+Kestrel Cash & Carry Ltd,CIA020,Cash & Carry Wholesale,Meridian Trust Bank - Central Branch,640000,700000,0.35,260000,10,100000,640000,Piotr Zielinski,Thornbury Wholesale Group
+Solano Exchange House,CIA021,Currency Exchange,Adriatic Union Bank - Old Town Branch,590000,650000,0.32,240000,11,92000,590000,Rosalind Achebe,Underwood Exchange Partners
+Ironclad Bullion Exchange Ltd,CIA022,Bullion & Currency Exchange,Helvetia Private Bank - Lakeside Branch,520000,590000,0.34,210000,12,80000,520000,Sami Toivonen,Vesper Bullion Partners Ltd
