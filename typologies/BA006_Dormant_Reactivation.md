@@ -117,7 +117,7 @@ Band-midpoints 15/45/70/90, weighted sum, half-up, boundary at 80.
 
 ---
 
-# Example Exposure Score — DR019 Viktor Andreev
+# Example Exposure Score — DR019 Viktor Tallowbristle
 
 | Component | Evidence | Band |
 |------------|----------|------|
@@ -184,7 +184,7 @@ alerts = suspect[suspect["exposure_score"] >= 80]
 # Investigator Outcome
 
 ```text
-Account:                  Viktor Andreev — DR019
+Account:                  Viktor Tallowbristle — DR019
 Home Branch:               Pacific Rim Commercial Bank - Summit Branch
 Pre-Dormancy Activity:      $8,000/month average
 Reactivating Inflow:        $200,000 (ratio 25.0)

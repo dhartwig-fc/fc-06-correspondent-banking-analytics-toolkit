@@ -19,7 +19,7 @@ raw values are then rounded to realistic integers, and the actual z-score the
 model will recompute from those rounded values is what determines the band --
 verified consistent with the target by `validate_ba010_schema.py`.
 
-Fusion bridge: PGA019 (Miriam Oduya, 90/Critical, the single highest-scoring
+Fusion bridge: PGA019 (Miriam Bramblekettle, 90/Critical, the single highest-scoring
 account in the set) deviates from its peer segment on every component --
 Critical volume, velocity, product-usage and counterparty-diversity z-scores --
 and its anomalous counterparty is **Alpha Trading Ltd**, the same real-world
@@ -60,39 +60,39 @@ BANKS = [
     "Helvetia Private Bank - Lakeside Branch",
 ]
 
-PEERS = ["Nadia Kowalska", "Emeka Obi", "Sven Andersson", "Camille Fontaine", "Rosa Herrera", "Dov Levin"]
+PEERS = ["Nadia Rushquilla", "Emeka Ashwisp", "Sven Puddlecrumb", "Camille Flintbristle", "Rosa Marrowbutton", "Dov Rushwisp"]
 PEER_JURISDICTIONS = ["United Kingdom", "Ireland", "Germany", "Hong Kong", "Switzerland", "Cyprus"]
 
 COUNTERPARTIES = [
     "Blue Harbour Logistics Ltd", "Cedar & Vale Trading Ltd", "Northwind Freight Co",
-    "Solano Exchange House", "Kestrel Cash & Carry Ltd", "Gamma Imports Ltd",
-    "Zeta Commodities Ltd", "Fenwick Overseas Trading Ltd",
+    "Solano Exchange House", "Kestrel Cash & Carry Ltd", "Gammavane Imports Ltd",
+    "Zeta Commodities Ltd", "Thistlebutton Overseas Trading Ltd",
 ]
 
 # customer_name, account_ref, segment, z_volume, z_velocity, z_product, z_counterparty, counterparty_override
 _ROWS: List[Tuple[str, str, str, float, float, float, float, str]] = [
-    ("Elena Marchetti", "PGA001", "Retail Deposit Accounts", 0.40, 0.50, 0.35, 0.55, None),
-    ("Youssef El-Amin", "PGA002", "Business Current Accounts", 0.50, 0.35, 0.55, 0.40, None),
-    ("Freya Lindqvist", "PGA003", "Retail Deposit Accounts", -0.45, 0.55, 0.40, 0.50, None),
-    ("Marcus Delacroix", "PGA004", "Business Current Accounts", 0.55, -0.40, 0.50, 0.35, None),
-    ("Priya Nair", "PGA005", "Retail Deposit Accounts", 0.35, 0.50, -0.55, 0.45, None),
-    ("Callum Ashworth", "PGA006", "Business Current Accounts", 0.50, 0.40, 0.45, -0.35, None),
-    ("Ingrid Solheim", "PGA007", "Retail Deposit Accounts", 1.40, 1.50, 1.35, 1.55, None),
-    ("Rafael Duarte", "PGA008", "Business Current Accounts", 1.50, 1.35, 1.55, 1.40, None),
-    ("Noor Haddad", "PGA009", "Retail Deposit Accounts", -1.45, 1.55, 1.40, 1.50, None),
-    ("Bjorn Kallio", "PGA010", "Business Current Accounts", 1.55, -1.40, 1.50, 1.35, None),
-    ("Amara Chukwu", "PGA011", "Retail Deposit Accounts", 1.35, 1.50, -1.55, 1.45, None),
-    ("Lucas Bergman", "PGA012", "Business Current Accounts", 1.50, 1.40, 1.45, -1.35, None),
-    ("Sana Farooqi", "PGA013", "Retail Deposit Accounts", 2.40, 2.50, 2.35, 2.55, None),
-    ("Oskar Lindberg", "PGA014", "Business Current Accounts", 2.50, 2.35, 2.55, 2.40, None),
-    ("Wren Fairweather", "PGA015", "Retail Deposit Accounts", -2.45, 2.55, 2.40, 2.50, None),
-    ("Kofi Boateng", "PGA016", "Business Current Accounts", 2.55, -2.40, 2.50, 2.35, None),
-    ("Isla Mactavish", "PGA017", "Retail Deposit Accounts", 2.35, 2.50, -2.55, 2.45, None),
-    ("Henrik Solberg", "PGA018", "Business Current Accounts", 2.50, 2.40, 2.45, -2.35, None),
-    ("Miriam Oduya", "PGA019", "Retail Deposit Accounts", 4.20, 3.80, 3.60, 4.00, "Alpha Trading Ltd"),
-    ("Tobias Reinholt", "PGA020", "Business Current Accounts", 3.60, 3.90, 3.40, 2.50, None),
-    ("Layla Mansour", "PGA021", "Retail Deposit Accounts", 3.50, 2.50, 3.60, 3.70, None),
-    ("Gustav Ahonen", "PGA022", "Business Current Accounts", 3.80, 3.50, 2.50, 3.90, None),
+    ("Elena Sorrelkettle", "PGA001", "Retail Deposit Accounts", 0.40, 0.50, 0.35, 0.55, None),
+    ("Youssef Thistletumble", "PGA002", "Business Current Accounts", 0.50, 0.35, 0.55, 0.40, None),
+    ("Freya Nettlewhistle", "PGA003", "Retail Deposit Accounts", -0.45, 0.55, 0.40, 0.50, None),
+    ("Marcus Brambletumble", "PGA004", "Business Current Accounts", 0.55, -0.40, 0.50, 0.35, None),
+    ("Priya Flintcrumb", "PGA005", "Retail Deposit Accounts", 0.35, 0.50, -0.55, 0.45, None),
+    ("Callum Marrowthimble", "PGA006", "Business Current Accounts", 0.50, 0.40, 0.45, -0.35, None),
+    ("Ingrid Vellumspindle", "PGA007", "Retail Deposit Accounts", 1.40, 1.50, 1.35, 1.55, None),
+    ("Rafael Lanternquill", "PGA008", "Business Current Accounts", 1.50, 1.35, 1.55, 1.40, None),
+    ("Noor Quillbristle", "PGA009", "Retail Deposit Accounts", -1.45, 1.55, 1.40, 1.50, None),
+    ("Bjorn Emberkettle", "PGA010", "Business Current Accounts", 1.55, -1.40, 1.50, 1.35, None),
+    ("Amara Tallowmote", "PGA011", "Retail Deposit Accounts", 1.35, 1.50, -1.55, 1.45, None),
+    ("Lucas Vellumthimble", "PGA012", "Business Current Accounts", 1.50, 1.40, 1.45, -1.35, None),
+    ("Sana Pebbletumble", "PGA013", "Retail Deposit Accounts", 2.40, 2.50, 2.35, 2.55, None),
+    ("Oskar Duskwhistle", "PGA014", "Business Current Accounts", 2.50, 2.35, 2.55, 2.40, None),
+    ("Wren Rushbristle", "PGA015", "Retail Deposit Accounts", -2.45, 2.55, 2.40, 2.50, None),
+    ("Kofi Ashkettle", "PGA016", "Business Current Accounts", 2.55, -2.40, 2.50, 2.35, None),
+    ("Isla Hollowbutton", "PGA017", "Retail Deposit Accounts", 2.35, 2.50, -2.55, 2.45, None),
+    ("Henrik Hazelwisp", "PGA018", "Business Current Accounts", 2.50, 2.40, 2.45, -2.35, None),
+    ("Miriam Bramblekettle", "PGA019", "Retail Deposit Accounts", 4.20, 3.80, 3.60, 4.00, "Alpha Trading Ltd"),
+    ("Tobias Lanternbutton", "PGA020", "Business Current Accounts", 3.60, 3.90, 3.40, 2.50, None),
+    ("Layla Gorsewisp", "PGA021", "Retail Deposit Accounts", 3.50, 2.50, 3.60, 3.70, None),
+    ("Gustav Kettlefiddle", "PGA022", "Business Current Accounts", 3.80, 3.50, 2.50, 3.90, None),
 ]
 
 

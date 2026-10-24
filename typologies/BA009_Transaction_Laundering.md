@@ -180,7 +180,7 @@ Unrelated Merchants:      8 sub-merchants
 MCC Mismatch:             1,100 of 2,000 transactions (ratio 0.55)
 Refund/Chargeback:        $156,800 of $1,120,000 (ratio 0.14)
 Processor:                Continental Merchant Services
-Undisclosed Principal:    John Smith (P001) — the network's PEP
+Undisclosed Principal:    John Cloverspindle (P001) — the network's PEP
 Exposure Score:           90 / 100
 Investigation Outcome:    Escalate — card processing volume disproportionate to declared
                           business, unrelated sub-merchants funnelled through, transaction
@@ -218,11 +218,11 @@ the relationship, the MCC inconsistency of the transaction mix, and the refund/c
 anomaly, it surfaces transaction laundering that would otherwise pass as ordinary card
 processing growth. BA009 is the estate's designated PERSON-bridge typology: unlike
 BA001–BA006/BA008 (which bridge onto a connected COMPANY, matched on its exact name),
-MER019 quietly processes card volume for **John Smith**, the network's PEP — a real
+MER019 quietly processes card volume for **John Cloverspindle**, the network's PEP — a real
 person, not a company. The canonical entity resolver's person guard deliberately refuses
 to merge two person nodes on name alone (two different people can share a name), so the
 bridge is carried on the shared local id (P001) instead, the same pattern SAN005 uses for
-its own John Smith PEP hit. As the ninth typology in the fc-06 Correspondent Banking
+its own John Cloverspindle PEP hit. As the ninth typology in the fc-06 Correspondent Banking
 Analytics family, BA009 reuses BA001's file set, scoring convention, and fc-10 wiring
 pattern verbatim, confirming the template replicates cleanly even when the bridge is a
 person rather than a company.

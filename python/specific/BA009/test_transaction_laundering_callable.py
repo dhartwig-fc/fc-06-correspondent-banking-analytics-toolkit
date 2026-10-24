@@ -81,18 +81,18 @@ def test_clean_account_is_not_alerted(governed, frames):
 
 def test_the_john_smith_bridge_alerts_critical(governed, frames):
     """MER019's merchant (Lumen Digital Marketplace Ltd) quietly processes card volume
-    for an undisclosed principal -- John Smith, the PEP already in the estate network
+    for an undisclosed principal -- John Cloverspindle, the PEP already in the estate network
     (id P001, NI001/SAN005) -- and must clear the alert threshold at Critical, proving
     the fusion bridge is a real alerting subject, not a decorative row. It is also the
     single highest-scoring account in the set, which matters: the FC-10 adapter builds
-    its case/graph from score_all's top row, so the John Smith bridge has to be carried
-    by that row. Because John Smith is a PERSON, the bridge is carried on the shared
+    its case/graph from score_all's top row, so the John Cloverspindle bridge has to be carried
+    by that row. Because John Cloverspindle is a PERSON, the bridge is carried on the shared
     local id (linked_individual_id == 'P001'), not on the name -- the canonical
     resolver's person guard never merges two person nodes on name alone."""
     scored = governed.score_all(**frames)
     top = scored.iloc[0]
     assert top["account_ref"] == "MER019" and top["customer_name"] == "Lumen Digital Marketplace Ltd"
-    assert top["linked_individual_id"] == "P001" and top["linked_individual_name"] == "John Smith"
+    assert top["linked_individual_id"] == "P001" and top["linked_individual_name"] == "John Cloverspindle"
     row = governed.evaluate_transaction_laundering(**frames)
     bridge = row[row["account_ref"] == "MER019"].iloc[0]
     assert bridge["linked_individual_id"] == "P001"

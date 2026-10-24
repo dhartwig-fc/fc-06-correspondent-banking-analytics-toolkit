@@ -42,22 +42,22 @@ def main() -> None:
     scored = st.score_all(**st.build_frames_from_sample_data(DATA_DIR)).set_index("account_ref")
     if not (scored.loc["ACC019"]["exposure_score"] == 90 and scored.loc["ACC019"]["exposure_band"] == "Critical"):
         _fail("ACC019 expected 90/Critical")
-    if scored.loc["ACC019"]["beneficiary_name"] != "Gamma Imports Ltd":
-        _fail("ACC019 expected beneficiary Gamma Imports Ltd (the fusion bridge)")
+    if scored.loc["ACC019"]["beneficiary_name"] != "Gammavane Imports Ltd":
+        _fail("ACC019 expected beneficiary Gammavane Imports Ltd (the fusion bridge)")
     if scored.loc["ACC001"]["exposure_band"] != "Low":
         _fail("ACC001 expected Low")
     if scored["exposure_score"].idxmax() != "ACC019":
-        _fail("ACC019 (the Gamma Imports Ltd bridge) must be the single highest-scoring "
+        _fail("ACC019 (the Gammavane Imports Ltd bridge) must be the single highest-scoring "
               "account -- the FC-10 adapter builds its case/graph from score_all's top row")
 
     alerts = st.evaluate_structuring(**st.build_frames_from_sample_data(DATA_DIR))
     if len(alerts) < 2:
         _fail("expected at least 2 Critical alerts, got %d" % len(alerts))
     if "ACC019" not in set(alerts["account_ref"]):
-        _fail("expected ACC019 (the Gamma Imports Ltd bridge) among the alerts")
+        _fail("expected ACC019 (the Gammavane Imports Ltd bridge) among the alerts")
 
     print("PASS: BA001 schema, sample data and model are consistent.")
-    print("  - %d datasets; ACC019 = 90/Critical (-> Gamma Imports Ltd, top-scored); ACC001 = Low; %d alert(s)"
+    print("  - %d datasets; ACC019 = 90/Critical (-> Gammavane Imports Ltd, top-scored); ACC001 = Low; %d alert(s)"
           % (len(schema["datasets"]), len(alerts)))
 
 

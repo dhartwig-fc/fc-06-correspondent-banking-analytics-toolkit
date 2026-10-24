@@ -80,7 +80,7 @@ def test_clean_account_is_not_alerted(governed, frames):
 
 
 def test_the_gamma_imports_bridge_alerts_critical(governed, frames):
-    """CYC019 closes its loop through Gamma Imports Ltd -- an entity already in the
+    """CYC019 closes its loop through Gammavane Imports Ltd -- an entity already in the
     estate network -- and must clear the alert threshold at Critical, proving the
     fusion bridge is a real alerting subject, not a decorative row. It is also the
     single highest-scoring account in the set, which matters: the FC-10 adapter
@@ -88,10 +88,10 @@ def test_the_gamma_imports_bridge_alerts_critical(governed, frames):
     that row."""
     scored = governed.score_all(**frames)
     top = scored.iloc[0]
-    assert top["account_ref"] == "CYC019" and top["first_loop_member_name"] == "Gamma Imports Ltd"
+    assert top["account_ref"] == "CYC019" and top["first_loop_member_name"] == "Gammavane Imports Ltd"
     row = governed.evaluate_circular_funds_flow(**frames)
     bridge = row[row["account_ref"] == "CYC019"].iloc[0]
-    assert bridge["first_loop_member_name"] == "Gamma Imports Ltd"
+    assert bridge["first_loop_member_name"] == "Gammavane Imports Ltd"
     assert bridge["second_loop_member_name"] == "Continental Correspondent Bank"
     assert bridge["exposure_score"] == 90 and bridge["exposure_band"] == "Critical"
 

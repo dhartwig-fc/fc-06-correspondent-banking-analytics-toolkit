@@ -39,7 +39,7 @@ amount-matching.
 
 Band midpoints (15/45/70/90), weighted sum, half-up rounding, boundaries at 80. Graded.
 
-## Worked example — LAY019 (Katarina Novak)
+## Worked example — LAY019 (Katarina Parsleythimble)
 
 | Component | Evidence | Band | Contribution |
 |-----------|----------|------|--------------|
@@ -49,9 +49,9 @@ Band midpoints (15/45/70/90), weighted sum, half-up rounding, boundaries at 80. 
 | Value Fragmentation | Seed amount split into 9 fragments along the chain | Critical | 18.0 |
 | **Exposure score** | | | **90 / 100 — Critical** |
 
-A clean account with all four components Low scores 15/100 (LAY001, Emil Novotny). Alert
+A clean account with all four components Low scores 15/100 (LAY001, Emil Pebblefiddle). Alert
 threshold: ≥ 80 — the sample data ships four accounts at or above it (LAY019 90, LAY021
 86, LAY020 85, LAY022 84), proving the scorer discriminates rather than rubber-stamping
 every row. LAY019 is the single highest-scoring account, which is deliberate: the FC-10
 adapter builds its case/graph from the top-scored row, so the account that fuses onto
-Gamma Imports Ltd has to be that row.
+Gammavane Imports Ltd has to be that row.

@@ -79,17 +79,17 @@ def test_clean_account_is_not_alerted(governed, frames):
 
 
 def test_the_gamma_imports_bridge_alerts_critical(governed, frames):
-    """ACC019 wires its structured cash to Gamma Imports Ltd -- an entity already in the
+    """ACC019 wires its structured cash to Gammavane Imports Ltd -- an entity already in the
     estate network -- and must clear the alert threshold at Critical, proving the fusion
     bridge is a real alerting subject, not a decorative row. It is also the single
     highest-scoring account in the set, which matters: the FC-10 adapter builds its
     case/graph from score_all's top row, so the Gamma bridge has to BE that row."""
     scored = governed.score_all(**frames)
     top = scored.iloc[0]
-    assert top["account_ref"] == "ACC019" and top["beneficiary_name"] == "Gamma Imports Ltd"
+    assert top["account_ref"] == "ACC019" and top["beneficiary_name"] == "Gammavane Imports Ltd"
     row = governed.evaluate_structuring(**frames)
     bridge = row[row["account_ref"] == "ACC019"].iloc[0]
-    assert bridge["beneficiary_name"] == "Gamma Imports Ltd"
+    assert bridge["beneficiary_name"] == "Gammavane Imports Ltd"
     assert bridge["exposure_score"] == 90 and bridge["exposure_band"] == "Critical"
 
 

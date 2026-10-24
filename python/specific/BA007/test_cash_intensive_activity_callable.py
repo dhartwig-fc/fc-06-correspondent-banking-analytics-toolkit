@@ -79,20 +79,20 @@ def test_clean_account_is_not_alerted(governed, frames):
 
 
 def test_the_gamma_imports_bridge_alerts_critical(governed, frames):
-    """CIA019's subject IS Gamma Imports Ltd -- an entity already in the estate network
+    """CIA019's subject IS Gammavane Imports Ltd -- an entity already in the estate network
     -- and must clear the alert threshold at Critical, proving the fusion bridge is a
     real alerting subject, not a decorative row. It is also the single highest-scoring
     account in the set, which matters: the FC-10 adapter builds its case/graph from
-    score_all's top row, so the Gamma Imports Ltd bridge has to BE that row. Unlike
+    score_all's top row, so the Gammavane Imports Ltd bridge has to BE that row. Unlike
     BA001-BA006, where the bridge is a CONNECTED entity, BA007's bridge is the SUBJECT
     itself."""
     scored = governed.score_all(**frames)
     top = scored.iloc[0]
-    assert top["account_ref"] == "CIA019" and top["customer_name"] == "Gamma Imports Ltd"
-    assert top["subject_name"] == "Gamma Imports Ltd"
+    assert top["account_ref"] == "CIA019" and top["customer_name"] == "Gammavane Imports Ltd"
+    assert top["subject_name"] == "Gammavane Imports Ltd"
     row = governed.evaluate_cash_intensive_activity(**frames)
     bridge = row[row["account_ref"] == "CIA019"].iloc[0]
-    assert bridge["subject_name"] == "Gamma Imports Ltd"
+    assert bridge["subject_name"] == "Gammavane Imports Ltd"
     assert bridge["exposure_score"] == 90 and bridge["exposure_band"] == "Critical"
 
 

@@ -112,7 +112,7 @@ Band-midpoints 15/45/70/90, weighted sum, half-up, boundary at 80.
 
 ---
 
-# Example Exposure Score — MUL019 Rosalind Fairweather
+# Example Exposure Score — MUL019 Rosalind Rushbristle
 
 | Component | Evidence | Band |
 |------------|----------|------|
@@ -175,14 +175,14 @@ alerts = suspect[suspect["exposure_score"] >= 80]
 # Investigator Outcome
 
 ```text
-Account:               Rosalind Fairweather — MUL019
+Account:               Rosalind Rushbristle — MUL019
 Home Branch:           Meridian Trust Bank - Uptown Branch
 Account Age:            12 days
 Total Inflow:           $100,000
 Total Outflow:          $96,000 (pass-through ratio 0.960)
 Declared Monthly Income: $3,200 · Monthly Throughput: $92,000 (ratio 28.75)
 Shared Links:            6 (other known mule accounts)
-Controller:             Marcus Vane
+Controller:             Marcus Ashmote
 Forwarding Destination:  Alpha Trading Ltd
 Exposure Score:         90 / 100
 Investigation Outcome:  Escalate — newly-opened personal account pass-throughing funds

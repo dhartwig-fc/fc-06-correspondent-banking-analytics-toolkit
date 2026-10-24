@@ -11,7 +11,7 @@ Master inventory of the Correspondent Banking Analytics scenarios.
 - **BA001 Structuring — BUILT** (Phase B, 2026-08-10). The reference implementation every
   other BA0NN typology mirrors: fc-06 analytic + >=20-row real-named sample data + docs +
   diagram, fc-10 generic delegation adapter + star graph + registry entry + manifest,
-  manufactures STAGE518/stage364 clean, and fuses onto **Gamma Imports Ltd** in the
+  manufactures STAGE518/stage364 clean, and fuses onto **Gammavane Imports Ltd** in the
   estate network via canonical entity resolution (ACC019, 90/Critical).
 - **BA002 Funnel Accounts — BUILT** (Phase C, 2026-08-10). Mirrors BA001's file set
   exactly: fc-06 analytic + 22-row real-named sample data + docs + diagram, fc-10 generic
@@ -26,7 +26,7 @@ Master inventory of the Correspondent Banking Analytics scenarios.
 - **BA004 Circular Funds Flow — BUILT** (Phase C, 2026-08-10). Mirrors BA001/BA002/BA003's
   file set exactly: fc-06 analytic + 22-row real-named sample data + docs + diagram, fc-10
   generic delegation adapter + star graph + registry entry + manifest, manufactures
-  STAGE518/stage364 clean, and fuses onto **Gamma Imports Ltd** in the estate network
+  STAGE518/stage364 clean, and fuses onto **Gammavane Imports Ltd** in the estate network
   via canonical entity resolution (CYC019, 90/Critical). Its second loop member,
   Continental Correspondent Bank, is the first recurring shared bank in the family.
 - **BA005 Rapid Movement — BUILT** (Phase C, 2026-08-10). Mirrors BA001–BA004's file set
@@ -46,24 +46,24 @@ Master inventory of the Correspondent Banking Analytics scenarios.
 - **BA007 Cash Intensive Activity — BUILT** (Phase C, 2026-08-10). Mirrors BA001–BA006's
   file set exactly: fc-06 analytic + 22-row real-named sample data + docs + diagram,
   fc-10 generic delegation adapter + star graph + registry entry + manifest, manufactures
-  STAGE518/stage364 clean, and fuses onto **Gamma Imports Ltd** in the estate network via
+  STAGE518/stage364 clean, and fuses onto **Gammavane Imports Ltd** in the estate network via
   canonical entity resolution (CIA019, 90/Critical). BA007 is the estate's designated
   subject-as-bridge typology: unlike BA001–BA006, where the bridge entity is a connected
-  counterparty, BA007's top-scoring account IS Gamma Imports Ltd itself.
+  counterparty, BA007's top-scoring account IS Gammavane Imports Ltd itself.
 - **BA008 Layering — BUILT** (Phase C, 2026-08-10). Mirrors BA001–BA007's file set
   exactly: fc-06 analytic + 22-row real-named sample data + docs + diagram, fc-10 generic
   delegation adapter + star graph + registry entry + manifest, manufactures
-  STAGE518/stage364 clean, and fuses onto **Gamma Imports Ltd** in the estate network via
+  STAGE518/stage364 clean, and fuses onto **Gammavane Imports Ltd** in the estate network via
   canonical entity resolution (LAY019, 90/Critical). LAY019's second intermediary hop,
   Continental Correspondent Bank, is the recurring shared correspondent bank across
   BA004/BA005/BA006/BA008.
 - **BA009 Transaction Laundering — BUILT** (Phase C, 2026-08-10). Mirrors BA001–BA008's
   file set exactly: fc-06 analytic + 22-row real-named sample data + docs + diagram,
   fc-10 generic delegation adapter + star graph + registry entry + manifest, manufactures
-  STAGE518/stage364 clean, and fuses onto **John Smith** (the network PEP, id P001) in
+  STAGE518/stage364 clean, and fuses onto **John Cloverspindle** (the network PEP, id P001) in
   the estate network via canonical entity resolution (MER019, 90/Critical). BA009 is the
   estate's designated PERSON-bridge typology: unlike BA001–BA008, which bridge onto a
-  connected COMPANY matched by exact name, MER019 processes for John Smith, and because
+  connected COMPANY matched by exact name, MER019 processes for John Cloverspindle, and because
   persons never name-merge under canonical resolution, the bridge is carried on the
   shared local id (P001) instead of the name.
 - **BA010 Peer Group Anomalies — BUILT** (Phase C, 2026-08-10). Mirrors BA001–BA009's
@@ -122,10 +122,10 @@ Master inventory of the Correspondent Banking Analytics scenarios.
 At least these BA typologies deliberately name an entity already in the estate network so
 canonical resolution joins them into a fused case:
 
-- BA007 Cash Intensive Activity → subject account of **Gamma Imports Ltd**.
+- BA007 Cash Intensive Activity → subject account of **Gammavane Imports Ltd**.
 - BA003 Mule Accounts → forwards to **Alpha Trading Ltd**.
 - BA002 Funnel Accounts → beneficiary **Zeta Commodities Ltd**.
-- BA004 Circular Funds Flow → cycles through **Gamma Imports Ltd** as its first loop
+- BA004 Circular Funds Flow → cycles through **Gammavane Imports Ltd** as its first loop
   member (also names **Continental Correspondent Bank** as a recurring second loop member).
 - BA005 Rapid Movement → clears through **Zeta Commodities Ltd** as its first onward
   destination (also names **Continental Correspondent Bank** as its recurring second
@@ -133,11 +133,11 @@ canonical resolution joins them into a fused case:
 - BA006 Dormant Reactivation → reactivates into **Alpha Trading Ltd** as its first
   reactivation counterparty (also names **Continental Correspondent Bank** as its
   recurring second reactivation counterparty, shared with BA004/BA005).
-- BA008 Layering → layers its transfer chain through **Gamma Imports Ltd** as its first
+- BA008 Layering → layers its transfer chain through **Gammavane Imports Ltd** as its first
   intermediary (also names **Continental Correspondent Bank** as its second intermediary,
   the fourth typology to reference that recurring correspondent bank after
   BA004/BA005/BA006).
-- BA009 Transaction Laundering → processes for **John Smith** (the network PEP).
+- BA009 Transaction Laundering → processes for **John Cloverspindle** (the network PEP).
 - BA010 Peer Group Anomalies → its peer-segment deviation concentrates on
   **Alpha Trading Ltd** as the anomalous counterparty (the third fc-06 bridge onto
   that entity, after BA003 and BA006).

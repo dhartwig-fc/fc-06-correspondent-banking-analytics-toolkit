@@ -42,22 +42,22 @@ def main() -> None:
     scored = cff.score_all(**cff.build_frames_from_sample_data(DATA_DIR)).set_index("account_ref")
     if not (scored.loc["CYC019"]["exposure_score"] == 90 and scored.loc["CYC019"]["exposure_band"] == "Critical"):
         _fail("CYC019 expected 90/Critical")
-    if scored.loc["CYC019"]["first_loop_member_name"] != "Gamma Imports Ltd":
-        _fail("CYC019 expected first loop member Gamma Imports Ltd (the fusion bridge)")
+    if scored.loc["CYC019"]["first_loop_member_name"] != "Gammavane Imports Ltd":
+        _fail("CYC019 expected first loop member Gammavane Imports Ltd (the fusion bridge)")
     if scored.loc["CYC001"]["exposure_band"] != "Low":
         _fail("CYC001 expected Low")
     if scored["exposure_score"].idxmax() != "CYC019":
-        _fail("CYC019 (the Gamma Imports Ltd bridge) must be the single highest-scoring "
+        _fail("CYC019 (the Gammavane Imports Ltd bridge) must be the single highest-scoring "
               "account -- the FC-10 adapter builds its case/graph from score_all's top row")
 
     alerts = cff.evaluate_circular_funds_flow(**cff.build_frames_from_sample_data(DATA_DIR))
     if len(alerts) < 2:
         _fail("expected at least 2 Critical alerts, got %d" % len(alerts))
     if "CYC019" not in set(alerts["account_ref"]):
-        _fail("expected CYC019 (the Gamma Imports Ltd bridge) among the alerts")
+        _fail("expected CYC019 (the Gammavane Imports Ltd bridge) among the alerts")
 
     print("PASS: BA004 schema, sample data and model are consistent.")
-    print("  - %d datasets; CYC019 = 90/Critical (-> Gamma Imports Ltd, top-scored); CYC001 = Low; %d alert(s)"
+    print("  - %d datasets; CYC019 = 90/Critical (-> Gammavane Imports Ltd, top-scored); CYC001 = Low; %d alert(s)"
           % (len(schema["datasets"]), len(alerts)))
 
 

@@ -2,10 +2,10 @@ first_reactivation_counterparty_name,account_ref,bank,jurisdiction,relationship,
 Hazelmoor Trading Co,DR001,Adriatic Union Bank,Ireland,Unverified counterparty,0
 Brightwater Commerce Ltd,DR002,Pacific Rim Commercial Bank,Canada,Unverified counterparty,0
 Fernbridge Exports,DR003,Helvetia Private Bank,Germany,Unverified counterparty,0
-Alderman Holdings,DR004,Meridian Trust Bank,Hong Kong,Unverified counterparty,0
+Cinderquill Holdings,DR004,Meridian Trust Bank,Hong Kong,Unverified counterparty,0
 Cobblestone Traders,DR005,Continental Correspondent Bank,Switzerland,Unverified counterparty,0
-Ashgrove Commerce Ltd,DR006,Adriatic Union Bank,United Kingdom,Unverified counterparty,0
-Ravenscroft Exports,DR007,Pacific Rim Commercial Bank,Cyprus,Unverified counterparty,1
+Thistlefiddle Commerce Ltd,DR006,Adriatic Union Bank,United Kingdom,Unverified counterparty,0
+Willowbutton Exports,DR007,Pacific Rim Commercial Bank,Cyprus,Unverified counterparty,1
 Thornfield Trading Co,DR008,Helvetia Private Bank,Panama,Unverified counterparty,1
 Meadowlark Holdings,DR009,Meridian Trust Bank,Singapore,Unverified counterparty,1
 Duskwood Commerce Ltd,DR010,Continental Correspondent Bank,United Arab Emirates,Money service business,1
@@ -13,7 +13,7 @@ Ironbark Traders,DR011,Adriatic Union Bank,Turkey,Unverified counterparty,1
 Silverlake Exports,DR012,Pacific Rim Commercial Bank,British Virgin Islands,Unverified counterparty,1
 Wrenfield Trading Co,DR013,Helvetia Private Bank,Ireland,Unverified counterparty,2
 Bramblewood Holdings,DR014,Meridian Trust Bank,Canada,Unverified counterparty,2
-Copperfield Commerce Ltd,DR015,Continental Correspondent Bank,Germany,Unverified counterparty,2
+Hazelthimble Commerce Ltd,DR015,Continental Correspondent Bank,Germany,Unverified counterparty,2
 Foxglove Traders,DR016,Adriatic Union Bank,Hong Kong,Unverified counterparty,2
 Willowmere Exports,DR017,Pacific Rim Commercial Bank,Switzerland,Unverified counterparty,2
 Stagbrook Trading Co,DR018,Helvetia Private Bank,United Kingdom,Unverified counterparty,2

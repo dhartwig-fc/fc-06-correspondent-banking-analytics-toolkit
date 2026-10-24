@@ -108,7 +108,7 @@ Band-midpoints 15/45/70/90, weighted sum, half-up, boundary at 80.
 
 ---
 
-# Example Exposure Score — RM019 Dmitri Petrov
+# Example Exposure Score — RM019 Dmitri Mosstumble
 
 | Component | Evidence | Band |
 |------------|----------|------|
@@ -171,7 +171,7 @@ alerts = suspect[suspect["exposure_score"] >= 80]
 # Investigator Outcome
 
 ```text
-Account:                 Dmitri Petrov — RM019
+Account:                 Dmitri Mosstumble — RM019
 Home Branch:              Pacific Rim Commercial Bank - Summit Branch
 Inbound Amount:           $100,000
 Outbound Amount:          $98,000 (value match ratio 0.980)

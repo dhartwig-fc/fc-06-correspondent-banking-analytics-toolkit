@@ -1,23 +1,23 @@
 customer_name,account_ref,segment,home_branch,total_inflow_amount,total_outflow_amount,account_age_days,declared_monthly_income,monthly_throughput_amount,shared_link_count,top_originator_name,controller_name,beneficiary_name
-Owen Bennett,MUL001,Retail,Meridian Trust Bank - Central Branch,42000,15000,820,4200,6500,0,Priya Chandran,N/A,Blue Harbour Logistics Ltd
-Freya Sinclair,MUL002,Retail,Continental Correspondent Bank - Harbor Branch,38000,14000,900,3800,7200,0,Consuela Reyes,N/A,Cedar & Vale Trading Ltd
-Marco Esposito,MUL003,Retail,Adriatic Union Bank - Old Town Branch,45000,20000,500,4500,8800,0,Tobias Lindgren,N/A,Northwind Freight Co
-Ingrid Solheim,MUL004,Private Banking,Pacific Rim Commercial Bank - Marina Branch,40000,16500,760,4000,9500,1,Farida Khalil,N/A,Solano Exchange House
-Tariq Aziz,MUL005,Retail,Helvetia Private Bank - Lakeside Branch,43000,17000,630,4300,10200,0,Omar El-Sayed,N/A,Kestrel Cash & Carry Ltd
-Camille Laurent,MUL006,Retail,Meridian Trust Bank - Uptown Branch,41000,21000,390,4100,11500,0,Beatrice Dubois,N/A,Alpha Trading Ltd
-Bjorn Eriksson,MUL007,Retail,Continental Correspondent Bank - Riverside Branch,46000,28000,260,3800,21000,1,Anton Kowalczyk,Erik Lindholm,Amberfield Trading Co
-Nadia Volkova,MUL008,Retail,Adriatic Union Bank - Old Town Branch,44000,30000,300,3600,19500,1,Youssef Benali,Pavel Sokolov,Bluecrest Export Group
-Ethan Walsh,MUL009,Small Business,Pacific Rim Commercial Bank - Marina Branch,47000,33000,210,4000,27000,1,Nikolai Volkov,Declan Murphy,Ironvale Commerce Ltd
-Sofia Marchetti,MUL010,Retail,Helvetia Private Bank - Lakeside Branch,48000,31000,280,3900,22500,1,Grace Muthoni,Luca Ferrara,Whitmore Global Traders
-Rustam Karimov,MUL011,Retail,Meridian Trust Bank - Central Branch,45500,34000,190,3700,26500,2,Diego Salazar,Aziz Rahimov,Coral Bay Exports Ltd
-Delphine Moreau,MUL012,Retail,Continental Correspondent Bank - Harbor Branch,46500,30500,320,3850,23000,1,Elin Karlsson,Henri Fabron,Granite Peak Holdings
-Connor McAllister,MUL013,Retail,Pacific Rim Commercial Bank - Marina Branch,52000,43000,95,3000,45000,3,Sana Malik,Ray Doherty,Fenwick & Cole Trading
-Leila Amari,MUL014,Retail,Helvetia Private Bank - Lakeside Branch,54000,45000,80,2800,42000,2,Petra Novak,Nabil Toure,Redstone Commodities Ltd
-Viktor Hlavac,MUL015,Small Business,Adriatic Union Bank - Old Town Branch,56000,49000,70,3100,48000,3,Kwame Asante,Milan Dvorak,Solstice Trading Group
-Amina Diallo,MUL016,Retail,Meridian Trust Bank - Uptown Branch,53000,49500,110,2900,40000,2,Ling Wei,Ousmane Ba,Palmetto Export Co
-Patrick Doyle,MUL017,Retail,Continental Correspondent Bank - Riverside Branch,58000,50500,65,3200,65000,3,Ravi Menon,Sean Brennan,Windrose Commerce Ltd
-Elif Kaya,MUL018,Retail,Pacific Rim Commercial Bank - Marina Branch,55000,46500,90,3000,44000,2,Chloe Fontaine,Baris Aydin,Kestrel Bay Holdings
-Rosalind Fairweather,MUL019,Retail,Meridian Trust Bank - Uptown Branch,100000,96000,12,3200,92000,6,Aroha Ngata,Marcus Vane,Alpha Trading Ltd
-Damian Wozniak,MUL020,Retail,Continental Correspondent Bank - Harbor Branch,92000,86000,25,3500,84000,3,Bashir Rahman,Tomasz Krol,Everline Traders Ltd
-Naledi Mokoena,MUL021,Retail,Helvetia Private Bank - Lakeside Branch,88000,82000,30,3400,45000,5,Chloe Fontaine,Sipho Ndlovu,Northgate Commodities Ltd
-Kenji Watanabe,MUL022,Retail,Meridian Trust Bank - Central Branch,95000,82500,18,3300,88000,5,Dmitri Volkov,Haruto Sato,Stonebridge Export Group
+Owen Gorsebristle,MUL001,Retail,Meridian Trust Bank - Central Branch,42000,15000,820,4200,6500,0,Priya Lanternwhistle,N/A,Blue Harbour Logistics Ltd
+Freya Gorsequill,MUL002,Retail,Continental Correspondent Bank - Harbor Branch,38000,14000,900,3800,7200,0,Consuela Saltquill,N/A,Cedar & Vale Trading Ltd
+Marco Flintbutton,MUL003,Retail,Adriatic Union Bank - Old Town Branch,45000,20000,500,4500,8800,0,Tobias Vellumbutton,N/A,Northwind Freight Co
+Ingrid Vellumspindle,MUL004,Private Banking,Pacific Rim Commercial Bank - Marina Branch,40000,16500,760,4000,9500,1,Farida Quilltumble,N/A,Solano Exchange House
+Tariq Lanternwisp,MUL005,Retail,Helvetia Private Bank - Lakeside Branch,43000,17000,630,4300,10200,0,Omar Gossamertumble,N/A,Kestrel Cash & Carry Ltd
+Camille Puddlekettle,MUL006,Retail,Meridian Trust Bank - Uptown Branch,41000,21000,390,4100,11500,0,Beatrice Wrentumble,N/A,Alpha Trading Ltd
+Bjorn Yarrowkettle,MUL007,Retail,Continental Correspondent Bank - Riverside Branch,46000,28000,260,3800,21000,1,Anton Duskquill,Erik Brackenfiddle,Amberfield Trading Co
+Nadia Brackencrumba,MUL008,Retail,Adriatic Union Bank - Old Town Branch,44000,30000,300,3600,19500,1,Youssef Nettlespindle,Pavel Flintquill,Bluecrest Export Group
+Ethan Kettletumble,MUL009,Small Business,Pacific Rim Commercial Bank - Marina Branch,47000,33000,210,4000,27000,1,Nikolai Brackencrumb,Declan Marrowspindle,Ironvale Commerce Ltd
+Sofia Sorrelkettle,MUL010,Retail,Helvetia Private Bank - Lakeside Branch,48000,31000,280,3900,22500,1,Grace Copperspindle,Luca Coppercrumb,Whitmore Global Traders
+Rustam Mosskettle,MUL011,Retail,Meridian Trust Bank - Central Branch,45500,34000,190,3700,26500,2,Diego Puddlemote,Aziz Coppermote,Coral Bay Exports Ltd
+Delphine Tallowbutton,MUL012,Retail,Continental Correspondent Bank - Harbor Branch,46500,30500,320,3850,23000,1,Elin Brindlethimble,Henri Umberbristle,Granite Peak Holdings
+Connor Fernfiddle,MUL013,Retail,Pacific Rim Commercial Bank - Marina Branch,52000,43000,95,3000,45000,3,Sana Ashthimble,Ray Mosscrumb,Thistlebutton & Cole Trading
+Leila Bramblecrumb,MUL014,Retail,Helvetia Private Bank - Lakeside Branch,54000,45000,80,2800,42000,2,Petra Parsleythimble,Nabil Flintkettle,Redstone Commodities Ltd
+Viktor Pebblespindle,MUL015,Small Business,Adriatic Union Bank - Old Town Branch,56000,49000,70,3100,48000,3,Kwame Nettlethimble,Milan Wrenwisp,Solstice Trading Group
+Amina Saltwhistle,MUL016,Retail,Meridian Trust Bank - Uptown Branch,53000,49500,110,2900,40000,2,Ling Mossthimble,Ousmane Bramblewisp,Palmetto Export Co
+Patrick Gossamerfiddle,MUL017,Retail,Continental Correspondent Bank - Riverside Branch,58000,50500,65,3200,65000,3,Ravi Thistlespindle,Sean Parsleyfiddle,Windrose Commerce Ltd
+Elif Brindlefiddle,MUL018,Retail,Pacific Rim Commercial Bank - Marina Branch,55000,46500,90,3000,44000,2,Chloe Flintbristle,Baris Cinderwhistle,Kestrel Bay Holdings
+Rosalind Rushbristle,MUL019,Retail,Meridian Trust Bank - Uptown Branch,100000,96000,12,3200,92000,6,Aroha Heronkettle,Marcus Ashmote,Alpha Trading Ltd
+Damian Tallowthimble,MUL020,Retail,Continental Correspondent Bank - Harbor Branch,92000,86000,25,3500,84000,3,Bashir Ivybutton,Tomasz Willowfiddle,Everline Traders Ltd
+Naledi Sorrelbristle,MUL021,Retail,Helvetia Private Bank - Lakeside Branch,88000,82000,30,3400,45000,5,Chloe Flintbristle,Sipho Brindletumble,Northgate Commodities Ltd
+Kenji Cloverthimble,MUL022,Retail,Meridian Trust Bank - Central Branch,95000,82500,18,3300,88000,5,Dmitri Brackencrumb,Haruto Juniperwhistle,Stonebridge Export Group

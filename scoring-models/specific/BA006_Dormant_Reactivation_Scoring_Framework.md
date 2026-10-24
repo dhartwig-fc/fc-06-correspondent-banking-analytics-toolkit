@@ -38,7 +38,7 @@ appear after reactivation and were never part of the account's prior profile.
 
 Band midpoints (15/45/70/90), weighted sum, half-up rounding, boundaries at 80. Graded.
 
-## Worked example — DR019 (Viktor Andreev)
+## Worked example — DR019 (Viktor Tallowbristle)
 
 | Component | Evidence | Band | Contribution |
 |-----------|----------|------|--------------|
@@ -48,7 +48,7 @@ Band midpoints (15/45/70/90), weighted sum, half-up rounding, boundaries at 80. 
 | Immediate Outflow | $190,000 of $200,000 reactivating inflow drains back out (r = 0.950) | Critical | 18.0 |
 | **Exposure score** | | | **90 / 100 — Critical** |
 
-A clean account with all four components Low scores 15/100 (DR001, Aiden Walsh). Alert
+A clean account with all four components Low scores 15/100 (DR001, Aiden Kettletumble). Alert
 threshold: ≥ 80 — the sample data ships four accounts at or above it (DR019 90, DR022 86,
 DR021 85, DR020 84), proving the scorer discriminates rather than rubber-stamping every
 row. DR019 is the single highest-scoring account, which is deliberate: the FC-10 adapter
