@@ -262,7 +262,7 @@ NAN = float("nan")
 
 @pytest.mark.parametrize("name", NAMES)
 @pytest.mark.parametrize("pos", [0, 1, 2])
-@pytest.mark.xfail(strict=True, reason=(
+@pytest.mark.xfail(strict=True, raises=pytest.fail.Exception, reason=(
     "DEFECT: framework BA010 'All three inputs ... are REQUIRED -- a peer segment with no measured "
     "mean/std ... is a different finding from measures as zero deviation' (scoring-models/specific/"
     "BA010_Peer_Group_Anomalies_Scoring_Framework.md:17-21): a missing (NaN) own value, peer_mean or "

@@ -198,10 +198,16 @@ def test_clean_account_scores_15_and_does_not_alert(engine):
 
 
 def test_one_elevated_component_does_not_alert(engine):
-    # Sheet FP: "one with a single elevated component" must not alert. CLLL = 41 Medium.
-    frames = _frames(_account("T-ONE", 10000, 9000, 1, 1, 10000, 1000))
-    assert len(engine.score_all(**frames)) == 1
-    assert len(engine.evaluate_structuring(**frames)) == 0
+    # Sheet FP: "one with a single elevated component" must not alert.
+    # T-ONE: r 0.90 (C), 1 deposit in 7 days (L), 1 location (L), a 0.10 (L):
+    #   CLLL = 31.5+3.75+3+3 = 41.25 -> 41 Medium (half-up).
+    # Alerting control in the SAME frame: the framework worked example, 90 Critical.
+    frames = _frames(_account("T-ONE", 10000, 9000, 1, 1, 10000, 1000),
+                     _account("T-WE", 34000, 24000, 12, 6, 19000, 17200))
+    scored = engine.score_all(**frames).set_index("account_ref")
+    assert len(scored) == 2
+    assert (scored.loc["T-ONE", "exposure_score"], scored.loc["T-ONE", "exposure_band"]) == (41, "Medium")
+    assert list(engine.evaluate_structuring(**frames)["account_ref"]) == ["T-WE"]
 
 
 # One positive and one near-miss per detection rule (component). The positive sits EXACTLY on the
@@ -267,7 +273,7 @@ NAN = float("nan")
     (score_aggregation_to_transfer, (NAN, 10000)),
     (score_aggregation_to_transfer, (1000, NAN)),
 ])
-@pytest.mark.xfail(strict=True, reason=(
+@pytest.mark.xfail(strict=True, raises=pytest.fail.Exception, reason=(
     "DEFECT: framework BA001 'Both amounts are REQUIRED' (scoring-models/specific/"
     "BA001_Structuring_Scoring_Framework.md:18,30) and the model's own 'missing != zero': "
     "a missing (NaN) amount passes ba001_risk_model.py:50-51 (_require checks None only) and "

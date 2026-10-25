@@ -202,19 +202,25 @@ def test_worked_example_alerts_90_critical(engine):
 def test_background_one_way_flow_scores_15_and_does_not_alert(engine):
     # Sheet background: ordinary one-way flow, no return to origin. r = 0 (L), 1 hop (L),
     # 70% retained (L), 960 hours (L): 15/100 (framework: all-Low scores 15), no alert.
-    frames = _frames(_account("T-BG", 50000, 0, 1, 0.70, 960))
-    scored = engine.score_all(**frames)
-    assert (scored.iloc[0]["exposure_score"], scored.iloc[0]["exposure_band"]) == (15, "Low")
-    assert len(engine.evaluate_circular_funds_flow(**frames)) == 0
+    # Alerting control in the SAME frame: the framework worked example, 90 Critical.
+    frames = _frames(_account("T-BG", 50000, 0, 1, 0.70, 960),
+                     _account("T-WE", 100000, 97000, 8, 0.985, 8))
+    scored = engine.score_all(**frames).set_index("account_ref")
+    assert len(scored) == 2
+    assert (scored.loc["T-BG", "exposure_score"], scored.loc["T-BG", "exposure_band"]) == (15, "Low")
+    assert list(engine.evaluate_circular_funds_flow(**frames)["account_ref"]) == ["T-WE"]
 
 
 def test_sheet_near_miss_eroded_and_slow_return_does_not_alert(engine):
     # Sheet near miss: funds return, but with fee/FX erosion and weeks-long timing.
     # r 0.97 (C), 5 hops (H), 85% retained (M), 400 hours (M): 31.5+17.5+9+9 = 67 High, no alert.
-    frames = _frames(_account("T-NM", 10000, 9700, 5, 0.85, 400))
-    scored = engine.score_all(**frames)
-    assert (scored.iloc[0]["exposure_score"], scored.iloc[0]["exposure_band"]) == (67, "High")
-    assert len(engine.evaluate_circular_funds_flow(**frames)) == 0
+    # Alerting control in the SAME frame: the framework worked example, 90 Critical.
+    frames = _frames(_account("T-NM", 10000, 9700, 5, 0.85, 400),
+                     _account("T-WE", 100000, 97000, 8, 0.985, 8))
+    scored = engine.score_all(**frames).set_index("account_ref")
+    assert len(scored) == 2
+    assert (scored.loc["T-NM", "exposure_score"], scored.loc["T-NM", "exposure_band"]) == (67, "High")
+    assert list(engine.evaluate_circular_funds_flow(**frames)["account_ref"]) == ["T-WE"]
 
 
 # One positive and one near-miss per detection rule (component). The positive sits EXACTLY on the
@@ -290,7 +296,7 @@ def test_a_missing_hop_count_refuses():
     (score_value_preservation, (NAN,)),
     (score_timing_compression, (NAN,)),
 ])
-@pytest.mark.xfail(strict=True, reason=(
+@pytest.mark.xfail(strict=True, raises=pytest.fail.Exception, reason=(
     "DEFECT: framework BA004 'Both amounts are REQUIRED' / 'avg_hop_retention_pct is REQUIRED' / "
     "'loop_duration_hours is REQUIRED' (scoring-models/specific/BA004_Circular_Funds_Flow_Scoring_"
     "Framework.md:18,28,35) and the model's own 'missing != zero': a missing (NaN) value passes "
@@ -304,7 +310,7 @@ def test_a_missing_value_refuses_rather_than_scoring_critical(scorer, args):
 
 
 @pytest.mark.parametrize("field", ["avg_hop_retention_pct", "loop_duration_hours"])
-@pytest.mark.xfail(strict=True, reason=(
+@pytest.mark.xfail(strict=True, raises=pytest.fail.Exception, reason=(
     "DEFECT: same REQUIRED rule, end to end: a constructed account whose retention or duration is "
     "missing (NaN) is scored Critical on that component, lifting a 77 High non-alert to 81 Critical, and "
     "ALERTED by evaluate_circular_funds_flow (scenarios/circular_funds_flow.py:71-72 -> "
