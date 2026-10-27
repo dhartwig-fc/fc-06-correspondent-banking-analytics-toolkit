@@ -43,21 +43,21 @@ def main() -> None:
     if not (scored.loc["MER019"]["exposure_score"] == 90 and scored.loc["MER019"]["exposure_band"] == "Critical"):
         _fail("MER019 expected 90/Critical")
     if scored.loc["MER019"]["linked_individual_id"] != "P001":
-        _fail("MER019 expected linked_individual_id P001 (the fusion bridge to John Smith)")
+        _fail("MER019 expected linked_individual_id P001 (the fusion bridge to John Cloverspindle)")
     if scored.loc["MER001"]["exposure_band"] != "Low":
         _fail("MER001 expected Low")
     if scored["exposure_score"].idxmax() != "MER019":
-        _fail("MER019 (John Smith bridge) must be the single highest-scoring account -- the "
+        _fail("MER019 (John Cloverspindle bridge) must be the single highest-scoring account -- the "
               "FC-10 adapter builds its case/graph from score_all's top row")
 
     alerts = tl.evaluate_transaction_laundering(**tl.build_frames_from_sample_data(DATA_DIR))
     if len(alerts) < 2:
         _fail("expected at least 2 Critical alerts, got %d" % len(alerts))
     if "MER019" not in set(alerts["account_ref"]):
-        _fail("expected MER019 (John Smith bridge) among the alerts")
+        _fail("expected MER019 (John Cloverspindle bridge) among the alerts")
 
     print("PASS: BA009 schema, sample data and model are consistent.")
-    print("  - %d datasets; MER019 = 90/Critical (John Smith bridge, top-scored); MER001 = Low; %d alert(s)"
+    print("  - %d datasets; MER019 = 90/Critical (John Cloverspindle bridge, top-scored); MER001 = Low; %d alert(s)"
           % (len(schema["datasets"]), len(alerts)))
 
 

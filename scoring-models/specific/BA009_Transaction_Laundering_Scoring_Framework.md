@@ -53,8 +53,8 @@ Goods Ltd). Alert threshold: ≥ 80 — the sample data ships four accounts at o
 (MER019 90, MER020 86, MER021/MER022 85 each), proving the scorer discriminates rather
 than rubber-stamping every row. MER019 is the single highest-scoring account, which is
 deliberate: the FC-10 adapter builds its case/graph from the top-scored row, and MER019
-is quietly processing card volume on behalf of an undisclosed principal — **John Smith**,
-the PEP already in the estate network. Because John Smith is a PERSON, the fusion bridge
+is quietly processing card volume on behalf of an undisclosed principal — **John Cloverspindle**,
+the PEP already in the estate network. Because John Cloverspindle is a PERSON, the fusion bridge
 is carried on the shared local id (`linked_individual_id` = "P001", the same id NI001 and
 SAN005 use for him), not on the name: the canonical resolver's person guard never merges
 two person nodes on name alone, only on a shared id.

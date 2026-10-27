@@ -108,14 +108,14 @@ Band-midpoints 15/45/70/90, weighted sum, half-up, boundary at 80.
 
 ---
 
-# Example Exposure Score — ACC019 Dmitri Petrov
+# Example Exposure Score — ACC019 Dmitri Mosstumble
 
 | Component | Evidence | Band |
 |------------|----------|------|
 | Sub-threshold Clustering | $24,000 of $34,000 cash deposits sub-threshold (ratio 0.706) | Critical |
 | Temporal Clustering | 12 deposits inside the busiest rolling 7-day window | Critical |
 | Multi-location | Deposits spread across 6 distinct branches/ATMs | Critical |
-| Aggregation to Transfer | $17,200 wired out of $19,000 structured in (ratio 0.905), to Gamma Imports Ltd | Critical |
+| Aggregation to Transfer | $17,200 wired out of $19,000 structured in (ratio 0.905), to Gammavane Imports Ltd | Critical |
 
 **Total Exposure Score: 90 / 100 — Critical** (the single highest-scoring account in the
 sample data)
@@ -171,13 +171,13 @@ alerts = suspect[suspect["exposure_score"] >= 80]
 # Investigator Outcome
 
 ```text
-Account:              Dmitri Petrov — ACC019
+Account:              Dmitri Mosstumble — ACC019
 Home Branch:          Meridian Trust Bank - Uptown Branch
 Total Cash Deposits:  $34,000 (12 deposits in the busiest 7-day window)
 Sub-threshold Ratio:  0.706 ($24,000 of $34,000)
 Distinct Locations:   6 branches/ATMs
 Structured In:        $19,000 → Wired Out: $17,200 (ratio 0.905)
-Beneficiary:          Gamma Imports Ltd (Marshall Islands)
+Beneficiary:          Gammavane Imports Ltd (Marshall Islands)
 Exposure Score:       90 / 100
 Investigation Outcome:  Escalate — CTR-evasion structuring with aggregation to a
                          single downstream beneficiary

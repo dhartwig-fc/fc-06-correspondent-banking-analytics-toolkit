@@ -106,7 +106,7 @@ Band-midpoints 15/45/70/90, weighted sum, half-up, boundary at 80.
 
 ---
 
-# Example Exposure Score — CIA019 Gamma Imports Ltd
+# Example Exposure Score — CIA019 Gammavane Imports Ltd
 
 | Component | Evidence | Band |
 |------------|----------|------|
@@ -169,7 +169,7 @@ alerts = suspect[suspect["exposure_score"] >= 80]
 # Investigator Outcome
 
 ```text
-Account:               Gamma Imports Ltd — CIA019
+Account:               Gammavane Imports Ltd — CIA019
 Home Branch:           Continental Correspondent Bank - Harbor Branch
 Cash Deposits:          $760,000 of $820,000 turnover (peer norm 30%)
 Declared Cash Volume:   $300,000
@@ -208,7 +208,7 @@ norm, the profile excess against its declared cash volume, the deposit regularit
 the commingling of third-party funds, it surfaces cash-intensive businesses that would
 otherwise pass as ordinary retail cash handling. BA007 is the estate's designated
 subject-as-bridge typology: unlike BA001–BA006, where the bridge entity is a connected
-counterparty, BA007's top-scoring account IS Gamma Imports Ltd itself, showing its own
+counterparty, BA007's top-scoring account IS Gammavane Imports Ltd itself, showing its own
 cash-intensive behaviour fusing with its sanctions/network flags. As the seventh
 typology in the fc-06 Correspondent Banking Analytics family, BA007 reuses BA001's file
 set, scoring convention, and fc-10 wiring pattern verbatim, confirming the template

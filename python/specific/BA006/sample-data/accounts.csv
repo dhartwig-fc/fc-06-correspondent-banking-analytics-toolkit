@@ -1,23 +1,23 @@
 customer_name,account_ref,segment,home_branch,prior_counterparty_name,pre_dormancy_avg_monthly_activity,reactivation_amount,dormancy_days,new_counterparty_count,outflow_amount,first_reactivation_counterparty_name,second_reactivation_counterparty_name
-Aiden Walsh,DR001,Retail,Meridian Trust Bank - North Branch,Oakhurst Employer Services Ltd,6000,7200,35,0,1500,Hazelmoor Trading Co,Adriatic Union Bank
-Sofia Almeida,DR002,Small Business,Continental Correspondent Bank - Exchange Branch,Pinegate Payroll Solutions,6500,9750,45,1,2500,Brightwater Commerce Ltd,Pacific Rim Commercial Bank
-Noah Fitzgerald,DR003,Private Banking,Adriatic Union Bank - Old Port Branch,Elmsworth Pension Trust,7000,12600,55,1,3000,Fernbridge Exports,Helvetia Private Bank
-Elena Popescu,DR004,Retail,Pacific Rim Commercial Bank - Summit Branch,Brackenfield Utilities Co,7500,16500,65,2,4000,Alderman Holdings,Meridian Trust Bank
-Malik Johnson,DR005,Small Business,Helvetia Private Bank - Bayview Branch,Thistledown Insurance Group,8000,19200,75,2,3600,Cobblestone Traders,Continental Correspondent Bank
-Ingrid Halvorsen,DR006,Private Banking,Meridian Trust Bank - North Branch,Oakhurst Employer Services Ltd,8500,22950,85,2,9000,Ashgrove Commerce Ltd,Adriatic Union Bank
-Ravi Prakash,DR007,Retail,Continental Correspondent Bank - Exchange Branch,Pinegate Payroll Solutions,6000,19800,95,3,10500,Ravenscroft Exports,Pacific Rim Commercial Bank
-Chiara Bianchi,DR008,Small Business,Adriatic Union Bank - Old Port Branch,Elmsworth Pension Trust,6500,27300,110,3,15000,Thornfield Trading Co,Helvetia Private Bank
-Youssef Amrani,DR009,Private Banking,Pacific Rim Commercial Bank - Summit Branch,Brackenfield Utilities Co,7000,36400,125,4,22000,Meadowlark Holdings,Meridian Trust Bank
-Katarina Novotna,DR010,Retail,Helvetia Private Bank - Bayview Branch,Thistledown Insurance Group,7500,45000,140,4,29000,Duskwood Commerce Ltd,Continental Correspondent Bank
-Liam O'Sullivan,DR011,Small Business,Meridian Trust Bank - North Branch,Oakhurst Employer Services Ltd,8000,52000,155,4,34000,Ironbark Traders,Adriatic Union Bank
-Fatima Zahra,DR012,Private Banking,Continental Correspondent Bank - Exchange Branch,Pinegate Payroll Solutions,8500,59500,170,4,42000,Silverlake Exports,Pacific Rim Commercial Bank
-Anders Lindqvist,DR013,Retail,Adriatic Union Bank - Old Port Branch,Elmsworth Pension Trust,6000,52000,190,5,40000,Wrenfield Trading Co,Helvetia Private Bank
-Beatriz Santos,DR014,Small Business,Pacific Rim Commercial Bank - Summit Branch,Brackenfield Utilities Co,6500,68000,215,5,54000,Bramblewood Holdings,Meridian Trust Bank
-Dorian Kowalski,DR015,Private Banking,Helvetia Private Bank - Bayview Branch,Thistledown Insurance Group,7000,84000,240,6,68000,Copperfield Commerce Ltd,Continental Correspondent Bank
-Priya Natarajan,DR016,Retail,Meridian Trust Bank - North Branch,Oakhurst Employer Services Ltd,7500,105000,270,6,88000,Foxglove Traders,Adriatic Union Bank
-Magnus Berg,DR017,Small Business,Continental Correspondent Bank - Exchange Branch,Pinegate Payroll Solutions,8000,128000,300,7,110000,Willowmere Exports,Pacific Rim Commercial Bank
-Isabelle Laurent,DR018,Private Banking,Adriatic Union Bank - Old Port Branch,Elmsworth Pension Trust,8500,153000,330,7,138000,Stagbrook Trading Co,Helvetia Private Bank
-Viktor Andreev,DR019,Retail,Pacific Rim Commercial Bank - Summit Branch,Brackenfield Utilities Co,8000,200000,730,10,190000,Alpha Trading Ltd,Continental Correspondent Bank
-Sarah Blackwood,DR020,Small Business,Helvetia Private Bank - Bayview Branch,Thistledown Insurance Group,9000,135000,400,9,128000,Blue Harbour Logistics Ltd,Continental Correspondent Bank
-Hassan Malik,DR021,Private Banking,Meridian Trust Bank - North Branch,Oakhurst Employer Services Ltd,8500,212500,300,9,200000,Cedar & Vale Trading Ltd,Adriatic Union Bank
-Greta Fischer,DR022,Retail,Continental Correspondent Bank - Exchange Branch,Pinegate Payroll Solutions,9000,225000,500,9,180000,Northwind Freight Co,Pacific Rim Commercial Bank
+Aiden Kettletumble,DR001,Retail,Meridian Trust Bank - North Branch,Oakhurst Employer Services Ltd,6000,7200,35,0,1500,Hazelmoor Trading Co,Adriatic Union Bank
+Sofia Sorrelwisp,DR002,Small Business,Continental Correspondent Bank - Exchange Branch,Pinegate Payroll Solutions,6500,9750,45,1,2500,Brightwater Commerce Ltd,Pacific Rim Commercial Bank
+Noah Hazelbutton,DR003,Private Banking,Adriatic Union Bank - Old Port Branch,Elmsworth Pension Trust,7000,12600,55,1,3000,Fernbridge Exports,Helvetia Private Bank
+Elena Ashquill,DR004,Retail,Pacific Rim Commercial Bank - Summit Branch,Brackenfield Utilities Co,7500,16500,65,2,4000,Cinderquill Holdings,Meridian Trust Bank
+Malik Brindlequill,DR005,Small Business,Helvetia Private Bank - Bayview Branch,Thistledown Insurance Group,8000,19200,75,2,3600,Cobblestone Traders,Continental Correspondent Bank
+Ingrid Duskbristle,DR006,Private Banking,Meridian Trust Bank - North Branch,Oakhurst Employer Services Ltd,8500,22950,85,2,9000,Thistlefiddle Commerce Ltd,Adriatic Union Bank
+Ravi Hollowtumble,DR007,Retail,Continental Correspondent Bank - Exchange Branch,Pinegate Payroll Solutions,6000,19800,95,3,10500,Willowbutton Exports,Pacific Rim Commercial Bank
+Chiara Thistlebristle,DR008,Small Business,Adriatic Union Bank - Old Port Branch,Elmsworth Pension Trust,6500,27300,110,3,15000,Thornfield Trading Co,Helvetia Private Bank
+Youssef Fernbutton,DR009,Private Banking,Pacific Rim Commercial Bank - Summit Branch,Brackenfield Utilities Co,7000,36400,125,4,22000,Meadowlark Holdings,Meridian Trust Bank
+Katarina Puddletumble,DR010,Retail,Helvetia Private Bank - Bayview Branch,Thistledown Insurance Group,7500,45000,140,4,29000,Duskwood Commerce Ltd,Continental Correspondent Bank
+Liam Flintwisp,DR011,Small Business,Meridian Trust Bank - North Branch,Oakhurst Employer Services Ltd,8000,52000,155,4,34000,Ironbark Traders,Adriatic Union Bank
+Fatima Brindlewisp,DR012,Private Banking,Continental Correspondent Bank - Exchange Branch,Pinegate Payroll Solutions,8500,59500,170,4,42000,Silverlake Exports,Pacific Rim Commercial Bank
+Anders Nettlewhistle,DR013,Retail,Adriatic Union Bank - Old Port Branch,Elmsworth Pension Trust,6000,52000,190,5,40000,Wrenfield Trading Co,Helvetia Private Bank
+Beatriz Wrenbutton,DR014,Small Business,Pacific Rim Commercial Bank - Summit Branch,Brackenfield Utilities Co,6500,68000,215,5,54000,Bramblewood Holdings,Meridian Trust Bank
+Dorian Rushquill,DR015,Private Banking,Helvetia Private Bank - Bayview Branch,Thistledown Insurance Group,7000,84000,240,6,68000,Hazelthimble Commerce Ltd,Continental Correspondent Bank
+Priya Rushthimble,DR016,Retail,Meridian Trust Bank - North Branch,Oakhurst Employer Services Ltd,7500,105000,270,6,88000,Foxglove Traders,Adriatic Union Bank
+Magnus Willowquill,DR017,Small Business,Continental Correspondent Bank - Exchange Branch,Pinegate Payroll Solutions,8000,128000,300,7,110000,Willowmere Exports,Pacific Rim Commercial Bank
+Isabelle Puddlekettle,DR018,Private Banking,Adriatic Union Bank - Old Port Branch,Elmsworth Pension Trust,8500,153000,330,7,138000,Stagbrook Trading Co,Helvetia Private Bank
+Viktor Tallowbristle,DR019,Retail,Pacific Rim Commercial Bank - Summit Branch,Brackenfield Utilities Co,8000,200000,730,10,190000,Alpha Trading Ltd,Continental Correspondent Bank
+Sarah Thistlemote,DR020,Small Business,Helvetia Private Bank - Bayview Branch,Thistledown Insurance Group,9000,135000,400,9,128000,Blue Harbour Logistics Ltd,Continental Correspondent Bank
+Hassan Ashthimble,DR021,Private Banking,Meridian Trust Bank - North Branch,Oakhurst Employer Services Ltd,8500,212500,300,9,200000,Cedar & Vale Trading Ltd,Adriatic Union Bank
+Greta Gorsebutton,DR022,Retail,Continental Correspondent Bank - Exchange Branch,Pinegate Payroll Solutions,9000,225000,500,9,180000,Northwind Freight Co,Pacific Rim Commercial Bank

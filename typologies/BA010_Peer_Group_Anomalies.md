@@ -109,7 +109,7 @@ Critical.
 
 ---
 
-# Example Exposure Score — PGA019 Miriam Oduya
+# Example Exposure Score — PGA019 Miriam Bramblekettle
 
 | Component | Evidence | Band |
 |------------|----------|------|
@@ -177,7 +177,7 @@ alerts = suspect[suspect["exposure_score"] >= 80]
 # Investigator Outcome
 
 ```text
-Account:                Miriam Oduya — PGA019
+Account:                Miriam Bramblekettle — PGA019
 Home Branch:             Pacific Rim Commercial Bank - Marina Branch
 Peer Segment:             Retail Deposit Accounts
 Volume:                   $355,000 vs peer mean $250,000, std $25,000 (z = 4.20)

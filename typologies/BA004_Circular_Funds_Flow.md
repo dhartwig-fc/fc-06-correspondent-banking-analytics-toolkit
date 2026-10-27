@@ -112,7 +112,7 @@ Band-midpoints 15/45/70/90, weighted sum, half-up, boundary at 80.
 
 ---
 
-# Example Exposure Score — CYC019 Piotr Zielinski
+# Example Exposure Score — CYC019 Piotr Kettlecrumb
 
 | Component | Evidence | Band |
 |------------|----------|------|
@@ -175,14 +175,14 @@ alerts = suspect[suspect["exposure_score"] >= 80]
 # Investigator Outcome
 
 ```text
-Account:               Piotr Zielinski — CYC019
+Account:               Piotr Kettlecrumb — CYC019
 Home Branch:           Pacific Rim Commercial Bank - Summit Branch
 Originated Amount:     $100,000
 Returned Amount:       $97,000 (loop closure ratio 0.970)
 Hop Count:              8 intermediary accounts
 Value Retained:         98.5% hop to hop
 Loop Duration:          8 hours
-First Loop Member:      Gamma Imports Ltd
+First Loop Member:      Gammavane Imports Ltd
 Second Loop Member:     Continental Correspondent Bank
 Closure Member:         Thornwick Holdings
 Exposure Score:         90 / 100
@@ -217,6 +217,6 @@ hops disguise the trip, how little value is lost along the way, and how quickly 
 round trip completes, it surfaces accounts that would otherwise pass as ordinary
 correspondent-banking counterparties on each individual leg. As the fourth typology in the
 fc-06 Correspondent Banking Analytics family, BA004 reuses BA001/BA002/BA003's file set,
-scoring convention, and fc-10 wiring pattern verbatim, and its Gamma Imports Ltd bridge
+scoring convention, and fc-10 wiring pattern verbatim, and its Gammavane Imports Ltd bridge
 confirms the estate network keeps absorbing new fc-06 findings onto entities it already
 knows.

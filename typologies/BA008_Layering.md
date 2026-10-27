@@ -114,7 +114,7 @@ Band-midpoints 15/45/70/90, weighted sum, half-up, boundary at 80.
 
 ---
 
-# Example Exposure Score — LAY019 Katarina Novak
+# Example Exposure Score — LAY019 Katarina Parsleythimble
 
 | Component | Evidence | Band |
 |------------|----------|------|
@@ -179,13 +179,13 @@ alerts = suspect[suspect["exposure_score"] >= 80]
 # Investigator Outcome
 
 ```text
-Account:                Katarina Novak — LAY019
+Account:                Katarina Parsleythimble — LAY019
 Home Branch:             Adriatic Union Bank - Old Town Branch
 Chain Depth:              9 transfer hops
 Intermediary Opacity:     8 of 9 intermediaries opaque (ratio 0.889)
 Jurisdiction Hopping:     4 secrecy/offshore hops
 Value Fragmentation:      9 fragments
-First Intermediary:       Gamma Imports Ltd
+First Intermediary:       Gammavane Imports Ltd
 Second Intermediary:      Continental Correspondent Bank
 Destination:              Solano Exchange House
 Exposure Score:           90 / 100
@@ -222,6 +222,6 @@ and how the seed amount is fragmented and re-merged along the way, it surfaces t
 chains that would otherwise pass as ordinary correspondent-banking activity on each
 individual leg. As the eighth typology in the fc-06 Correspondent Banking Analytics
 family, BA008 reuses BA001–BA007's file set, scoring convention, and fc-10 wiring pattern
-verbatim, and its Gamma Imports Ltd / Continental Correspondent Bank bridge confirms the
+verbatim, and its Gammavane Imports Ltd / Continental Correspondent Bank bridge confirms the
 estate network keeps absorbing new fc-06 findings onto entities and infrastructure it
 already knows.

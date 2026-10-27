@@ -1,16 +1,16 @@
 linked_entity_name,account_ref,bank,jurisdiction,relationship,prior_alerts
 Coral Bay Provisions Ltd,CIA001,Meridian Trust Bank,Ireland,Goods supplier,0
 Wrenfield Supply Co,CIA002,Continental Correspondent Bank,Canada,Ingredient supplier,0
-Ashgrove Distributors Ltd,CIA003,Adriatic Union Bank,Germany,Stock distributor,0
+Thistlefiddle Distributors Ltd,CIA003,Adriatic Union Bank,Germany,Stock distributor,0
 Thistledown Trading Co,CIA004,Pacific Rim Commercial Bank,Hong Kong,Pharmaceutical distributor,1
 Larkspur Wholesale Ltd,CIA005,Helvetia Private Bank,France,Food supplier,0
 Millbrook Commerce Group,CIA006,Meridian Trust Bank,United Kingdom,Stock distributor,0
 Foxglove Import Co,CIA007,Continental Correspondent Bank,Cyprus,Ingredient supplier,1
-Hartwell & Sons Trading,CIA008,Adriatic Union Bank,Panama,Supply agent,1
+Thistlekettle & Sons Trading,CIA008,Adriatic Union Bank,Panama,Supply agent,1
 Ivory Coast Provisioning Ltd,CIA009,Pacific Rim Commercial Bank,Singapore,Equipment supplier,0
 Juniper Ridge Holdings,CIA010,Helvetia Private Bank,United Arab Emirates,Equipment lessor,1
-Kingsley Mercantile Co,CIA011,Meridian Trust Bank,Turkey,Stock supplier,1
-Lockhart Distribution Ltd,CIA012,Continental Correspondent Bank,Hong Kong,Stock distributor,1
+Cloverwisp Mercantile Co,CIA011,Meridian Trust Bank,Turkey,Stock supplier,1
+Emberfiddle Distribution Ltd,CIA012,Continental Correspondent Bank,Hong Kong,Stock distributor,1
 Moorland Supply Group,CIA013,Adriatic Union Bank,Cyprus,Equipment supplier,1
 Nightjar Trading Co,CIA014,Pacific Rim Commercial Bank,Panama,Beverage supplier,2
 Oakhurst Provisions Ltd,CIA015,Meridian Trust Bank,British Virgin Islands,Ingredient supplier,1
@@ -18,6 +18,6 @@ Pinehollow Wholesale Ltd,CIA016,Continental Correspondent Bank,United Arab Emira
 Quillfeather Commerce Ltd,CIA017,Adriatic Union Bank,Hong Kong,Goods consignor,2
 Ravensworth Trading Co,CIA018,Pacific Rim Commercial Bank,Panama,Gaming equipment supplier,2
 Silverlake Provisioning Ltd,CIA019,Continental Correspondent Bank,Marshall Islands,Import consignor,3
-Thornbury Wholesale Group,CIA020,Meridian Trust Bank,Panama,Wholesale consignor,3
-Underwood Exchange Partners,CIA021,Adriatic Union Bank,Turkey,Currency wholesaler,3
+Wrenbristle Wholesale Group,CIA020,Meridian Trust Bank,Panama,Wholesale consignor,3
+Junipercrumb Exchange Partners,CIA021,Adriatic Union Bank,Turkey,Currency wholesaler,3
 Vesper Bullion Partners Ltd,CIA022,Helvetia Private Bank,Panama,Bullion consignor,2

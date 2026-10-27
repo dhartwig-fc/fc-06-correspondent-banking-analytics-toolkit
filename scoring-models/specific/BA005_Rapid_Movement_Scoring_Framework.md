@@ -38,7 +38,7 @@ destinations the outbound leg is spread across.
 
 Band midpoints (15/45/70/90), weighted sum, half-up rounding, boundaries at 80. Graded.
 
-## Worked example — RM019 (Dmitri Petrov)
+## Worked example — RM019 (Dmitri Mosstumble)
 
 | Component | Evidence | Band | Contribution |
 |-----------|----------|------|--------------|
@@ -48,7 +48,7 @@ Band midpoints (15/45/70/90), weighted sum, half-up rounding, boundaries at 80. 
 | Value Match | $98,000 of $100,000 inbound clears back out (r = 0.980) | Critical | 18.0 |
 | **Exposure score** | | | **90 / 100 — Critical** |
 
-A clean account with all four components Low scores 15/100 (RM001, Ingrid Solberg). Alert
+A clean account with all four components Low scores 15/100 (RM001, Ingrid Hazelwisp). Alert
 threshold: ≥ 80 — the sample data ships four accounts at or above it (RM019 90, RM020 86,
 RM021 85, RM022 83), proving the scorer discriminates rather than rubber-stamping every
 row. RM019 is the single highest-scoring account, which is deliberate: the FC-10 adapter

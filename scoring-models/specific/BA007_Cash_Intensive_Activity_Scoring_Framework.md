@@ -40,7 +40,7 @@ variation means the deposits were engineered, not counted, so LOWER is worse.
 
 Band midpoints (15/45/70/90), weighted sum, half-up rounding, boundaries at 80. Graded.
 
-## Worked example — CIA019 (Gamma Imports Ltd)
+## Worked example — CIA019 (Gammavane Imports Ltd)
 
 | Component | Evidence | Band | Contribution |
 |-----------|----------|------|--------------|
@@ -55,7 +55,7 @@ Grocers Ltd). Alert threshold: ≥ 80 — the sample data ships four accounts at
 (CIA019 90, CIA020/CIA021/CIA022 86 each), proving the scorer discriminates rather than
 rubber-stamping every row. CIA019 is the single highest-scoring account, which is
 deliberate: the FC-10 adapter builds its case/graph from the top-scored row, and CIA019's
-subject IS **Gamma Imports Ltd** — an entity already in the estate network — so the
+subject IS **Gammavane Imports Ltd** — an entity already in the estate network — so the
 account that fuses onto it has to be that row. Unlike BA001–BA006, where the bridge
 entity is a CONNECTED entity, BA007 is a designated bridge typology where the SUBJECT
 itself is the bridge.

@@ -37,7 +37,7 @@ it clears onward. Shorter dwell is worse.
 
 Band midpoints (15/45/70/90), weighted sum, half-up rounding, boundaries at 80. Graded.
 
-## Worked example — FUN019 (Zara Ahmed)
+## Worked example — FUN019 (Zara Tallowwisp)
 
 | Component | Evidence | Band | Contribution |
 |-----------|----------|------|--------------|
@@ -47,7 +47,7 @@ Band midpoints (15/45/70/90), weighted sum, half-up rounding, boundaries at 80. 
 | Beneficiary Concentration | $90,000 of $100,000 outbound funds to one beneficiary (r = 0.900), Zeta Commodities Ltd | Critical | 18.0 |
 | **Exposure score** | | | **90 / 100 — Critical** |
 
-A clean account with all four components Low scores 15/100 (FUN001, Wei Zhang). Alert
+A clean account with all four components Low scores 15/100 (FUN001, Wei Juniperkettle). Alert
 threshold: ≥ 80 — the sample data ships four accounts at or above it (FUN019 90, FUN020
 86, FUN021 85, FUN022 84), proving the scorer discriminates rather than rubber-stamping
 every row. FUN019 is the single highest-scoring account, which is deliberate: the FC-10

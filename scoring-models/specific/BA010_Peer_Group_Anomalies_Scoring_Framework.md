@@ -32,7 +32,7 @@ number can be Low for one peer segment and Critical for another.
 
 Band midpoints (15/45/70/90), weighted sum, half-up rounding, boundaries at 80. Graded.
 
-## Worked example — PGA019 (Miriam Oduya)
+## Worked example — PGA019 (Miriam Bramblekettle)
 
 | Component | Evidence | Band | Contribution |
 |-----------|----------|------|--------------|

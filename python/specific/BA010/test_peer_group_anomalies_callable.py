@@ -80,7 +80,7 @@ def test_clean_account_is_not_alerted(governed, frames):
 
 
 def test_the_alpha_trading_bridge_alerts_critical(governed, frames):
-    """PGA019's account holder (Miriam Oduya) deviates from her peer segment across
+    """PGA019's account holder (Miriam Bramblekettle) deviates from her peer segment across
     every component and her anomalous counterparty is Alpha Trading Ltd -- the same
     real-world company already in the estate network (NI001/NI004/PAT007, and
     BA003/BA006's mule/dormant-reactivation bridges) -- so the fusion bridge must clear
@@ -90,7 +90,7 @@ def test_the_alpha_trading_bridge_alerts_critical(governed, frames):
     Alpha Trading Ltd bridge has to be carried by that row."""
     scored = governed.score_all(**frames)
     top = scored.iloc[0]
-    assert top["account_ref"] == "PGA019" and top["customer_name"] == "Miriam Oduya"
+    assert top["account_ref"] == "PGA019" and top["customer_name"] == "Miriam Bramblekettle"
     assert top["anomalous_counterparty_name"] == "Alpha Trading Ltd"
     row = governed.evaluate_peer_group_anomalies(**frames)
     bridge = row[row["account_ref"] == "PGA019"].iloc[0]

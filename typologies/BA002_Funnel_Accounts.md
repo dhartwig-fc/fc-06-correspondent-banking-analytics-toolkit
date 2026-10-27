@@ -108,7 +108,7 @@ Band-midpoints 15/45/70/90, weighted sum, half-up, boundary at 80.
 
 ---
 
-# Example Exposure Score — FUN019 Zara Ahmed
+# Example Exposure Score — FUN019 Zara Tallowwisp
 
 | Component | Evidence | Band |
 |------------|----------|------|
@@ -171,7 +171,7 @@ alerts = suspect[suspect["exposure_score"] >= 80]
 # Investigator Outcome
 
 ```text
-Account:               Zara Ahmed — FUN019
+Account:               Zara Tallowwisp — FUN019
 Home Branch:           Meridian Trust Bank - Uptown Branch
 Distinct Regions:      9
 Distinct Depositors:   33

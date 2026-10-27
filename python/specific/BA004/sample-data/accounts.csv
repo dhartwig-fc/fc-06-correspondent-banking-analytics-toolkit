@@ -1,23 +1,23 @@
 customer_name,account_ref,segment,home_branch,originated_amount,returned_amount,hop_count,avg_hop_retention_pct,loop_duration_hours,first_loop_member_name,second_loop_member_name,closure_member_name
-Henrik Bergman,CYC001,Retail,Meridian Trust Bank - North Branch,35000,11900,1,0.7,960,Harrow Peak Ventures,Adriatic Union Bank,Rosemont Harbour Ltd
-Sofia Alves,CYC002,Small Business,Continental Correspondent Bank - Exchange Branch,38000,15200,2,0.72,1100,Silvermoor Trading Ltd,Pacific Rim Commercial Bank,Talbridge Commerce Co
-Malik Osei,CYC003,Private Banking,Adriatic Union Bank - Old Port Branch,40000,24000,1,0.68,1300,Vantage Cove Holdings,Helvetia Private Bank,Wrenfield Exports Ltd
-Priya Nair,CYC004,Retail,Pacific Rim Commercial Bank - Summit Branch,42000,16000,3,0.75,900,Ashford Meridian Group,Meridian Trust Bank,Cobalt Reach Holdings
-Lucas Ferreira,CYC005,Small Business,Helvetia Private Bank - Bayview Branch,37000,13000,1,0.85,1050,Larkspur Commerce Ltd,Continental Correspondent Bank,Sable Crest Trading
-Elena Petrova,CYC006,Private Banking,Meridian Trust Bank - North Branch,44000,17000,2,0.74,400,Windmere Export Co,Gamma Imports Ltd,Pemberton Cargo Ltd
-Oskar Lindqvist,CYC007,Retail,Continental Correspondent Bank - Exchange Branch,46000,27600,3,0.85,400,Corvus Bay Trading,Pacific Rim Commercial Bank,Nightshade Export Group
-Amara Chukwu,CYC008,Small Business,Adriatic Union Bank - Old Port Branch,48000,29800,4,0.86,350,Thistledown Holdings,Helvetia Private Bank,Fenmoor Trading Ltd
-Ravi Deshmukh,CYC009,Private Banking,Pacific Rim Commercial Bank - Summit Branch,45000,18000,3,0.84,300,Ferrowick Commerce Ltd,Meridian Trust Bank,Ashgrove Commerce Ltd
-Ingeborg Haas,CYC010,Retail,Helvetia Private Bank - Bayview Branch,50000,32500,5,0.85,350,Halcyon Ridge Traders,Continental Correspondent Bank,Brackenfield Holdings
-Salim Barakat,CYC011,Small Business,Meridian Trust Bank - North Branch,52000,32800,4,0.93,380,Marrow & Finch Ltd,Adriatic Union Bank,Cloverdale Traders
-Noor Hassan,CYC012,Private Banking,Continental Correspondent Bank - Exchange Branch,49000,29900,3,0.85,60,Ebonfield Exports,Pacific Rim Commercial Bank,Wistow Export Co
-Milo Kovacevic,CYC013,Retail,Adriatic Union Bank - Old Port Branch,55000,46800,5,0.93,60,Quilcastle Trading Group,Helvetia Private Bank,Ironhollow Trading Ltd
-Anika Larsen,CYC014,Small Business,Pacific Rim Commercial Bank - Summit Branch,58000,51000,6,0.94,45,Wrenmoor Commerce Co,Meridian Trust Bank,Larchmont Cargo Group
-Yusuf Demir,CYC015,Private Banking,Helvetia Private Bank - Bayview Branch,56000,33600,5,0.92,50,Falkridge Traders,Continental Correspondent Bank,Duskwater Holdings
-Bianca Rossi,CYC016,Retail,Meridian Trust Bank - North Branch,57000,46700,4,0.93,55,Cindervale Export Ltd,Adriatic Union Bank,Farrowgate Traders
-Callum Fraser,CYC017,Small Business,Continental Correspondent Bank - Exchange Branch,59000,49600,5,0.86,48,Moorhaven Trading Group,Pacific Rim Commercial Bank,Kingsbrook Export Ltd
-Zainab Idris,CYC018,Private Banking,Adriatic Union Bank - Old Port Branch,60000,51600,6,0.94,300,Elderglen Holdings,Helvetia Private Bank,Hollowmere Trading Co
-Piotr Zielinski,CYC019,Retail,Pacific Rim Commercial Bank - Summit Branch,100000,97000,8,0.985,8,Gamma Imports Ltd,Continental Correspondent Bank,Thornwick Holdings
-Helena Duarte,CYC020,Small Business,Helvetia Private Bank - Bayview Branch,95000,90300,9,0.98,60,Ravensmere Cargo Ltd,Continental Correspondent Bank,Stonefield Export Ltd
-Ahmed Farouk,CYC021,Private Banking,Meridian Trust Bank - North Branch,92000,88300,6,0.975,15,Thistlewood Export Co,Adriatic Union Bank,Marlowbridge Traders
-Greta Lindberg,CYC022,Retail,Continental Correspondent Bank - Exchange Branch,90000,79200,10,0.99,10,Brindlewood Trading Ltd,Pacific Rim Commercial Bank,Ravenscar Commerce Group
+Henrik Vellumthimble,CYC001,Retail,Meridian Trust Bank - North Branch,35000,11900,1,0.7,960,Harrow Peak Ventures,Adriatic Union Bank,Rosemont Harbour Ltd
+Sofia Thistlewhistle,CYC002,Small Business,Continental Correspondent Bank - Exchange Branch,38000,15200,2,0.72,1100,Silvermoor Trading Ltd,Pacific Rim Commercial Bank,Talbridge Commerce Co
+Malik Kettlewhistle,CYC003,Private Banking,Adriatic Union Bank - Old Port Branch,40000,24000,1,0.68,1300,Vantage Cove Holdings,Helvetia Private Bank,Wrenfield Exports Ltd
+Priya Flintcrumb,CYC004,Retail,Pacific Rim Commercial Bank - Summit Branch,42000,16000,3,0.75,900,Ashford Meridian Group,Meridian Trust Bank,Cobalt Reach Holdings
+Lucas Umberthimble,CYC005,Small Business,Helvetia Private Bank - Bayview Branch,37000,13000,1,0.85,1050,Larkspur Commerce Ltd,Continental Correspondent Bank,Sable Crest Trading
+Elena Mosstumblea,CYC006,Private Banking,Meridian Trust Bank - North Branch,44000,17000,2,0.74,400,Windmere Export Co,Gammavane Imports Ltd,Quillfiddle Cargo Ltd
+Oskar Nettlewhistle,CYC007,Retail,Continental Correspondent Bank - Exchange Branch,46000,27600,3,0.85,400,Corvus Bay Trading,Pacific Rim Commercial Bank,Nightshade Export Group
+Amara Tallowmote,CYC008,Small Business,Adriatic Union Bank - Old Port Branch,48000,29800,4,0.86,350,Thistledown Holdings,Helvetia Private Bank,Fenmoor Trading Ltd
+Ravi Wrenquill,CYC009,Private Banking,Pacific Rim Commercial Bank - Summit Branch,45000,18000,3,0.84,300,Ferrowick Commerce Ltd,Meridian Trust Bank,Thistlefiddle Commerce Ltd
+Ingeborg Mossspindle,CYC010,Retail,Helvetia Private Bank - Bayview Branch,50000,32500,5,0.85,350,Halcyon Ridge Traders,Continental Correspondent Bank,Brackenfield Holdings
+Salim Pebblebutton,CYC011,Small Business,Meridian Trust Bank - North Branch,52000,32800,4,0.93,380,Bramblespindle & Parsleywhistle Ltd,Adriatic Union Bank,Cloverdale Traders
+Noor Willowcrumb,CYC012,Private Banking,Continental Correspondent Bank - Exchange Branch,49000,29900,3,0.85,60,Ebonfield Exports,Pacific Rim Commercial Bank,Wistow Export Co
+Milo Hollowfiddle,CYC013,Retail,Adriatic Union Bank - Old Port Branch,55000,46800,5,0.93,60,Quilcastle Trading Group,Helvetia Private Bank,Ironhollow Trading Ltd
+Anika Umberquill,CYC014,Small Business,Pacific Rim Commercial Bank - Summit Branch,58000,51000,6,0.94,45,Wrenmoor Commerce Co,Meridian Trust Bank,Larchmont Cargo Group
+Yusuf Ivycrumb,CYC015,Private Banking,Helvetia Private Bank - Bayview Branch,56000,33600,5,0.92,50,Falkridge Traders,Continental Correspondent Bank,Duskwater Holdings
+Bianca Marrowfiddle,CYC016,Retail,Meridian Trust Bank - North Branch,57000,46700,4,0.93,55,Cindervale Export Ltd,Adriatic Union Bank,Farrowgate Traders
+Callum Wrenkettle,CYC017,Small Business,Continental Correspondent Bank - Exchange Branch,59000,49600,5,0.86,48,Moorhaven Trading Group,Pacific Rim Commercial Bank,Kingsbrook Export Ltd
+Zainab Nettlemote,CYC018,Private Banking,Adriatic Union Bank - Old Port Branch,60000,51600,6,0.94,300,Elderglen Holdings,Helvetia Private Bank,Hollowmere Trading Co
+Piotr Kettlecrumb,CYC019,Retail,Pacific Rim Commercial Bank - Summit Branch,100000,97000,8,0.985,8,Gammavane Imports Ltd,Continental Correspondent Bank,Thornwick Holdings
+Helena Lanternquill,CYC020,Small Business,Helvetia Private Bank - Bayview Branch,95000,90300,9,0.98,60,Ravensmere Cargo Ltd,Continental Correspondent Bank,Stonefield Export Ltd
+Ahmed Mossbristle,CYC021,Private Banking,Meridian Trust Bank - North Branch,92000,88300,6,0.975,15,Thistlewood Export Co,Adriatic Union Bank,Marlowbridge Traders
+Greta Duskwhistle,CYC022,Retail,Continental Correspondent Bank - Exchange Branch,90000,79200,10,0.99,10,Brindlewood Trading Ltd,Pacific Rim Commercial Bank,Ravenscar Commerce Group

@@ -1,23 +1,23 @@
 customer_name,account_ref,segment,home_branch,own_volume,peer_mean_volume,peer_std_volume,own_velocity,peer_mean_velocity,peer_std_velocity,own_product_count,peer_mean_product_count,peer_std_product_count,own_counterparty_count,peer_mean_counterparty_count,peer_std_counterparty_count,peer_account_name,anomalous_counterparty_name
-Elena Marchetti,PGA001,Retail Deposit Accounts,Meridian Trust Bank - Central Branch,260000,250000,25000,14,12,4,7,6,2,13,12,2,Nadia Kowalska,Blue Harbour Logistics Ltd
-Youssef El-Amin,PGA002,Business Current Accounts,Continental Correspondent Bank - Harbor Branch,630000,600000,60000,21,20,4,7,6,2,13,12,2,Emeka Obi,Cedar & Vale Trading Ltd
-Freya Lindqvist,PGA003,Retail Deposit Accounts,Adriatic Union Bank - Old Town Branch,238750,250000,25000,14,12,4,7,6,2,13,12,2,Sven Andersson,Northwind Freight Co
-Marcus Delacroix,PGA004,Business Current Accounts,Pacific Rim Commercial Bank - Marina Branch,633000,600000,60000,18,20,4,7,6,2,13,12,2,Camille Fontaine,Solano Exchange House
-Priya Nair,PGA005,Retail Deposit Accounts,Helvetia Private Bank - Lakeside Branch,258750,250000,25000,14,12,4,5,6,2,13,12,2,Rosa Herrera,Kestrel Cash & Carry Ltd
-Callum Ashworth,PGA006,Business Current Accounts,Meridian Trust Bank - Central Branch,630000,600000,60000,22,20,4,7,6,2,11,12,2,Dov Levin,Gamma Imports Ltd
-Ingrid Solheim,PGA007,Retail Deposit Accounts,Continental Correspondent Bank - Harbor Branch,285000,250000,25000,18,12,4,9,6,2,15,12,2,Nadia Kowalska,Zeta Commodities Ltd
-Rafael Duarte,PGA008,Business Current Accounts,Adriatic Union Bank - Old Town Branch,690000,600000,60000,25,20,4,9,6,2,15,12,2,Emeka Obi,Fenwick Overseas Trading Ltd
-Noor Haddad,PGA009,Retail Deposit Accounts,Pacific Rim Commercial Bank - Marina Branch,213750,250000,25000,18,12,4,9,6,2,15,12,2,Sven Andersson,Blue Harbour Logistics Ltd
-Bjorn Kallio,PGA010,Business Current Accounts,Helvetia Private Bank - Lakeside Branch,693000,600000,60000,14,20,4,9,6,2,15,12,2,Camille Fontaine,Cedar & Vale Trading Ltd
-Amara Chukwu,PGA011,Retail Deposit Accounts,Meridian Trust Bank - Central Branch,283750,250000,25000,18,12,4,3,6,2,15,12,2,Rosa Herrera,Northwind Freight Co
-Lucas Bergman,PGA012,Business Current Accounts,Continental Correspondent Bank - Harbor Branch,690000,600000,60000,26,20,4,9,6,2,9,12,2,Dov Levin,Solano Exchange House
-Sana Farooqi,PGA013,Retail Deposit Accounts,Adriatic Union Bank - Old Town Branch,310000,250000,25000,22,12,4,11,6,2,17,12,2,Nadia Kowalska,Kestrel Cash & Carry Ltd
-Oskar Lindberg,PGA014,Business Current Accounts,Pacific Rim Commercial Bank - Marina Branch,750000,600000,60000,29,20,4,11,6,2,17,12,2,Emeka Obi,Gamma Imports Ltd
-Wren Fairweather,PGA015,Retail Deposit Accounts,Helvetia Private Bank - Lakeside Branch,188750,250000,25000,22,12,4,11,6,2,17,12,2,Sven Andersson,Zeta Commodities Ltd
-Kofi Boateng,PGA016,Business Current Accounts,Meridian Trust Bank - Central Branch,753000,600000,60000,10,20,4,11,6,2,17,12,2,Camille Fontaine,Fenwick Overseas Trading Ltd
-Isla Mactavish,PGA017,Retail Deposit Accounts,Continental Correspondent Bank - Harbor Branch,308750,250000,25000,22,12,4,1,6,2,17,12,2,Rosa Herrera,Blue Harbour Logistics Ltd
-Henrik Solberg,PGA018,Business Current Accounts,Adriatic Union Bank - Old Town Branch,750000,600000,60000,30,20,4,11,6,2,7,12,2,Dov Levin,Cedar & Vale Trading Ltd
-Miriam Oduya,PGA019,Retail Deposit Accounts,Pacific Rim Commercial Bank - Marina Branch,355000,250000,25000,27,12,4,13,6,2,20,12,2,Nadia Kowalska,Alpha Trading Ltd
-Tobias Reinholt,PGA020,Business Current Accounts,Helvetia Private Bank - Lakeside Branch,816000,600000,60000,36,20,4,13,6,2,17,12,2,Emeka Obi,Solano Exchange House
-Layla Mansour,PGA021,Retail Deposit Accounts,Meridian Trust Bank - Central Branch,337500,250000,25000,22,12,4,13,6,2,19,12,2,Sven Andersson,Kestrel Cash & Carry Ltd
-Gustav Ahonen,PGA022,Business Current Accounts,Continental Correspondent Bank - Harbor Branch,828000,600000,60000,34,20,4,11,6,2,20,12,2,Camille Fontaine,Gamma Imports Ltd
+Elena Sorrelkettle,PGA001,Retail Deposit Accounts,Meridian Trust Bank - Central Branch,260000,250000,25000,14,12,4,7,6,2,13,12,2,Nadia Rushquilla,Blue Harbour Logistics Ltd
+Youssef Thistletumble,PGA002,Business Current Accounts,Continental Correspondent Bank - Harbor Branch,630000,600000,60000,21,20,4,7,6,2,13,12,2,Emeka Ashwisp,Cedar & Vale Trading Ltd
+Freya Nettlewhistle,PGA003,Retail Deposit Accounts,Adriatic Union Bank - Old Town Branch,238750,250000,25000,14,12,4,7,6,2,13,12,2,Sven Puddlecrumb,Northwind Freight Co
+Marcus Brambletumble,PGA004,Business Current Accounts,Pacific Rim Commercial Bank - Marina Branch,633000,600000,60000,18,20,4,7,6,2,13,12,2,Camille Flintbristle,Solano Exchange House
+Priya Flintcrumb,PGA005,Retail Deposit Accounts,Helvetia Private Bank - Lakeside Branch,258750,250000,25000,14,12,4,5,6,2,13,12,2,Rosa Marrowbutton,Kestrel Cash & Carry Ltd
+Callum Marrowthimble,PGA006,Business Current Accounts,Meridian Trust Bank - Central Branch,630000,600000,60000,22,20,4,7,6,2,11,12,2,Dov Rushwisp,Gammavane Imports Ltd
+Ingrid Vellumspindle,PGA007,Retail Deposit Accounts,Continental Correspondent Bank - Harbor Branch,285000,250000,25000,18,12,4,9,6,2,15,12,2,Nadia Rushquilla,Zeta Commodities Ltd
+Rafael Lanternquill,PGA008,Business Current Accounts,Adriatic Union Bank - Old Town Branch,690000,600000,60000,25,20,4,9,6,2,15,12,2,Emeka Ashwisp,Thistlebutton Overseas Trading Ltd
+Noor Quillbristle,PGA009,Retail Deposit Accounts,Pacific Rim Commercial Bank - Marina Branch,213750,250000,25000,18,12,4,9,6,2,15,12,2,Sven Puddlecrumb,Blue Harbour Logistics Ltd
+Bjorn Emberkettle,PGA010,Business Current Accounts,Helvetia Private Bank - Lakeside Branch,693000,600000,60000,14,20,4,9,6,2,15,12,2,Camille Flintbristle,Cedar & Vale Trading Ltd
+Amara Tallowmote,PGA011,Retail Deposit Accounts,Meridian Trust Bank - Central Branch,283750,250000,25000,18,12,4,3,6,2,15,12,2,Rosa Marrowbutton,Northwind Freight Co
+Lucas Vellumthimble,PGA012,Business Current Accounts,Continental Correspondent Bank - Harbor Branch,690000,600000,60000,26,20,4,9,6,2,9,12,2,Dov Rushwisp,Solano Exchange House
+Sana Pebbletumble,PGA013,Retail Deposit Accounts,Adriatic Union Bank - Old Town Branch,310000,250000,25000,22,12,4,11,6,2,17,12,2,Nadia Rushquilla,Kestrel Cash & Carry Ltd
+Oskar Duskwhistle,PGA014,Business Current Accounts,Pacific Rim Commercial Bank - Marina Branch,750000,600000,60000,29,20,4,11,6,2,17,12,2,Emeka Ashwisp,Gammavane Imports Ltd
+Wren Rushbristle,PGA015,Retail Deposit Accounts,Helvetia Private Bank - Lakeside Branch,188750,250000,25000,22,12,4,11,6,2,17,12,2,Sven Puddlecrumb,Zeta Commodities Ltd
+Kofi Ashkettle,PGA016,Business Current Accounts,Meridian Trust Bank - Central Branch,753000,600000,60000,10,20,4,11,6,2,17,12,2,Camille Flintbristle,Thistlebutton Overseas Trading Ltd
+Isla Hollowbutton,PGA017,Retail Deposit Accounts,Continental Correspondent Bank - Harbor Branch,308750,250000,25000,22,12,4,1,6,2,17,12,2,Rosa Marrowbutton,Blue Harbour Logistics Ltd
+Henrik Hazelwisp,PGA018,Business Current Accounts,Adriatic Union Bank - Old Town Branch,750000,600000,60000,30,20,4,11,6,2,7,12,2,Dov Rushwisp,Cedar & Vale Trading Ltd
+Miriam Bramblekettle,PGA019,Retail Deposit Accounts,Pacific Rim Commercial Bank - Marina Branch,355000,250000,25000,27,12,4,13,6,2,20,12,2,Nadia Rushquilla,Alpha Trading Ltd
+Tobias Lanternbutton,PGA020,Business Current Accounts,Helvetia Private Bank - Lakeside Branch,816000,600000,60000,36,20,4,13,6,2,17,12,2,Emeka Ashwisp,Solano Exchange House
+Layla Gorsewisp,PGA021,Retail Deposit Accounts,Meridian Trust Bank - Central Branch,337500,250000,25000,22,12,4,13,6,2,19,12,2,Sven Puddlecrumb,Kestrel Cash & Carry Ltd
+Gustav Kettlefiddle,PGA022,Business Current Accounts,Continental Correspondent Bank - Harbor Branch,828000,600000,60000,34,20,4,11,6,2,20,12,2,Camille Flintbristle,Gammavane Imports Ltd

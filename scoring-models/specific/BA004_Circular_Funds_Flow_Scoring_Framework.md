@@ -40,7 +40,7 @@ origin to when they return.
 
 Band midpoints (15/45/70/90), weighted sum, half-up rounding, boundaries at 80. Graded.
 
-## Worked example — CYC019 (Piotr Zielinski)
+## Worked example — CYC019 (Piotr Kettlecrumb)
 
 | Component | Evidence | Band | Contribution |
 |-----------|----------|------|--------------|
@@ -50,9 +50,9 @@ Band midpoints (15/45/70/90), weighted sum, half-up rounding, boundaries at 80. 
 | Timing Compression | Round trip completes in 8 hours | Critical | 18.0 |
 | **Exposure score** | | | **90 / 100 — Critical** |
 
-A clean account with all four components Low scores 15/100 (CYC001, Henrik Bergman). Alert
+A clean account with all four components Low scores 15/100 (CYC001, Henrik Vellumthimble). Alert
 threshold: ≥ 80 — the sample data ships four accounts at or above it (CYC019 90, CYC020
 86, CYC021 85, CYC022 83), proving the scorer discriminates rather than rubber-stamping
 every row. CYC019 is the single highest-scoring account, which is deliberate: the FC-10
 adapter builds its case/graph from the top-scored row, so the account that fuses onto
-Gamma Imports Ltd has to be that row.
+Gammavane Imports Ltd has to be that row.

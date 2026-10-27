@@ -80,7 +80,7 @@ def test_clean_account_is_not_alerted(governed, frames):
 
 
 def test_the_gamma_imports_bridge_alerts_critical(governed, frames):
-    """LAY019 routes its layering chain's first hop through Gamma Imports Ltd -- an
+    """LAY019 routes its layering chain's first hop through Gammavane Imports Ltd -- an
     entity already in the estate network -- and must clear the alert threshold at
     Critical, proving the fusion bridge is a real alerting subject, not a decorative
     row. It is also the single highest-scoring account in the set, which matters: the
@@ -89,10 +89,10 @@ def test_the_gamma_imports_bridge_alerts_critical(governed, frames):
     Correspondent Bank -- the correspondent bank shared across BA004/BA005/BA006."""
     scored = governed.score_all(**frames)
     top = scored.iloc[0]
-    assert top["account_ref"] == "LAY019" and top["first_intermediary_name"] == "Gamma Imports Ltd"
+    assert top["account_ref"] == "LAY019" and top["first_intermediary_name"] == "Gammavane Imports Ltd"
     row = governed.evaluate_layering(**frames)
     bridge = row[row["account_ref"] == "LAY019"].iloc[0]
-    assert bridge["first_intermediary_name"] == "Gamma Imports Ltd"
+    assert bridge["first_intermediary_name"] == "Gammavane Imports Ltd"
     assert bridge["second_intermediary_name"] == "Continental Correspondent Bank"
     assert bridge["exposure_score"] == 90 and bridge["exposure_band"] == "Critical"
 

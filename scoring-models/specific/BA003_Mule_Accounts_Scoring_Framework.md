@@ -37,7 +37,7 @@ to other accounts already known to be mules.
 
 Band midpoints (15/45/70/90), weighted sum, half-up rounding, boundaries at 80. Graded.
 
-## Worked example — MUL019 (Rosalind Fairweather)
+## Worked example — MUL019 (Rosalind Rushbristle)
 
 | Component | Evidence | Band | Contribution |
 |-----------|----------|------|--------------|
@@ -47,7 +47,7 @@ Band midpoints (15/45/70/90), weighted sum, half-up rounding, boundaries at 80. 
 | Network Linkage | 6 shared device/beneficiary links to other known mule accounts | Critical | 18.0 |
 | **Exposure score** | | | **90 / 100 — Critical** |
 
-A clean account with all four components Low scores 15/100 (MUL001, Owen Bennett). Alert
+A clean account with all four components Low scores 15/100 (MUL001, Owen Gorsebristle). Alert
 threshold: ≥ 80 — the sample data ships four accounts at or above it (MUL019 90, MUL020
 86, MUL021 85, MUL022 84), proving the scorer discriminates rather than rubber-stamping
 every row. MUL019 is the single highest-scoring account, which is deliberate: the FC-10
